@@ -1,81 +1,132 @@
 <?php
-ini_set('display_errors', '0');
-switch($_SERVER['SERVER_NAME']){
-    case "local.master": //Cambiar path (Local).
-        $rutaProyecto = "/";
-        break;
-    case "www.dominio.mx": //Cambiar path (Producción).
-        $rutaProyecto = "/";
-        break;
-    case "localhost:8848": //Cambiar path (LocalPrepros).
-        $rutaProyecto = "/";
-        break;
-    default:
-        $rutaProyecto = "/";
-}
-
-$srvr = "https://".$_SERVER['HTTP_HOST'].$rutaProyecto;
-$url = $srvr;
-define("CARPETA", $url);
-
-//Ruta path
-function get_template_directory_uri($slash = '') {
-    $protocolDir = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
-    $rutaProyecto = dirname($_SERVER['PHP_SELF']);
-    $srvr = $protocolDir.$_SERVER['HTTP_HOST'].$rutaProyecto.'/';
-    $url = $srvr;
-    $string = implode("",explode("\\",$url));
-    return stripslashes(trim($string));
-    // return $url.$slash;
-}
-
-//Títulos Secciones
- function TituloSecciones() {
-  $protocolTitle = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
-	$srvrPath = $protocolTitle.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-	$archivo = basename($srvrPath).'.php';
-	$urlTitle = $archivo;
-  if(isset($_GET['sec']) && $_GET['sec'] != ''){
-    $arrayUrls = array(
-      //Páginas Títulos
-      'inicio.php'=>'Inicio',
-      //Internas Títulos
-      // 'contacto.php'=>'Contacto',
-    );
-    return $arrayUrls[$urlTitle];
-  } else {
-    return 'Inicio';
+function mobig_child_setup() {
+  //Campos personalizdo Generales
+  if( function_exists('acf_add_options_page') ) {
+	
+    acf_add_options_page(array(
+      'page_title' 	=> 'Theme General Settings',
+      'menu_title'	=> 'Theme Settings',
+      'menu_slug' 	=> 'theme-general-settings',
+      'capability'	=> 'edit_posts',
+      'redirect'		=> false
+    ));
+    
+    // acf_add_options_sub_page(array(
+    //   'page_title' 	=> 'Campos Header',
+    //   'menu_title'	=> 'Header',
+    //   'parent_slug'	=> 'theme-general-settings',
+    // ));
+    acf_add_options_sub_page(array(
+      'page_title' 	=> 'Campos Footer',
+      'menu_title'	=> 'Footer',
+      'parent_slug'	=> 'theme-general-settings',
+    ));
+    
   }
-}
 
-function classPage() {
-  $protocolCla = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
-	$srvrPath = $protocolCla."://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-	$archivo = basename($srvrPath);
-  $urlTitle = $archivo;
-  if(isset($_GET['sec']) && $_GET['sec'] != ''){
-    return 'page-'.$urlTitle;
-  } else {
-    return 'page-inicio';
+  //Lenguajes
+  // load_child_theme_textdomain( 'mobig-child', get_stylesheet_directory() . '/languages/' );
+  //Corte de imágenes
+  add_theme_support( 'post-thumbnails' );
+  if ( function_exists( 'add_image_size' ) ) {
+    add_image_size( 'homepage-twitter', 280, 150, true );
+    add_image_size( 'homepage-facebook', 470, 246, true );
+    add_image_size( 'img-slider', 1440, 600, false );
   }
+  //Registro de Menús
+  register_nav_menus( array(
+      'menu-main' => esc_html__( 'Menu Principal', 'mobig-child' ),
+      'menu-footer' => esc_html__( 'Menu Footer', 'mobig-child' ),
+  ) );
+  //Función para cargar logo
+  add_theme_support( 'custom-logo', array(
+    'flex-width' => true,
+    'flex-height' => true,
+  ) );
+  //función para activar extensiones extras al WP
+  function bp_mime_type ( $mime_types ) {
+    $mime_types['svg'] = 'image/svg+xml';
+    return $mime_types;
+  }   
+   add_filter('upload_mimes', 'bp_mime_type', 1, 1);
+}
+add_action( 'after_setup_theme', 'mobig_child_setup' );
+//Se agregan recursos CSS & JS del tema hijo.
+function mobig_head() {
+  $versionFiles = rand();
+  wp_enqueue_style( 'google-mobig-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', array(), null );
+  // CSS
+	wp_enqueue_style('bootstrap',  get_stylesheet_directory_uri() . '/assets/vendor/bootstrap/dist/css/bootstrap.min.css', array(), $versionFiles);
+	wp_enqueue_style('style-min',  get_stylesheet_directory_uri() . '/assets/css/style.min.css', array(), $versionFiles);
+  wp_enqueue_style('animate',  get_stylesheet_directory_uri() . '/assets/css/vendor/animate.css', array(), $versionFiles);
+  wp_enqueue_style('hover-min',  get_stylesheet_directory_uri() . '/assets/css/vendor/hover-min.css', array(), $versionFiles);
+  wp_enqueue_style('progress-css',  get_stylesheet_directory_uri() . '/assets/css/nprogress.css', array(), $versionFiles);
+  // jQuery
+  wp_deregister_script( 'jquery' );
+  wp_register_script( 'jquery', get_stylesheet_directory_uri() . '/assets/vendor/jquery/dist/jquery.min.js' );
+  wp_enqueue_script('jquery');
+  // AJAX
+  // wp_register_script('script_handle', get_stylesheet_directory_uri().'/assets/js/scripts/ajaxScriptPost.min.js', array('jquery'), $versionFiles, true);
+  // wp_localize_script('script_handle', 'ajx_objt', array('ajax_url'=>admin_url('admin-ajax.php')));
+  // wp_enqueue_script('script_handle');
+  //ScripsS
+	wp_enqueue_script( 'modrnizr.min', get_stylesheet_directory_uri() . '/assets/js/vendor/modernizr-2.8.3.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'nprogress.min', get_stylesheet_directory_uri() . '/assets/js/plugins/nprogress.js', array(), $versionFiles, true);
+	// wp_enqueue_script( 'popper.min', get_stylesheet_directory_uri() . '/assets/vendor/popper.js/dist/umd/popper.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'easing', get_stylesheet_directory_uri() . '/assets/js/vendor/jquery.easing.1.3.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'tweenmax', get_stylesheet_directory_uri() . '/assets/vendor/greensock/dist/TweenMax.js', array(), $versionFiles, true);
+   wp_enqueue_script( 'validate.min', get_stylesheet_directory_uri() . '/assets/js/plugins/jquery.validate.min.js', array(), $versionFiles, true);
+	//  wp_enqueue_script( 'methods.min', get_stylesheet_directory_uri() . '/assets/js/plugins/additional-methods.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'wow.min', get_stylesheet_directory_uri() . '/assets/js/plugins/wow.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'slick.min', get_stylesheet_directory_uri() . '/assets/js/plugins/slick.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'layout.min', get_stylesheet_directory_uri() . '/assets/js/scripts/layoutScripts.min.js', array(), $versionFiles, true);
+}
+add_action( 'wp_enqueue_scripts', 'mobig_head' );
+
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+
+add_action('after_setup_theme', 'remove_admin_bar');
+ 
+function remove_admin_bar() {
+if (!current_user_can('editor')) {
+  show_admin_bar(false);
+}
 }
 
-//URL sitio
-function site_url($slash = '') {
-  $protocolSite = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
-  $srvrSite = $protocolSite.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']).'/';
-  $sitio = $srvrSite;
-  $string = implode("",explode("\\",$sitio));
-  return stripslashes(trim($string));
-  // return $sitio.$slash;
-}
+/**
+ * Post ajax
+ */
+// require get_stylesheet_directory() . '/inc/post-ajax.php';
 
-function get_site_url() {
-  $protocolGet = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
-  $url_actual = $protocolGet.$_SERVER['HTTP_HOST'].$_SERVER["REQUEST_URI"];
-  $string = implode("",explode("\\",$url_actual));
-  return stripslashes(trim($string));
-  // return $url_actual;
-}
+/**
+ * Customizer additions.
+ */
+// require get_stylesheet_directory() . '/inc/cutomizer.php';
 
-?>
+/**
+ * Mailings
+ */
+// require get_stylesheet_directory() . '/inc/mail-contact.php';
+
+// add_shortcode('incrementor', 'incrementor');
+// function incrementor() {
+//   static $i = 0;
+//   $incrementoBox = $i ++;
+//   if( $incrementoBox % 2 ) {
+//     return 'order-md-1';
+//   }
+// }
+
+// Shortcode Super indices [superIndice id="aqui_el_numero_del_super_indice"]
+// function super_indice_shortcode($atts) {
+//   extract(shortcode_atts( array(
+//     'id' => ''
+//   ), $atts ));
+//   $linkWeb = get_site_url();
+//   $divSuper = '<a class="linkRef" href="'.$linkWeb.'/referencias/#'.$id.'" target="_blank">('.$id.')</a>';
+//   return $divSuper;
+// }
+// add_shortcode( 'superIndice', 'super_indice_shortcode' );
