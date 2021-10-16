@@ -56,7 +56,7 @@ function mobig_head() {
   $versionFiles = rand();
   wp_enqueue_style( 'google-mobig-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', array(), null );
   // CSS
-	wp_enqueue_style('bootstrap',  get_stylesheet_directory_uri() . '/assets/vendor/bootstrap/dist/css/bootstrap.min.css', array(), $versionFiles);
+	wp_enqueue_style('bootstrap',  get_stylesheet_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.min.css', array(), $versionFiles);
 	wp_enqueue_style('style-min',  get_stylesheet_directory_uri() . '/assets/css/style.min.css', array(), $versionFiles);
   wp_enqueue_style('animate',  get_stylesheet_directory_uri() . '/assets/css/vendor/animate.css', array(), $versionFiles);
   wp_enqueue_style('hover-min',  get_stylesheet_directory_uri() . '/assets/css/vendor/hover-min.css', array(), $versionFiles);
