@@ -13,8 +13,27 @@
           </div>
         </main><!-- end.Main -->
 
-        <footer class="g-footer">
+        <section class="socialFooter">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
 
+              </div><!-- end.col-* -->
+              <div class="col-12 col-md-6">
+
+              </div><!-- end.col-* -->
+            </div><!-- end.row -->
+          </div><!-- end.container -->
+        </section><!-- end.socialFooter -->
+        <footer class="g-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-3"></div>
+              <div class="col-12 col-md-3"></div>
+              <div class="col-12 col-md-3"></div>
+              <div class="col-12 col-md-3"></div>
+            </div><!-- end.row -->
+          </div><!-- end.container -->
         </footer><!-- end.Footer -->
         
         <?php wp_footer(); ?>
