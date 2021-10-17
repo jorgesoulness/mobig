@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Inicio
+ * Template name: Mifi
  *
  * @package moBig_Child
  * 

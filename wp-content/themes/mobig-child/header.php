@@ -40,13 +40,13 @@
                 <div class="menuMain">
                   <nav class="menuDesk">
                     <ul id="md">
-                      <li><a href="">Recargas</a></li>
-                      <li><a href="">Telefonía</a></li>
-                      <li><a href="">Internet Mifi</a></li>
-                      <li><a href="">Equipos</a></li>
-                      <li><a href="">Compatibilidad</a></li>
-                      <li><a href="">Portabilidad</a></li>
-                      <li class="btnMenu"><a href="">Contactar</a></li>
+                      <li><a href="<?php echo site_url(); ?>/recargas">Recargas</a></li>
+                      <li><a href="<?php echo site_url(); ?>/telefonia">Telefonía</a></li>
+                      <li><a href="<?php echo site_url(); ?>/mifi">Internet Mifi</a></li>
+                      <li><a href="<?php echo site_url(); ?>/equipos">Equipos</a></li>
+                      <li><a href="<?php echo site_url(); ?>/compatibilidad">Compatibilidad</a></li>
+                      <li><a href="<?php echo site_url(); ?>/portabilidad">Portabilidad</a></li>
+                      <li class="btnMenu"><a href="<?php echo site_url(); ?>/contacto">Contactar</a></li>
                     </ul>
                   </nav>
                 </div>

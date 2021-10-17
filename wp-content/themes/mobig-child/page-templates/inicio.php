@@ -32,19 +32,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="wp-content/themes/mobig-child/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
                 <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
                 <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                 <a href="" class="">Portabilidad</a>
               </div>
               <div class="carousel-item">
-                <img src="wp-content/themes/mobig-child/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
                 <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
                 <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                 <a href="" class="">Portabilidad</a>
               </div>
               <div class="carousel-item">
-                <img src="wp-content/themes/mobig-child/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
                 <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
                 <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                 <a href="" class="">Portabilidad</a>
@@ -122,7 +122,7 @@
     <section class="beneficios-sec">
       <div class="container">
         <div class="row">
-          <img src="wp-content/themes/mobig-child/assets/img/home/4571203.png" alt="" class="w-50" />
+          <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/4571203.png" alt="" class="w-50" />
           <h1>Disfruta de tu propia zona wifi</h1>
           <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
           <a href="" class="">Conoce más</a>
@@ -142,28 +142,28 @@
         <div class="row">
           <h1>Los beneficios de estar con moBig</h1>
           <figure class="figure beneficioPlanes">
-            <img src="wp-content/themes/mobig-child/assets/img/home/iconos-04.svg" class="figure-img img-fluid rounded w-50" alt="Beneficios-planes" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="figure-img img-fluid rounded w-50" alt="Beneficios-planes" />
             <figcaption class="figure-caption text-end">
               <label>Te ofrecemos planes de prepago desde $30, planes de pospago desde $100 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</label>
               <a href="">Conocer más</a>
             </figcaption>
           </figure>
           <figure class="figure">
-            <img src="wp-content/themes/mobig-child/assets/img/home/iconos-04.svg" class="figure-img" alt="beneficios-linea" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="figure-img" alt="beneficios-linea" />
             <figcaption class="figure-caption text-end">
               <label>Porta tu línea y quédate con tu número de toda la vida.</label>
               <a href="">Conocer más</a>
             </figcaption>
           </figure>
           <figure class="figure">
-            <img src="wp-content/themes/mobig-child/assets/img/home/iconos-06.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-velocidad" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-06.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-velocidad" />
             <figcaption class="figure-caption text-end">
               <label>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G.</label>
               <a href="">Conocer más</a>
             </figcaption>
           </figure>
           <figure class="figure">
-            <img src="wp-content/themes/mobig-child/assets/img/home/iconos-07.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-cobertura" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-07.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-cobertura" />
             <figcaption class="figure-caption text-end">
               <label>Mantente conectado en cualquier parte del mundo, con nuestra cobertura nacional e internacional.</label>
               <a href="">Conocer más</a>
