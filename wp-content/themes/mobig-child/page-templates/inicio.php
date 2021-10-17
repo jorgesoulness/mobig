@@ -11,6 +11,17 @@
 
   <article class="bg-gen">
     <section class="hero-sec">
+
+      <div class="slideCt">
+        <div class="slideCt__slide">
+
+          <div>
+            
+          </div><!-- end.item slide -->
+
+        </div><!-- end.slideCt__slide -->
+      </div><!-- end.slideCt -->
+
       <div class="container">
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
