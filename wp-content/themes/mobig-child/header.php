@@ -23,7 +23,9 @@
 
       <script>var siteURL = '<?php echo get_site_url(); ?>';</script>
     </head>
-    <body style="display: none;" class="">
+    <body <?php body_class('is-preload'); ?> style="display: none;">
+
+      <div class="overProgress fadeX"></div>
     
         <header id="headerGeneral" class="g-header">
           <div class="container">
@@ -34,6 +36,16 @@
                     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/icono_mobig-01.svg" alt="">
                     <h1 class="site-title">moBig</h1>
                   </a>
+                <!-- <?php
+                  //the_custom_logo();
+                  //if (is_page(6)) :
+                ?>
+                  <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <?php //else : ?>
+                  <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                <?php
+                  //endif;
+                ?> -->
                 </div>
               </div>
               <div class="col-md-8">

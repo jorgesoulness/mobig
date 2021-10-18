@@ -11,56 +11,43 @@
 
   <article class="bg-gen">
     <section class="hero-sec">
-
       <div class="slideCt">
-        <div class="slideCt__slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="slideCt__slide">
 
-          <div>
-            
-          </div><!-- end.item slide -->
+                <div>
+                  <figure class="slideCt__box">
+                    <img src="<?php echo get_stylesheet_directory_uri(''); ?>" alt="">
+                    <figcaption class="slideCt__cap">
+                      <h1>Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
+                      <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
+                      <div class="slideCt__btn">
+                        <a href="<?php echo site_url(''); ?>" class="slideCt__link">Portabilidad</a>
+                      </div><!-- end.slideCt__btn -->
+                    </figcaption><!-- end.slideCt__cap -->
+                  </figure><!--  end.slideCt__box -->
+                </div><!-- end.item_slide -->
+                <div>
+                  <figure class="slideCt__box">
+                    <img src="<?php echo get_stylesheet_directory_uri(''); ?>" alt="">
+                    <figcaption class="slideCt__cap">
+                      <h1>Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
+                      <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
+                      <div class="slideCt__btn">
+                        <a href="<?php echo site_url(''); ?>" class="slideCt__link">Portabilidad</a>
+                      </div><!-- end.slideCt__btn -->
+                    </figcaption><!-- end.slideCt__cap -->
+                  </figure><!--  end.slideCt__box -->
+                </div><!-- end.item_slide -->
 
-        </div><!-- end.slideCt__slide -->
+              </div><!-- end.slideCt__slide -->
+            </div><!-- end.col-* -->
+          </div><!-- end.row -->
+        </div><!-- end.container -->
       </div><!-- end.slideCt -->
-
-      <div class="container">
-        <div class="row">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
-                <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
-                <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
-                <a href="" class="">Portabilidad</a>
-              </div>
-              <div class="carousel-item">
-                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
-                <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
-                <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
-                <a href="" class="">Portabilidad</a>
-              </div>
-              <div class="carousel-item">
-                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" class="d-block w-50" alt="...">
-                <h1 class="">Somos el proveedor de soluciones en comunicaciones que necesitas.</h1>
-                <p class="">Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
-                <a href="" class="">Portabilidad</a>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div><!-- end.row -->
-      </div><!-- end.container -->
+      <img class="imgHeroAbs" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" alt="">
     </section><!-- end.hero-sec -->
 
 
