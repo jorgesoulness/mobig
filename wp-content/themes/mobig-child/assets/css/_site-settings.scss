@@ -9,16 +9,18 @@ $imgR: '../img/';
 $fontR: '../fonts/';
 
 // Fonts
-@include font-face("thin", "#{$fontR}helvetica/HelveticaNeue-Thin", $file-formats: woff);
-@include font-face("light", "#{$fontR}helvetica/HelveticaNeueLight", $file-formats: woff);
-@include font-face("medium", "#{$fontR}helvetica/HelveticaNeueMedium", $file-formats: woff);
-@include font-face("bold", "#{$fontR}helvetica/HelveticaNeueBold", $file-formats: woff);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-$hthin: 'thin', sans-serif;
-$hlight: 'light', sans-serif;
-$hmedium: 'medium', sans-serif;
-$hbold: 'bold', sans-serif;
-$roboto: 'Roboto', sans-serif;
+@include font-face("thin", "#{$fontR}metropolis/Metropolis-Thin", $file-formats: ttf eot svg woff woof2);
+@include font-face("regular", "#{$fontR}metropolis/Metropolis-Regular", $file-formats: woff);
+@include font-face("semibold", "#{$fontR}metropolis/Metropolis-SemiBold", $file-formats: woff);
+@include font-face("medium", "#{$fontR}metropolis/Metropolis-Medium", $file-formats: woff);
+@include font-face("bold", "#{$fontR}metropolis/Metropolis-Bold", $file-formats: woff);
+@include font-face("extrabold", "#{$fontR}metropolis/Metropolis-ExtraBold", $file-formats: woff);
+$thin: 'thin', sans-serif;
+$regular: 'regular', sans-serif;
+$semibold: 'semibold', sans-serif;
+$medium: 'medium', sans-serif;
+$bold: 'bold', sans-serif;
+$extrabold: 'extrabold', sans-serif;
 
 // = Colors
 // -----------------------------

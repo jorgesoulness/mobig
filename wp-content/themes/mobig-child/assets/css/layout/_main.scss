@@ -47,9 +47,9 @@ article.maps {
       color: $white; @include fluid-type(23px, 40px, 320px, 1200px); margin: 0; padding: 0; text-align: left;
     }
     & .desc-hero {
-      width: 100%; height: auto; padding: 0; margin: 0 auto 20px 0; position: relative; @include box-sizing(border-box); color: $white; text-align: left; font-family: $hlight; @include fluid-type(13px, 20px, 320px, 1200px); text-transform: uppercase;
+      width: 100%; height: auto; padding: 0; margin: 0 auto 20px 0; position: relative; @include box-sizing(border-box); color: $white; text-align: left; @include fluid-type(13px, 20px, 320px, 1200px); text-transform: uppercase;
       & p {
-        color: $white; margin: 0; padding: 0; font-family: $hlight;
+        color: $white; margin: 0; padding: 0;
       }
     }
     & .btn-hero {

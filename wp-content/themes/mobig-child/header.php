@@ -29,8 +29,8 @@
     
         <header id="headerGeneral" class="g-header">
           <div class="container">
-            <div class="row">
-              <div class="col-md-4">
+            <div class="row align-items-center">
+              <div class="col-md-3">
                 <div class="brand">
                   <a href="<?php echo get_site_url(''); ?>">
                     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/icono_mobig-01.svg" alt="">
@@ -48,16 +48,16 @@
                 ?> -->
                 </div>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-9">
                 <div class="menuMain">
                   <nav class="menuDesk">
                     <ul id="md">
-                      <li><a href="<?php echo site_url(); ?>/recargas">Recargas</a></li>
-                      <li><a href="<?php echo site_url(); ?>/telefonia">Telefonía</a></li>
-                      <li><a href="<?php echo site_url(); ?>/mifi">Internet Mifi</a></li>
-                      <li><a href="<?php echo site_url(); ?>/equipos">Equipos</a></li>
-                      <li><a href="<?php echo site_url(); ?>/compatibilidad">Compatibilidad</a></li>
-                      <li><a href="<?php echo site_url(); ?>/portabilidad">Portabilidad</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/recargas">Recargas</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/telefonia">Telefonía</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/mifi">Internet Mifi</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/equipos">Equipos</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/compatibilidad">Compatibilidad</a></li>
+                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/portabilidad">Portabilidad</a></li>
                       <li class="btnMenu"><a href="<?php echo site_url(); ?>/contacto">Contactar</a></li>
                     </ul>
                   </nav>

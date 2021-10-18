@@ -3,9 +3,9 @@
    ======================= */
 
 .g-header {
-  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.30); box-shadow: 0 4px 8px rgba($black, 0.20); z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
+  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.80); box-shadow: none; z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
   &.activeHead {
-    background-color: $white; top: 0;
+    background-color: $col1; top: 0; box-shadow: 0 4px 8px rgba($black, 0.20);
   }
 }
   
@@ -13,10 +13,10 @@
   width: 100%; height: auto; padding: 0; margin: 0;
   & a {
     display: inline-block; padding: 0; margin: 0; opacity: 1; @include transition(opacity 2.5s ease 0.75s); @include animation(none);
-    img {
+    & img {
       display: block; width: 100%; max-width: 35px; height: auto; margin: 0 auto 0 0; padding: 0;
     }
-    .site-title {
+    & .site-title {
       font-size: 0; text-indent: -9999px; color: $white; opacity: 0; margin: 0; padding: 0;
     }
     body.is-preload & {
@@ -28,17 +28,17 @@
 .menuMain {
   width: 100%; height: auto; padding: 0; margin: 0 0 0 0;
   nav {
-    width: 100%; height: auto; padding: 0; margin: 0 0 0 0; display: none;
+    width: 100%; height: auto; padding: 0; margin: 0 0 0 0;
     ul {
-      width: 100%; height: auto; padding: 0; margin: 0 0 0 0; list-style-type: none; @include displayFlex(flex, row, center, center, wrap);
+      width: 100%; height: auto; padding: 0; margin: 0 0 0 0; list-style-type: none; @include displayFlex(flex, row, flex-end, center, wrap);
       li {
         list-style-type: none; padding: 0 0 0 0; margin: 0 30px 0 0;
         a {
-          color: $c3; margin: 0 0 0 0; padding: 0; text-transform: uppercase; font-size: rem(14px);
+          color: $white; margin: 0 0 0 0; padding: 0; font-size: rem(13px); text-decoration: none; font-family: $medium;
           &.menuIemHover {
             position: relative;
             &:before {
-              content: ''; width: 0; height: 3px; padding: 0 0; margin: 0 0 0 0; background-color: $col1; @include position(absolute, null null -10px 0); @include transition(all 0.25s ease);
+              content: ''; width: 0; height: 3px; padding: 0 0; margin: 0 0 0 0; background-color: $col4; @include position(absolute, null null -10px 0); @include transition(all 0.25s ease);
             }
           }
           &.secondary-menu {
@@ -47,7 +47,7 @@
             }
           }
           &:hover {
-            color: $col1;
+            color: $white;
             &.menuIemHover {
               &:before {
                 width: 100%;
@@ -90,7 +90,7 @@
                 //   }
                 // }
                 &:hover {
-                  color: $col1;
+                  color: $col4;
                   &:before {
                     height: 3px; opacity: 1;
                   }
@@ -108,24 +108,6 @@
                 }
               }
             }
-          }
-          .car-tab  {
-            width: 100%; height: auto; padding: 0; margin: 0; position: relative; display: none;
-            &.shows { display: block; }
-            ul {
-              width: 100%; height: auto; padding: 0; margin: 0 0 0 0; list-style-type: none; @include displayFlex(flex, row, flex-start, center, wrap);
-              li {
-                list-style-type: none; width: calc(16.6666% - 10px); padding: 0; margin: 0 5px 0 5px; position: relative;
-                img {
-                  display: block; width: 100%; max-width: 130px; margin: 0 auto 10px auto; padding: 0;
-                }
-                h5 { font-size: rem(13px); text-align: center; color: $c4; margin: 0; padding: 0; }
-                a { @extend .overlayClassAbs; text-indent: -9999px; opacity: 0; font-size: 0; z-index: 2; }
-              }
-            }
-          }
-          &:before {
-            content: ''; width: 100%; height: 5px; padding: 0; margin: 0 0 0 0; background-color: $col1; @include position(absolute, 0 null null 0);
           }
         }
         &.activo {
@@ -159,7 +141,136 @@
         //     display: block;
         //   }
         // }
+        &.btnMenu {
+          & a {
+            
+          }
+        }
       }
+    }
+  }
+}
+
+.menu-mobile-btn {
+  width: 40px; height: 40px; display: block; margin: 0 0 0 auto; padding: 0; position: relative; border: none; @include box-sizing(border-box); background-color: transparent; cursor: pointer;
+  span {
+    width: 15px; height: 2px; @include position(absolute, 50% 8px null null); background-color: $col1; @include transform(translateY(-50%)); opacity: 1; @include transition(opacity 0.18s ease-in-out);
+  }
+  &:before, &:after {
+    content: ''; width: 25px; height: 2px; @include position(absolute, null null null 7px); background-color: $col1; @include transition(transform 0.25s ease);
+  }
+  &:before {
+    top: 10px; @include transform(rotate(0deg));
+  }
+  &:after {
+    bottom: 10px; @include transform(rotate(0deg));
+  }
+  &:hover {
+    span { opacity: 0; }
+    &:before {
+      top: 19px; @include transform(rotate(45deg));
+    }
+    &:after {
+      bottom: 19px; @include transform(rotate(-45deg));
+    }
+  }
+  &[data-menu-expand="true"] {
+    span { opacity: 0; background-color: $c4; }
+    &:before {
+      top: 19px; @include transform(rotate(45deg));background-color: $c4;
+    }
+    &:after {
+      bottom: 19px; @include transform(rotate(-45deg));background-color: $c4;
+    }
+  }
+  &[data-menu-expand="false"] {
+    span { opacity: 1; }
+    &:before {
+      top: 10px; @include transform(rotate(0deg));
+    }
+    &:after {
+      bottom: 10px; @include transform(rotate(0deg));
+    }
+  }
+}
+
+// Menu Mobile
+.cont-menu-mobile {
+  @extend .overlayClass; background-color: $white; z-index: -1; overflow-y: auto;
+  .mnuContMob {
+    width: 100%; height: auto; padding: 0; margin: 130px 0 0 0;
+    ul {
+      list-style-type: none; @include displayFlex(flex, column, center, center, nowrap); margin: 10px auto; padding: 0 0; width: 300px;
+      li {
+        list-style-type: none; width: 100%; height: auto; border-bottom: 1px solid $c4;
+        a {
+          display: block; color: $c4; text-transform: uppercase; width: 100%; height: 40px; line-height: 40px; background-color: rgba(255,255,255,0.0); text-align: left; @include transition(all 0.25s ease);
+          &.secondary-menu {
+            position: relative;
+            &:after {
+              content: '\f078'; font-family: 'fontAwesome'; width: 15px; height: 15px; font-size: rem(13px); @include position(absolute, 50% 5px null null); text-align: center; line-height: 15px; @include transform(translateY(-50%));
+            }
+          }
+          &:hover {
+            background-color: rgba(255,255,255,0.10);
+          }
+        }
+        & > .sub-menu {
+          display: none;
+          li {
+            a {
+              color: $c3; margin: 0 0 0 0; padding: 0; font-size: rem(14px);
+              img {
+                width: 25px; height: auto;
+              }
+            }
+          }
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .socHead {
+    width: 100%; height: auto; padding: 0; margin: 20px 0 10px 0; text-align: center;
+    ul {
+      padding: 0; margin: 0; list-style-type: none; @include displayFlex(flex, row, center, center, wrap);
+      li {
+        list-style-type: none; padding: 0; margin: 0 8px 0 0;
+        a {
+          display: block; width: 35px; height: 35px; font-size: rem(16px); @include transition(all 0.23s ease); background-color: $c4; @include border-top-radius(50%); @include border-bottom-radius(50%); line-height: 35px; text-align: center; position: relative; overflow: hidden;
+          &:before, &:after {
+            font-family: 'fontAwesome'; @include position(absolute, 0 null null 0); width: 100%; height: 100%; color: $white; @include transition(transform 300ms ease-in-out, all 0.25s);
+          }
+          &:before { @include transform(translateY(-100%)); }
+          &:after { @include transform(translateY(0)); }
+          //Clases
+          &.tyi-whatsapp { &:before, &:after { content: '\f232'; } }
+          &.tyi-facebook { &:before, &:after { content: '\f09a'; } }
+          &.tyi-twitter { &:before, &:after { content: '\f099'; } }
+          &.tyi-instagram { &:before, &:after { content: '\f16d'; } }
+          &.tyi-youtube { &:before, &:after { content: '\f16a'; } }
+          //Fin-Clases
+          &:hover, &:active {
+            background-color: $col1;
+            &:before { @include transform(translateY(0)); }
+            &:after { @include transform(translateY(100%)); }
+          }
+        }
+        &:last-child {
+          margin: 0 0 0 0;
+        }
+      }
+    }
+  }
+  .toolsMobile {
+    width: 100%; height: auto; padding: 0; margin: 20px 0 10px 0; text-align: center;
+    a {
+      font-size: rem(14px); text-transform: uppercase; margin: 0 10px 0 0; position: relative;
+      &:last-child {
+        margin: 0 0 0 0;
+      } 
     }
   }
 }
