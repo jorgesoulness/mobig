@@ -5,3 +5,32 @@
 .g-footer {
   width: 100%; height: auto; @include position(relative, null null null null); padding: 45px 0 40px 0; margin: 0; z-index: 4; background-color: $col1;
 }
+
+// SocialFooter
+.socialFooter {
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 10px 0; margin: 0; z-index: 4; background-color: $col5;
+  &__list {
+    margin: 0; padding: 0; @include display(flex); @include flex-direction(row); @include flex-wrap(wrap); list-style-type: none;
+  }
+  &__item {
+    list-style-type: none; padding-left: 0; margin: 0 10px 0 0;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  &__link {
+    display: block; width: 35px; height: 35px; color: $col1; line-height: 35px; border: 0; text-align: center; font-size: rem(18px);
+  }
+  &__box {
+    margin: 0; padding: 0; @include display(flex); @include flex-direction(row); @include justify-content(flex-end); @include align-items(center); @include flex-wrap(wrap);
+    & p {
+      margin: 0; padding: 0;
+    }
+  }
+  &__circle {
+    width: 35px; height: 35px; line-height: 35px; background-color: $col1; text-align: center; padding: 0; margin: 0 10px 0 0; @include box-sizing(border-box); font-size: rem(18px); border-radius: 50%;
+    & i {
+      color: $white;
+    }
+  }
+}

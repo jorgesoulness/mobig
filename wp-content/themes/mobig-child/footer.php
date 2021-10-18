@@ -17,38 +17,28 @@
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
-                <ul  class="">
-                  <li class="">
-                    <a href="" target="_blank">
-                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-twitter.svg" class="" width="10%" alt="Icon-twitter" />
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="" target="_blank">
-                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-face.svg" class="" width="10%" alt="Icon-face" />
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="" target="_blank">
-                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-IG.svg" class="" width="10%" alt="Icon-ig" />
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="" target="_blank">
-                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-YT.svg"class="" width="10%" alt="Icon-yt" />
-                    </a>
-                  </li>
-                </ul>
-
+                <ul class="socialFooter__list">
+                  <li class="socialFooter__item">
+                    <a class="socialFooter__link" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                  </li><!-- end.socialFooter__item -->
+                  <li class="socialFooter__item">
+                    <a class="socialFooter__link" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                  </li><!-- end.socialFooter__item -->
+                  <li class="socialFooter__item">
+                    <a class="socialFooter__link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                  </li><!-- end.socialFooter__item -->
+                  <li class="socialFooter__item">
+                    <a class="socialFooter__link" href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                  </li><!-- end.socialFooter__item -->
+                </ul><!-- end.socialFooter__list -->
               </div><!-- end.col-* -->
               <div class="col-12 col-md-6">
-                  <i class="fa fa-phone-square"></i>
-                  <span>Atención a Clientes: </span>
-                    <a href="tel:+5280066244">
-                    <span>800</span>
-                     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg"  alt="logooMoBig" />
-                  </a>
-                 
+                <div class="socialFooter__box">
+                  <div class="socialFooter__circle">
+                    <i class="fa fa-phone"></i>
+                  </div><!-- end.socialFooter__circle -->
+                  <p><a href="tel:+5280066244" target="_blank">800-26<span>moBig<small>(66244)</small></span></a></p>
+                </div><!-- end.socialFooter__box -->
               </div><!-- end.col-* -->
             </div><!-- end.row -->
           </div><!-- end.container -->
@@ -58,84 +48,61 @@
             <div class="row">
               <div class="col-12 col-md-3">
                 <a href="/">
-                  <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg" alt="logoMoBig" />
+                  <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg" alt="logoMoBig">
                 </a>
               </div>
               <div class="col-12 col-md-3">
-                <ul class="menuAcercaFooter">
-                  <li>
-                    <span>Acerca de</span>
-                  </li>
-                  <li class="">
-                    <a href="#">
-                      Mi cuenta
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/portabilidad">
-                      Portabilidad
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/recargas">
-                      Recargas
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/dudas">
-                      Dudas
-                    </a>
-                  </li>
-                </ul>
+                <div class="listFooter">
+                  <h4 class="listFooter__title">Acerca de</h4>
+              <?php
+                wp_nav_menu( array(
+                  'items_wrap'     => '<ul class="listFooter__list">%3$s</ul>',
+                  'theme_location' => 'menu-acerca',
+                  'container'       => '',
+                  'container_class' => '',
+                  'container_id'    => '',
+                  'before'          => '',
+                  'after'           => '',
+                ));
+              ?>
+                </div>
               </div>
               <div class="col-12 col-md-3">
-                <ul class="menuLegalesFooter">
-                  <li>
-                    <span>Legales</span>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/terminos-y-condiciones">
-                      Términos y Condiciones
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/aviso-de-privacidad">
-                      Aviso de Privacidad
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/aviso-legales">
-                      Aviso Legales
-                    </a>
-                  </li>
-                </ul>
+                <div class="listFooter">
+                  <h4 class="listFooter__title">Legales</h4>
+              <?php
+                wp_nav_menu( array(
+                  'items_wrap'     => '<ul class="listFooter__list">%3$s</ul>',
+                  'theme_location' => 'menu-lelages',
+                  'container'       => '',
+                  'container_class' => '',
+                  'container_id'    => '',
+                  'before'          => '',
+                  'after'           => '',
+                ));
+              ?>
+                </div>
               </div>
               <div class="col-12 col-md-3">
-                 <ul class="menuServiciosFooter">
-                  <li>
-                    <span>Servicios</span>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/telefonia-celular">
-                      Telefonía Celular
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/wifi-movil">
-                      Wifi Móvil
-                    </a>
-                  </li>
-                  <li class="">
-                    <a href="<?php echo site_url(); ?>/internet-hogar-y-negocios">
-                      Internet Hogar y Negocios
-                    </a>
-                  </li>
-                </ul>
+                <div class="listFooter">
+                  <h4 class="listFooter__title">Servicios</h4>
+              <?php
+                wp_nav_menu( array(
+                  'items_wrap'     => '<ul class="listFooter__list">%3$s</ul>',
+                  'theme_location' => 'menu-sevicios',
+                  'container'       => '',
+                  'container_class' => '',
+                  'container_id'    => '',
+                  'before'          => '',
+                  'after'           => '',
+                ));
+              ?>
+                </div>
               </div>
             </div><!-- end.row -->
 
             <div class="row">
-              <hr class="" />
+              <hr class="dividerFoot">
             </div>
             <div class="row d-flex justify-content-between">
               <div class="col-4">

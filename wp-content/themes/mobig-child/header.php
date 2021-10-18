@@ -30,11 +30,11 @@
         <header id="headerGeneral" class="g-header">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-md-3">
+              <div class="col-6 col-md-2 col-lg-2">
                 <div class="brand">
                   <a href="<?php echo get_site_url(''); ?>">
                     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/icono_mobig-01.svg" alt="">
-                    <h1 class="site-title">moBig</h1>
+                    <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
                   </a>
                 <!-- <?php
                   //the_custom_logo();
@@ -47,24 +47,33 @@
                   //endif;
                 ?> -->
                 </div>
-              </div>
-              <div class="col-md-9">
+              </div><!-- end.col-* -->
+              <div class="d-none d-lg-block col-lg-10">
                 <div class="menuMain">
                   <nav class="menuDesk">
-                    <ul id="md">
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/recargas">Recargas</a></li>
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/telefonia">Telefonía</a></li>
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/mifi">Internet Mifi</a></li>
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/equipos">Equipos</a></li>
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/compatibilidad">Compatibilidad</a></li>
-                      <li><a class="menuIemHover" href="<?php echo site_url(); ?>/portabilidad">Portabilidad</a></li>
-                      <li class="btnMenu"><a href="<?php echo site_url(); ?>/contacto">Contactar</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <?php
+                      wp_nav_menu( array(
+                        'items_wrap'     => '<ul id="md">%3$s</ul>',
+                        'theme_location' => 'menu-main',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'before'          => '',
+                        'after'           => '',
+                      ));
+                    ?>
+                  </nav><!-- end.menuDesk -->
+                </div><!--  end.menuMain -->
+              </div><!-- end.col-* -->
+              <div class="d-block d-lg-none col-6 col-md-10">
+                <div class="headTools">
+                  <button type="button" id="openMenuMobile" class="menu-mobile-btn" onClick="menuMobile()" data-menu-expand="false">
+                    <span></span>
+                  </button>
+                </div><!-- end.headTools -->
+              </div><!-- end.col-* -->
+            </div><!-- end.row -->
+          </div><!-- end.container -->
         </header><!-- end.Header -->
 
         <!-- MenuMobile -->

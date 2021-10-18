@@ -9,7 +9,6 @@ body {
   font-family: $regular;
   color: $col12;
   @include fluid-type(13px, 16px, 320px, 1200px);
-  font-weight: 400;
   &.bloquear {
     overflow: hidden;
   }
@@ -18,7 +17,7 @@ body {
 *:focus {outline:none !important}
 
 a {
-  color: $col1; font-weight: 400;
+  color: $col1;
   &:hover {
     @include transition(all 0.25s); text-decoration: none; color: $col2;
   }

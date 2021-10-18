@@ -3,7 +3,7 @@
    ======================= */
 
 .g-header {
-  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.80); box-shadow: none; z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
+  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.65); box-shadow: none; z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
   &.activeHead {
     background-color: $col1; top: 0; box-shadow: 0 4px 8px rgba($black, 0.20);
   }
@@ -32,35 +32,40 @@
     ul {
       width: 100%; height: auto; padding: 0; margin: 0 0 0 0; list-style-type: none; @include displayFlex(flex, row, flex-end, center, wrap);
       li {
-        list-style-type: none; padding: 0 0 0 0; margin: 0 30px 0 0;
-        a {
-          color: $white; margin: 0 0 0 0; padding: 0; font-size: rem(13px); text-decoration: none; font-family: $medium;
-          &.menuIemHover {
+        list-style-type: none; padding: 0; margin: 0 25px 0 0;
+        &.menuIemHover {
+          & > a {
             position: relative;
             &:before {
               content: ''; width: 0; height: 3px; padding: 0 0; margin: 0 0 0 0; background-color: $col4; @include position(absolute, null null -10px 0); @include transition(all 0.25s ease);
             }
           }
-          &.secondary-menu {
-            &:after {
-              content: '\f078'; font-family: 'fontAwesome'; width: 15px; height: 15px; font-size: rem(8px); @include position(absolute, 2px -17px null null); text-align: center; line-height: 15px;
+          &:hover {
+            & > a {
+              color: $white;
+              &:before {
+                width: 100%;
+              }
             }
           }
+        }
+        &.btnMenu {
+          & > a {
+            margin: 0; padding: 5px 13px 3px; @include transition(all 300ms); background-color: transparent; display: inline-block; width: auto; height: auto; border: 2px solid $col2; color: $white; @include box-sizing(border-box); @include fluid-type(12px, 15px, 320px, 1200px); border-radius: 16px;
+            &:hover {
+              background-color: $col2; border-color: $col2;
+            }
+          }
+        }
+        &.secondary-menu {
+          &:after {
+            content: '\f078'; font-family: 'fontAwesome'; width: 15px; height: 15px; font-size: rem(8px); @include position(absolute, 2px -17px null null); text-align: center; line-height: 15px;
+          }
+        }
+        & a {
+          color: $white; margin: 0; padding: 0; text-decoration: none; font-family: $medium; @include fluid-type(11px, 13px, 320px, 1200px);
           &:hover {
             color: $white;
-            &.menuIemHover {
-              &:before {
-                width: 100%;
-              }
-            }
-          }
-          &.activo {
-            color: $col1;
-            &.menuIemHover {
-              &:before {
-                width: 100%;
-              }
-            }
           }
           // &:link, &:visited {
           //   color: $col1;
@@ -68,6 +73,14 @@
           // &:active {
           //   color: $c3;
           // }
+        }
+        &.activo {
+          & > a {
+            color: $col1;
+            &:before {
+              width: 100%;
+            }
+          }
         }
         &:last-child {
           margin: 0 0 0 0;
@@ -141,11 +154,6 @@
         //     display: block;
         //   }
         // }
-        &.btnMenu {
-          & a {
-            
-          }
-        }
       }
     }
   }
@@ -154,10 +162,10 @@
 .menu-mobile-btn {
   width: 40px; height: 40px; display: block; margin: 0 0 0 auto; padding: 0; position: relative; border: none; @include box-sizing(border-box); background-color: transparent; cursor: pointer;
   span {
-    width: 15px; height: 2px; @include position(absolute, 50% 8px null null); background-color: $col1; @include transform(translateY(-50%)); opacity: 1; @include transition(opacity 0.18s ease-in-out);
+    width: 15px; height: 2px; @include position(absolute, 50% 8px null null); background-color: $white; @include transform(translateY(-50%)); opacity: 1; @include transition(opacity 0.18s ease-in-out); border-radius: 2px;
   }
   &:before, &:after {
-    content: ''; width: 25px; height: 2px; @include position(absolute, null null null 7px); background-color: $col1; @include transition(transform 0.25s ease);
+    content: ''; width: 25px; height: 2px; @include position(absolute, null null null 7px); background-color: $white; @include transition(transform 0.25s ease); border-radius: 2px;
   }
   &:before {
     top: 10px; @include transform(rotate(0deg));
@@ -175,12 +183,12 @@
     }
   }
   &[data-menu-expand="true"] {
-    span { opacity: 0; background-color: $c4; }
+    span { opacity: 0; background-color: $white; }
     &:before {
-      top: 19px; @include transform(rotate(45deg));background-color: $c4;
+      top: 19px; @include transform(rotate(45deg));background-color: $white;
     }
     &:after {
-      bottom: 19px; @include transform(rotate(-45deg));background-color: $c4;
+      bottom: 19px; @include transform(rotate(-45deg));background-color: $white;
     }
   }
   &[data-menu-expand="false"] {
@@ -196,15 +204,15 @@
 
 // Menu Mobile
 .cont-menu-mobile {
-  @extend .overlayClass; background-color: $white; z-index: -1; overflow-y: auto;
+  @extend .overlayClass; background-color: rgba($col1, 0.90); z-index: -1; overflow-y: auto;
   .mnuContMob {
     width: 100%; height: auto; padding: 0; margin: 130px 0 0 0;
     ul {
       list-style-type: none; @include displayFlex(flex, column, center, center, nowrap); margin: 10px auto; padding: 0 0; width: 300px;
       li {
-        list-style-type: none; width: 100%; height: auto; border-bottom: 1px solid $c4;
+        list-style-type: none; width: 100%; height: auto; border-bottom: 1px solid rgba($white, 0.15);
         a {
-          display: block; color: $c4; text-transform: uppercase; width: 100%; height: 40px; line-height: 40px; background-color: rgba(255,255,255,0.0); text-align: left; @include transition(all 0.25s ease);
+          display: block; color: $white; text-transform: uppercase; width: 100%; height: 40px; line-height: 40px; background-color: rgba(255,255,255,0.0); text-align: left; @include transition(all 0.25s ease); text-decoration: none; font-family: $medium; font-size: rem(18px);
           &.secondary-menu {
             position: relative;
             &:after {
