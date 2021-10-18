@@ -8,7 +8,8 @@
 
  get_header();
 ?>
-
+<?php
+		while ( have_posts() ) : ?>
   <article class="bg-gen">
    
    <section class="hero-sec">
@@ -30,6 +31,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-6 contentControlsStep">
+            <?php the_field('embed'); ?>
             <ul>
               <li class="stepIcon step1">
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/iconChip.svg" alt="" class="w-50 stepActive" />
@@ -85,6 +87,8 @@
       </div><!-- end.container -->
     </section><!-- end.beneficios-sec -->
   </article><!-- end.article inicio -->
+
+  <?php endwhile; ?>
 
 <?php
 get_footer();
