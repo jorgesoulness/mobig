@@ -8,9 +8,12 @@
 
 // SocialFooter
 .socialFooter {
-  width: 100%; height: auto; @include position(relative, null null null null); padding: 10px 0; margin: 0; z-index: 4; background-color: $col5;
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 25px 0; margin: 0; z-index: 4; background-color: $col5;
   &__list {
-    margin: 0; padding: 0; @include display(flex); @include flex-direction(row); @include flex-wrap(wrap); list-style-type: none;
+    margin: 0; padding: 0; @include display(flex); @include flex-direction(row); @include justify-content(center); @include flex-wrap(wrap); list-style-type: none;
+    @media all and (min-width: 768px) {
+      @include justify-content(flex-start);
+    }
   }
   &__item {
     list-style-type: none; padding-left: 0; margin: 0 10px 0 0;
@@ -19,18 +22,108 @@
     }
   }
   &__link {
-    display: block; width: 35px; height: 35px; color: $col1; line-height: 35px; border: 0; text-align: center; font-size: rem(18px);
+    display: block; width: 28px; height: 28px; color: $col1; line-height: 32px; border: 0; text-align: center; font-size: rem(22px);
   }
   &__box {
-    margin: 0; padding: 0; @include display(flex); @include flex-direction(row); @include justify-content(flex-end); @include align-items(center); @include flex-wrap(wrap);
+    margin: 0 0 25px; padding: 0; @include display(flex); @include flex-direction(row); @include justify-content(center); @include align-items(center); @include flex-wrap(wrap);
     & p {
-      margin: 0; padding: 0;
+      margin: 0; padding: 0; font-family: $bold; @include fluid-type(16px, 20px, 320px, 768px); color: $col1;
+      & a {
+        text-decoration: none;
+      }
+      & span {
+        position: relative;
+        & small {
+          @include position(absolute, 100% null null 0); font-family: $thin;
+        }
+      }
+    }
+    @media all and (min-width: 768px) {
+      @include justify-content(flex-end); margin: 0;
     }
   }
   &__circle {
-    width: 35px; height: 35px; line-height: 35px; background-color: $col1; text-align: center; padding: 0; margin: 0 10px 0 0; @include box-sizing(border-box); font-size: rem(18px); border-radius: 50%;
+    width: 28px; height: 28px; line-height: 32px; background-color: $col1; text-align: center; padding: 0; margin: 0 10px 0 0; @include box-sizing(border-box); font-size: rem(22px); border-radius: 50%;
     & i {
       color: $white;
+    }
+  }
+}
+.listFooter {
+  width: 100%; height: auto; padding: 0; margin: 0 0 20px; @include box-sizing(border-box);
+  &__title {
+    @include fluid-type(13px, 15px, 320px, 1200px); color: $white; margin: 0 0 20px; padding: 0; text-align: left; font-family: $semibold; line-height: 1;
+  }
+  &__list {
+    list-style-type: none; @include display(flex); @include flex-direction(column); @include flex-wrap(wrap); padding: 0; margin: 0;
+    & li {
+      list-style-type: none; padding: 0; margin: 0 0 10px; line-height: 1;
+      & a {
+        color: $white; font-family: $thin; @include fluid-type(12px, 15px, 320px, 1200px); text-decoration: none; text-align: left;
+        &:hover {
+          color: $white;
+        }
+      }
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  @media all and (min-width: 768px) {
+    margin: 0;
+  }
+  @media all and (min-width: 992px) {
+    padding: 0 10px;
+  }
+}
+.dividerFoot {
+  background-color: rgba($white, 0.40); height: 4px!important; margin: 10px 0 16px;
+  @media all and (min-width: 768px) {
+    margin: 30px 0 16px;
+  }
+}
+.brandFooter {
+  width: 100%; height: auto; padding: 0; margin: 0 0 30px; position: relative; @include box-sizing(border-box);
+  & img {
+    display: block; width: 100%; max-width: 230px; height: auto; padding: 0; margin: 0 auto;
+  }
+  & a {
+    @include position(absolute, 0 null null 0); width: 100%; height: 100%; margin: 0; padding: 0; z-index: 1; text-indent: -9999px; font-size: 0; text-decoration: none;
+  }
+  @media all and (min-width: 992px) {
+    margin: 0;
+    & img {
+      margin: 0; max-width: 330px;
+    }
+  }
+}
+.copyrightFooter {
+  width: 100%; height: auto; padding: 0; margin: 0 0 20px; position: relative; @include box-sizing(border-box);
+  & p {
+    color: $white; @include fluid-type(12px, 13px, 320px, 1200px); padding: 0; margin: 0; font-family: $thin; text-align: center;
+  }
+  @media all and (min-width: 768px) {
+    margin: 0;
+    & p {
+      text-align: left;
+    }
+  }
+}
+.creditsFooter {
+  width: 100%; height: auto; padding: 0; margin: 0; position: relative; @include box-sizing(border-box);
+  &__list {
+    list-style-type: none; padding: 0; margin: 0; @include display(flex); @include flex-direction(row); @include justify-content(center); @include flex-wrap(wrap);
+    @media all and (min-width: 768px) {
+      @include justify-content(flex-end);
+    }
+  }
+  &__item {
+    list-style-type: none; padding: 0; margin: 0 10px 0 0; color: $white; line-height: 1; font-family: $thin; @include fluid-type(12px, 15px, 320px, 1200px);
+    & a {
+      text-decoration: none; color: $white; font-family: $thin; @include fluid-type(12px, 15px, 320px, 1200px);
+    }
+    &:last-child {
+      margin: 0;
     }
   }
 }
