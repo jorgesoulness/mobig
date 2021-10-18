@@ -36,7 +36,9 @@ function mobig_child_setup() {
   //Registro de Menús
   register_nav_menus( array(
       'menu-main' => esc_html__( 'Menu Principal', 'mobig-child' ),
-      'menu-footer' => esc_html__( 'Menu Footer', 'mobig-child' ),
+      'menu-footer' => esc_html__( 'Menu Acerca', 'mobig-child' ),
+      'menu-footer' => esc_html__( 'Menu Legales', 'mobig-child' ),
+      'menu-footer' => esc_html__( 'Menu Servicios', 'mobig-child' ),
   ) );
   //Función para cargar logo
   add_theme_support( 'custom-logo', array(
