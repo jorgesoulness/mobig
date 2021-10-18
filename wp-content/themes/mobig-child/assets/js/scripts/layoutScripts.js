@@ -99,7 +99,7 @@ $(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 500,
-    dots: true,
+    dots: false,
     prevArrow: $('#prevslideHomeMain'),
     nextArrow: $('#nextslideHomeMain'),
   });

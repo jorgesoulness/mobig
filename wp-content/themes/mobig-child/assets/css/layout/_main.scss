@@ -28,31 +28,33 @@ article.maps {
     padding: 0;
     margin-bottom: 20px;
 }
-// Slider Section 
+// Slider Section
 .hero-sec {
   width: 100%; height: 400px; @include position(relative, null null null null); padding: 0; margin: 0; background-attachment: local; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden; background-color: $col1;
   & .slideCt {
-    @include position(absolute, null null 50px 0); @include transform(translate(0, -50%)); width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box); z-index: 3;
-    opacity: 1; @include transition(opacity 1.5s ease 0.55s, transform 0.5s ease-out 0.45s, filter 0.5s ease 0.45s);
+    @include position(absolute, null null 50px 0); width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box); z-index: 3; opacity: 1; @include transition(opacity 1.5s ease 0.55s, transform 0.5s ease-out 0.45s, filter 0.5s ease 0.45s);
     &__slide {
       margin-bottom: 0!important;
     }
     &__box {
       width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
+      & img {
+        display: block; width: 100%; max-width: 400px; height: auto; margin: 0 0 25px; padding: 0;
+      }
     }
     &__cap {
       width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
     }
     & .title-hero {
-      color: $white; @include fluid-type(23px, 40px, 320px, 1200px); margin: 0; padding: 0; text-align: left;
+      color: $col2; @include fluid-type(20px, 30px, 320px, 1200px); margin: 0 0 5px; padding: 0; text-align: left; font-family: $extrabold; text-transform: uppercase; line-height: 1;
     }
     & .desc-hero {
-      width: 100%; height: auto; padding: 0; margin: 0 auto 20px 0; position: relative; @include box-sizing(border-box); color: $white; text-align: left; @include fluid-type(13px, 20px, 320px, 1200px); text-transform: uppercase;
+      width: 100%; height: auto; padding: 0; margin: 0 auto 20px 0; position: relative; @include box-sizing(border-box); color: $white; text-align: left; @include fluid-type(13px, 27px, 320px, 1200px); font-family: $semibold;
       & p {
-        color: $white; margin: 0; padding: 0;
+        color: $white; margin: 0; padding: 0; font-family: $semibold; @include fluid-type(13px, 27px, 320px, 1200px); line-height: 1;
       }
     }
-    & .btn-hero {
+    &__btn {
       width: 100%; height: auto; padding:0 ; margin: 0; position: relative; @include box-sizing(border-box); text-align: left;
     }
   }
@@ -86,7 +88,7 @@ article.maps {
   @media all and (min-width: 1024px) {
     height: 500px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 992px) {
     height: 620px;
   }
   body.is-preload & {
