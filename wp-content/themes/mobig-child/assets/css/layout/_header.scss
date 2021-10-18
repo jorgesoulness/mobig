@@ -3,7 +3,7 @@
    ======================= */
 
 .g-header {
-  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.65); box-shadow: none; z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
+  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col6, 0.70); box-shadow: none; z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
   &.activeHead {
     background-color: $col1; top: 0; box-shadow: 0 4px 8px rgba($black, 0.20);
   }
@@ -32,7 +32,7 @@
     ul {
       width: 100%; height: auto; padding: 0; margin: 0 0 0 0; list-style-type: none; @include displayFlex(flex, row, flex-end, center, wrap);
       li {
-        list-style-type: none; padding: 0; margin: 0 25px 0 0;
+        list-style-type: none; padding: 0; margin: 0 25px 0 0; position: relative;
         &.menuIemHover {
           & > a {
             position: relative;
@@ -57,9 +57,11 @@
             }
           }
         }
-        &.secondary-menu {
-          &:after {
-            content: '\f078'; font-family: 'fontAwesome'; width: 15px; height: 15px; font-size: rem(8px); @include position(absolute, 2px -17px null null); text-align: center; line-height: 15px;
+        &.menu-item-has-children {
+          & > a {
+            &:after {
+              content: '\f0d7'; font-family: 'fontAwesome'; width: 15px; height: 12px; font-size: rem(12px); @include position(absolute, 0 -17px null null); text-align: center; line-height: 12px; color: $col2;
+            }
           }
         }
         & a {
@@ -85,75 +87,31 @@
         &:last-child {
           margin: 0 0 0 0;
         }
-        & .block-sub-menu {
-          width: 100%; height: auto!important; padding: 20px 0; margin: 0; background-color: $white; @include position(absolute, 100% null null 0); z-index: 90;
-          ul.menuCars {
-            width: 100%; height: auto; padding: 0; margin: 0 0 20px 0; list-style-type: none; @include displayFlex(flex, row, flex-start, flex-start, wrap);
-            li {
-              list-style-type: none; padding: 0 0; margin: 0 40px 0 0;
-              a {
-                color: $black; font-size: rem(14px); position: relative;
-                &:before {
-                  content: ''; width: 100%; height: 0; opacity: 0; padding: 0; margin: 0 0 0 0; background-color: $col1; @include position(absolute, -18px null null 0); @include transition(all 300ms ease);
-                }
-                // &.activo {
-                //   color: $col1;
-                //   &:before {
-                //     height: 3px; opacity: 1;
-                //   }
-                // }
-                &:hover {
-                  color: $col4;
-                  &:before {
-                    height: 3px; opacity: 1;
-                  }
-                }
-              }
-              &:last-child {
-                margin: 0 0 0 0;
-              }
-              &.activo {
-                a {
-                  color: $col1;
-                  &:before {
-                    height: 3px; opacity: 1;
-                  }
-                }
-              }
-            }
-          }
-        }
         &.activo {
           a {
             color: $col1;
           }
         }
-        &.subPosItem {
-          position: relative;
+        & > .sub-menu {
+          width: 200px; height: auto!important; padding: 0; margin: 0; background-color: $white; @include position(absolute, 100% null null 50%); @include transform(translateX(-50%)); z-index: 90; @include displayFlex(flex, column, center, center, wrap); border-radius: 0; display: none; @include transition(all 0.30s ease);
+          li {
+            padding: 0; margin: 0 auto; display: block; border-bottom: 0.6px solid rgba($col1, 0.30); width: 100%; text-align: left;
+            a {
+              font-size: rem(13px); text-align: center; color: $col1; display: block; text-align: left; padding: 5px 10px; margin: 0; @include box-sizing(border-box);
+              &:before {
+                display: none;
+              }
+            }
+            &:last-child {
+              border-bottom: none;
+            }
+          }
         }
-        // & > .sub-menu-desk {
-        //   width: 200px; height: auto!important; padding: 20px 0 14px 0; margin: 0; background-color: $white; @include position(absolute, 100% null null 50%); @include transform(translateX(-50%)); z-index: 90; @include displayFlex(flex, column, center, center, wrap); border-radius: 6px; display: none; @include transition(all 0.30s ease);
-        //   li {
-        //     padding: 5px 0; margin: 0 auto; display: block; border-bottom: 0.6px solid rgba($black, 0.30); width: calc(100% - 10px); text-align: center;
-        //     a {
-        //       font-size: rem(13px); text-align: center;
-        //       &:before {
-        //         display: none;
-        //       }
-        //     }
-        //     &:last-child {
-        //       border-bottom: none;
-        //     }
-        //   }
-        //   &:before {
-        //     content: ''; width: 100%; height: 3px; padding: 0; margin: 0 0 0 0; background-color: $col1; @include position(absolute, null null 0 0);
-        //   }
-        // }
-        // &:hover {
-        //   & > .sub-menu-desk {
-        //     display: block;
-        //   }
-        // }
+        &:hover {
+          & > .sub-menu {
+            display: block;
+          }
+        }
       }
     }
   }
