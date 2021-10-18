@@ -3,5 +3,9 @@
    ======================= */
 
 .g-footer {
+<<<<<<< HEAD
   width: 100%; height: auto; @include position(relative, null null null null); padding: 45px 0 40px 0; margin: 0; z-index: 4; background-color: $col1;
+=======
+  width: 100%; height: auto; @include position(inherit, null null 0 0); padding: 45px 0 40px 0; margin: 0; z-index: 4; background-color: $col1; z-index: 1;
+>>>>>>> 24da41a6d4d938b1698981fb533b5d0753a595b4
 }

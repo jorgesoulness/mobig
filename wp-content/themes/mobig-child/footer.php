@@ -20,22 +20,22 @@
                 <ul  class="">
                   <li class="">
                     <a href="" target="_blank">
-                      <img src="wp-content/themes/mobig-child/assets/img/Iconos-twitter.svg" class="" width="10%" alt="Icon-twitter" />
+                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-twitter.svg" class="" width="10%" alt="Icon-twitter" />
                     </a>
                   </li>
                   <li class="">
                     <a href="" target="_blank">
-                      <img src="wp-content/themes/mobig-child/assets/img/Iconos-face.svg" class="" width="10%" alt="Icon-face" />
+                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-face.svg" class="" width="10%" alt="Icon-face" />
                     </a>
                   </li>
                   <li class="">
                     <a href="" target="_blank">
-                      <img src="wp-content/themes/mobig-child/assets/img/Iconos-IG.svg" class="" width="10%" alt="Icon-ig" />
+                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-IG.svg" class="" width="10%" alt="Icon-ig" />
                     </a>
                   </li>
                   <li class="">
                     <a href="" target="_blank">
-                      <img src="wp-content/themes/mobig-child/assets/img/Iconos-YT.svg"class="" width="10%" alt="Icon-yt" />
+                      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos-YT.svg"class="" width="10%" alt="Icon-yt" />
                     </a>
                   </li>
                 </ul>
@@ -46,7 +46,7 @@
                   <span>Atención a Clientes: </span>
                     <a href="tel:+5280066244">
                     <span>800</span>
-                     <img src="wp-content/themes/mobig-child/assets/img/Iconos o moBig.svg"  alt="logooMoBig" />
+                     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg"  alt="logooMoBig" />
                   </a>
                  
               </div><!-- end.col-* -->
@@ -58,7 +58,7 @@
             <div class="row">
               <div class="col-12 col-md-3">
                 <a href="/">
-                  <img src="wp-content/themes/mobig-child/assets/img/Iconos o moBig.svg" alt="logoMoBig" />
+                  <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg" alt="logoMoBig" />
                 </a>
               </div>
               <div class="col-12 col-md-3">

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Inicio
+ * Template name: Pospago
  *
  * @package moBig_Child
  * 
