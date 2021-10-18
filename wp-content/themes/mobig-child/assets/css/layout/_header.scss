@@ -3,21 +3,24 @@
    ======================= */
 
 .g-header {
-  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: $col1; box-shadow: 0 4px 8px rgba($black, 0.20); z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
+  width: 100%; height: auto; @include position(fixed, 0 null null 0); padding: 10px 0; margin: 0; background-color: rgba($col1, 0.30); box-shadow: 0 4px 8px rgba($black, 0.20); z-index: 100;@include transition(transform 200ms ease, all 0.25s); @include display(flex);
   &.activeHead {
     background-color: $white; top: 0;
   }
 }
-
+  
 .brand {
   width: 100%; height: auto; padding: 0; margin: 0;
-  a {
-    display: block;
+  & a {
+    display: inline-block; padding: 0; margin: 0; opacity: 1; @include transition(opacity 2.5s ease 0.75s); @include animation(none);
     img {
-      display: block; width: 100%; max-width: 40px; height: auto; margin: 0 auto 0 0; padding: 0;
+      display: block; width: 100%; max-width: 35px; height: auto; margin: 0 auto 0 0; padding: 0;
     }
     .site-title {
       font-size: 0; text-indent: -9999px; color: $white; opacity: 0; margin: 0; padding: 0;
+    }
+    body.is-preload & {
+      opacity: 0;
     }
   }
 }

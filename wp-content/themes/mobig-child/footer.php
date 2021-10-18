@@ -164,10 +164,12 @@
 
         <script>
           $('body').show();
-          $('.version').text(NProgress.version);
+          // $('.version').text(NProgress.version);
           NProgress.start();
-          setTimeout(function() {
-            NProgress.done(); $('.fadeX').addClass('out');
+          setTimeout(function () {
+            NProgress.done();
+            $('.fadeX').addClass('out');
+            $('body').removeClass('is-preload');
           }, 1000);
 
           // $("#b-0").click(function() { NProgress.start(); });
