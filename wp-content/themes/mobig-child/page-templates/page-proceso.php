@@ -48,7 +48,7 @@
         </div><!-- end.row -->
 
         <div class="row d-flex justify-content-center">
-          <div class="col-6 contentGralStep step1">
+          <div class="col-6 contentGralStep step1" style="display:none;">
             <h3>Ingresa tu IMEI</h3>
             <hr/>
             <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
