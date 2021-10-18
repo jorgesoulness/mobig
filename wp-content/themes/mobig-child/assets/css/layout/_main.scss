@@ -11,3 +11,20 @@ main {
 article {
   width: 100%; height: auto; padding: 0; margin: 0; position: relative;
 }
+
+article.maps {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 0 4px #FFA800;
+    text-align: center;
+}
+
+#mapa {
+    height: 400px;
+    padding: 0;
+    margin-bottom: 20px;
+}

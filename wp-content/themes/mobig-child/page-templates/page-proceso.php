@@ -32,7 +32,7 @@
           <div class="col-6 contentControlsStep">
             <ul>
               <li class="stepIcon step1">
-                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/iconChip.svg" alt="" class="w-50" />
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/iconChip.svg" alt="" class="w-50 stepActive" />
                 <small>Valida tu equipo</small>
               </li>
               <li class="stepIcon step2">
@@ -48,14 +48,24 @@
         </div><!-- end.row -->
 
         <div class="row d-flex justify-content-center">
-          <div class="col-6 contentGralStep">
+          <div class="col-6 contentGralStep step1">
             <h3>Ingresa tu IMEI</h3>
             <hr/>
             <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
             <br/>
             <small>¿Necesitas ayuda? <i class="fa fa-question-circle"></i> </small>
-            <input type="text" minlength="15" maxlength="16" name="inpIMEI" id="inpIMEI" class="form-control required" placeholder="]Ingresa los 15 o 16 dígitos de tu IMEI" />
-            <button id="bntIMEI" class="btn btn-sumbit">Siguiente</button>
+            <input type="text" minlength="15" maxlength="16" name="inpIMEI" id="inpIMEI" class="form-control required" placeholder="Ingresa los 15 o 16 dígitos de tu IMEI*" />
+            <button id="bntIMEI" class="btn btn-sumbit" for="step2">Siguiente</button>
+          </div>
+
+          <div class="col-6 contentGralStep step2">
+            <h3>Ingresa tu IMEI</h3>
+            <hr/>
+            <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
+            <br/>
+            <small>¿Necesitas ayuda? <i class="fa fa-question-circle"></i> </small>
+            <input type="text" minlength="15" maxlength="16" name="inpIMEI" id="inpIMEI" class="form-control required" placeholder="Ingresa los 15 o 16 dígitos de tu IMEI*" />
+            <button id="bntIMEI" class="btn btn-sumbit" for="step2">Siguiente</button>
           </div>
         </div>
       </div><!-- end.container -->

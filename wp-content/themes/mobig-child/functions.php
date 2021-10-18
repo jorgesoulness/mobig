@@ -53,6 +53,7 @@ function mobig_child_setup() {
 add_action( 'after_setup_theme', 'mobig_child_setup' );
 //Se agregan recursos CSS & JS del tema hijo.
 function mobig_head() {
+  global $post;
   $versionFiles = rand();
   wp_enqueue_style( 'google-mobig-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', array(), null );
   // CSS
@@ -81,6 +82,13 @@ function mobig_head() {
 	wp_enqueue_script( 'wow.min', get_stylesheet_directory_uri() . '/assets/js/plugins/wow.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'slick.min', get_stylesheet_directory_uri() . '/assets/js/plugins/slick.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'layout.min', get_stylesheet_directory_uri() . '/assets/js/scripts/layoutScripts.min.js', array(), $versionFiles, true);
+
+
+  if (is_page('Cobertura')) {
+    
+    wp_enqueue_script( 'coberturaGoogle', 'https://maps.google.com/maps/api/js?sensor=true', array(), $versionFiles, true);
+    wp_enqueue_script( 'cobertura', get_stylesheet_directory_uri() . '/assets/js/scripts/cobertura.js', array(), $versionFiles, true);
+  }
 }
 add_action( 'wp_enqueue_scripts', 'mobig_head' );
 
