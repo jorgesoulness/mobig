@@ -14,12 +14,12 @@
       <div class="slideCt">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-7 col-lg-8">
+            <div class="col-12 col-lg-8">
               <div class="slideCt__slide">
 
                 <div>
                   <figure class="slideCt__box">
-                    <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
+                    <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
                       <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
                       <div class="desc-hero">
@@ -33,7 +33,7 @@
                 </div><!-- end.item_slide -->
                 <div>
                   <figure class="slideCt__box">
-                    <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
+                    <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
                       <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
                       <div class="desc-hero">
@@ -53,60 +53,67 @@
         <button class="btnSlideProd bLeftP" id="prevslideHomeMain"></button>
         <button class="btnSlideProd nRightP" id="nextslideHomeMain"></button>
       </div><!-- end.slideCt -->
-      <img class="imgHeroAbs" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" alt="">
+      <img class="imgDots" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/dots.svg" alt="Dots">
+      <img class="circleAbs" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
+      <img class="triangleAbs" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/flecha amarillas-02.svg" alt="Triangulo">
+      <img class="imgHeroAbs" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/header3b2.png" alt="Header">
     </section><!-- end.hero-sec -->
 
     <section class="cobertura-sec">
       <div class="container">
         <div class="row">
-          <h2>En moBig conectamos en grande.</h2>
-          <a href="/cobertura" class="">Cobertura</a>
+          <div class="col-12">
+            <div class="boxCober">
+              <h2>En moBig conectamos en grande.</h2>
+              <a href="<?php echo site_url(''); ?>/cobertura" class="btnGen btnGen__item btnGen__item--pink">Cobertura</a>
+            </div>
+          </div><!-- end.col-* -->
         </div><!-- end.row -->
       </div><!-- end.container -->
     </section><!-- end.cobertura-sec -->
 
     <section class="zonawifi-sec">
       <div class="container">
-            <!-- Control the column width, and how they should appear on different devices -->
-
-            <!-- Or let Bootstrap automatically handle the layout -->
-            <div class="row">
-              <div class="col-sm-4">
-                <h1>¡Quédate con tu número de siempre! </h1>
-                <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="boxZona">
+              <h1>¡Quédate con tu número de siempre! </h1>
+              <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
+              <div class="boxZona__btns">
                 <a href="" class="">Ver planes Prepago</a>
                 <a href="" class="">Ver planes pospago</a>
-
+              </div><!-- end.boxZona__btns -->
+            </div><!-- end.boxZona -->
+          </div><!-- end.col-* -->
+          <div class="col-sm-8" style="background-color:orange;">
+             <div class="row">
+                <div class="col-sm-4">Prepago</div>
+                <div class="col-sm-4">Pospago</div>
+                <div class="col-sm-4">Contrata 7 y obtén 12</div>
               </div>
-              <div class="col-sm-8" style="background-color:orange;">
-                 <div class="row">
-                    <div class="col-sm-4">Prepago</div>
-                    <div class="col-sm-4">Pospago</div>
-                    <div class="col-sm-4">Contrata 7 y obtén 12</div>
-                  </div>
-                  <figure class="figure">
-                    <img src="" class="figure-img img-fluid rounded" alt="">
-                    <figcaption class="figure-caption text-end">
-                      <label>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</label>
-                      <a href="">Conocer más</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="figure">
-                    <img src="" class="figure-img img-fluid rounded" alt="">
-                    <figcaption class="figure-caption text-end">
-                      <label>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</label>
-                      <a href="">Conocer más</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="figure">
-                    <img src="" class="figure-img img-fluid rounded" alt="">
-                    <figcaption class="figure-caption text-end">
-                      <label>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</label>
-                      <a href="">Conocer más</a>
-                    </figcaption>
-                  </figure>
-              </div>
-            </div>
+              <figure class="figure">
+                <img src="" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-end">
+                  <label>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</label>
+                  <a href="">Conocer más</a>
+                </figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-end">
+                  <label>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</label>
+                  <a href="">Conocer más</a>
+                </figcaption>
+              </figure>
+              <figure class="figure">
+                <img src="" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-end">
+                  <label>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</label>
+                  <a href="">Conocer más</a>
+                </figcaption>
+              </figure>
+          </div>
+        </div><!-- end.row -->
       </div><!-- end.container -->
     </section><!-- end.zonawifi-sec -->
 

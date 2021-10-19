@@ -38,8 +38,23 @@ article.maps {
     }
     &__box {
       width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
-      & img {
-        display: block; width: 100%; max-width: 400px; height: auto; margin: 0 0 25px; padding: 0;
+      & .imgFig {
+        display: block; width: 100%; max-width: 150px; height: auto; margin: 0 0 25px; padding: 0;
+      }
+      @media all and (min-width: 768px) {
+        & .imgFig {
+          max-width: 250px;
+        }
+      }
+      @media all and (min-width: 992px) {
+        & .imgFig {
+          max-width: 300px;
+        }
+      }
+      @media all and (min-width: 1024px) {
+        & .imgFig {
+          max-width: 350px;
+        }
       }
     }
     &__cap {
@@ -74,7 +89,67 @@ article.maps {
     }
   }
   & .imgHeroAbs {
-    @include position(absolute, 0 0 null null); width: auto; height: 100%; padding: 0; margin: 0; z-index: 1; opacity: 1; @include transition(opacity 300ms ease-in 1s);
+    @include position(absolute, 0 0 null null); width: 100%; max-width: 660px; height: auto; padding: 0; margin: 0; z-index: 1; opacity: 1; @include transition(opacity 300ms ease-in 1s); display: none;
+    @media all and (min-width: 992px) {
+      max-width: 545px; display: block;
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 595px;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 660px;
+    }
+  }
+  & .imgDots {
+    @include position(absolute, null 20px 30px null); display: block; width: 100%; max-width: 320px; height: auto; padding: 0; margin: 0; z-index: 2; display: none;
+    @media all and (min-width: 992px) {
+      max-width: 250px; display: block;
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 290px;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 320px;
+    }
+  }
+  & .circleAbs {
+    @include position(absolute, 40px null null -170px); display: block; width: 100%; max-width: 200px; height: auto; padding: 0; margin: 0; z-index: 2;
+  }
+  & .triangleAbs {
+    @include position(absolute, 80px null null 95%); display: block; width: 100%; max-width: 20px; height: auto; padding: 0; margin: 0; z-index: 3;
+    @media all and (min-width: 768px) {
+      max-width: 30px;
+    }
+    @media all and (min-width: 992px) {
+      max-width: 30px; top: 160px; left: 50%; @include transform(translateY(-50%));
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 40px; top: 190px;
+    }
+    @media all and (min-width: 1200px) {
+      max-width: 50px; top: 240px;
+    }
+  }
+  & .slick-dots {
+    bottom: -25px;
+    & li {
+      & button {
+        width: 10px; height: 10px;
+        &:before {
+          background-color: rgba($white, 0.50); width: 10px; height: 10px;
+        }
+        &:after {
+          content: ''; @include position(absolute, -4px null null -4px); width: 18px; height: 18px; border-radius: 50%; background-color: transparent; border: 1px solid $white; opacity: 0; @include transition(all 300ms ease);
+        }
+      }
+      &.slick-active {
+        & button {
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+    }
   }
   @media all and (min-width: 768px) {
     height: 450px;
@@ -85,11 +160,14 @@ article.maps {
   // @media all and (min-width: 992px) {
   //   background-attachment: fixed;
   // }
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 992px) {
     height: 500px;
   }
-  @media all and (min-width: 992px) {
-    height: 620px;
+  @media all and (min-width: 1024px) {
+    height: 550px;
+  }
+  @media all and (min-width: 1200px) {
+    height: 610px;
   }
   body.is-preload & {
     > .slideCt {
@@ -99,4 +177,14 @@ article.maps {
       opacity: 0;
     }
 	}
+}
+
+// Cobertura
+.cobertura-sec {
+  width: 100%; height: auto; padding: 25px 0 20px; margin: 0; @include box-sizing(border-box); background-color: $col5;
+}
+
+// Zona wifi
+.zonawifi-sec {
+  width: 100%; height: auto; padding: 30px 0; margin: 0; @include box-sizing(border-box); background-color: $white; position: relative;
 }
