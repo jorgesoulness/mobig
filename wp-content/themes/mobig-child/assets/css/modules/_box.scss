@@ -85,3 +85,29 @@
     margin: 0;
   }
 }
+
+.datosContact {
+  width: 100%; height: auto; padding: 0; margin: 0; position: relative; @include box-sizing(border-box); @include display(flex); @include flex-direction(row); @include align-items(center);
+  &__img {
+    margin: 0; padding: 0; @include box-sizing(border-box); @include flex(1 1 0); position: relative;
+    & img {
+      width: 150px; height: auto; margin: 0; padding: 0; border: 0; display: block;
+    }
+  }
+  &__desc {
+    margin: 0; padding: 0; @include box-sizing(border-box); @include flex(2 1 0); position: relative;
+    & p {
+      color: $col3; margin: 0; padding: 0; line-height: 1; text-align: left; font-family: $semibold; @include fluid-type(13px, 20px, 320px, 1200px);
+    }
+  }
+}
+
+.descConacto {
+  margin: 0 0 30px; padding: 0; display: block; width: 100%; height: auto; @include box-sizing(border-box); position: relative;
+  & h2 {
+    color: $col1; margin: 0 0 20px; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(18px, 40px, 320px, 1200px); letter-spacing: 1.5px;
+  }
+  & p {
+    color: $col3; margin: 0; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(13px, 26px, 320px, 1200px);
+  }
+}
