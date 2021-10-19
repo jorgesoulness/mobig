@@ -11,18 +11,21 @@
 
   <article class="bg-gen">
    
-    <section class="hero-sec">
-      <div class="container">
-        <div class="row">
-            <img src=""<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg" class="w-50" alt="logoMoBig" />
-            <h1>PREPAGO</h1>
-            <p>Una vez realizado el proceso de portabilidad elige uno de los planes que se adapten mejor a tus necesidades y recarga por medio de nuestra página de internet, app, call center o en más de nuestros 4000 puntos.</p>
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/4571203.png" alt="header-section" class="w-50" />
-        </div><!-- end.row -->
-      </div><!-- end.container -->
+    <section class="bannerInt bannerIntTel">
+      <div class="titleInt">
+        <div class="container">
+          <div class="row">
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" class="bannerIntTel__imgFig" alt="logoMoBig" />
+            <h1 class="bannerIntTel__title">PREPAGO</h1>
+            <p class="bannerIntTel__desc">Una vez realizado el proceso de portabilidad elige uno de los planes que se adapten mejor a tus necesidades y recarga por medio de nuestra página de internet, app, call center o en más de nuestros 4000 puntos.</p>
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/header.png" alt="bannerIntTel__Bgs" class=" bannerIntTel__Bgs" />
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div>
     </section><!-- end.hero-sec -->
 
     <section class="telPre-sec"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
+    <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="maskFlechas" />
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
@@ -32,8 +35,8 @@
             </div>
             <div class="row justify-content-center">
               <div class="card col-sm-3" >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN INDIVIDUAL</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4 class="card__telPre__gigas">2GB</h4>
@@ -48,8 +51,8 @@
                 </div>
               </div>
               <div class="card col-sm-3" >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN INDIVIDUAL</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4 class="card__telPre__gigas">5GB</h4>
@@ -64,8 +67,8 @@
                 </div>
               </div>
               <div class="card col-sm-3" >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN INDIVIDUAL</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4 class="card__telPre__gigas">10GB</h4>
@@ -89,8 +92,8 @@
           <div class="col-sm-11">
           <div class="row d-flex justify-content-center">
               <div class="card col-sm-3 cardCustom" >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN COMPARTE</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
                 </div>
                 <div class="card-body card__telPre text-center">                  
                   <h4 class="card__telPre__gigas">5GB</h4>
@@ -105,8 +108,8 @@
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom">
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN INDIVIDUAL</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
                 <div class="card-body card__telPre text-center">                  
                   <h4 class="card__telPre__gigas">20GB</h4>
@@ -122,8 +125,8 @@
               </div>
 
               <div class="card col-sm-3 cardCustom " >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN COMPARTE</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4 class="card__telPre__gigas">20GB</h4>
@@ -139,8 +142,8 @@
               </div>
 
               <div class="card col-sm-3 cardCustom" >
-                <div class="card-header card__header">
-                  <h3 class="card-title text-center card__header--title">PLAN COMPARTE</h3>
+                <div class="card-header card__header card__header--yellow">
+                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4 class="card__telPre__gigas">Ilimitado</h4>

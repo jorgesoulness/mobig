@@ -319,24 +319,39 @@ article.maps {
     color: $col11;
     font-family: $regular;
   }
+  padding-bottom: 2%;
+  img.maskFlechas{
+    max-width: 30px;
+    top: 240px;
+    right: 4%;
+    position: absolute;
+  }
 }
 .card{
   margin: 1%;
   padding: 0% !important;
   border-radius: 15px;
-  &__header{
-    background-color: $col2;
+  &__header{    
+    &--yellow{
+      background-color: $col2;
+    }
+    &--pink{
+      background-color: $col1;
+    }
     --bs-gutter-x: 0rem;
     width: 100% important;
     border: none;
     padding: 1rem 1rem .5rem;
     border-radius: 15px 15px 0px 0px !important;
-    &--title{
+    &__title{
       font-size: 1.5em;
       color: $white;
     }
   }
   box-shadow: 0 4px 10px rgba($black, 0.25);
+  &:hover{
+    box-shadow: 0 7px 15px rgba($col1, 0.5);
+  }
   .card__telPre{
     border-radius: 25px;
     background-color: white;
@@ -380,6 +395,9 @@ article.maps {
       width: 150px;
       text-align: center;
       font-family: $regular;
+      &:hover{
+        background-color: $col1;
+      }
     }
 
   }
@@ -401,4 +419,20 @@ article.maps {
 }
 .formcontacto-sec {
   width: 100%; height: auto; padding: 30px 0 20px; margin: 0; @include box-sizing(border-box); position: relative; background-attachment: local; background-position: -150px; background-repeat: no-repeat; background-size: contain; background-color: $white; background-image: url('#{$imgR}contacto/bg_contacto.svg');
+}
+
+.bannerIntTel{
+  &__imgFig{
+    max-width: 20%;
+  }
+  &__desc{
+    font-size: 25px !important;
+    width: 70%;
+  }
+  &__Bgs{
+    right: -1%;
+    position: absolute;
+    width: 33%;
+    bottom: -24%;
+  }
 }
