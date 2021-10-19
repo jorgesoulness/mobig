@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Mifi
+ * Template name: Mifi-Pospago
  *
  * @package moBig_Child
  * 
@@ -17,7 +17,7 @@
             <img src=""<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/Iconos o moBig.svg" class="w-50" alt="logoMoBig" />
             <h1>TEN LA SEGURIDAD QUE SIEMPRE ESTARAS CONECTADO</h1>
             <p>moBig Mifi es tu propia zona Wifi, sin importar donde vayas el internet te acompaña.</p>
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/4571203.png" alt="header-section" class="w-50" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi-pospago/4571203.png" alt="header-section" class="w-50" />
         </div><!-- end.row -->
       </div><!-- end.container -->
     </section><!-- end.hero-sec -->
@@ -26,7 +26,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/mifi.png" class="w-50" alt="mifi" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi-pospago/header-mifi.png" class="w-50" alt="mifi" />
           </div>
           <div class="col-sm-6">
             <h1>MIFI ES NUESTRO MODEM INALÁMBRICO</h1>
@@ -41,11 +41,11 @@
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row">
-              <h1>APROVECHA NUESTROS PLANES PREPAGO</h1>
-              <p>Sin importar donde vayas con moBig Mifi tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
+              <h1>APROVECHA NUESTROS PLANES POSPAGO</h1>
+              <p>Conoce todos nuestros planes de pospago con los mejores precios del mercado con un cargo mensual a tu tarjeta de crédito o débito.</p>
             </div>
             <div class="row">
-              <div class="card col-sm-4" >
+              <div class="card col-sm-3" >
                 <div class="card-body">
                   <h3 class="card-title text-center">PLAN MIFI 1</h3>
                   <h4>5GB</h4>
@@ -53,11 +53,12 @@
                   <ul>
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-4" >
+              <div class="card col-sm-3" >
                 <div class="card-body">
                   <h3 class="card-title text-center">PLAN MIFI 2</h3>
                   <h4>10GB</h4>
@@ -65,11 +66,12 @@
                   <ul>
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>10 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-4" >
+              <div class="card col-sm-3" >
                 <div class="card-body text-center">
                   <h3 class="card-title">PLAN MIFI 3</h3>
                   <h4>20GB</h4>
@@ -77,11 +79,12 @@
                   <ul>
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-4" >
+              <div class="card col-sm-3" >
                 <div class="card-body">
                   <h3 class="card-title text-center">PLAN MIFI 4</h3>
                   <h4>50GB</h4>
@@ -89,11 +92,13 @@
                   <ul>
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-4" >
+
+              <div class="card col-sm-3" >
                 <div class="card-body">
                   <h3 class="card-title text-center">PLAN MIFI 5</h3>
                   <h4>100GB</h4>
@@ -101,10 +106,50 @@
                   <ul>
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>100 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
+              <div class="card col-sm-3" >
+                <div class="card-body">
+                  <h3 class="card-title text-center">ADICIONAL 1</h3>
+                  <h4>1GB</h4>
+                  <h1>$30</h1>
+                  <ul>
+                    <li><i class="fa fa-check-circle"></i> <p>1 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Finaliza al consumir datos</p></li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              
+              <div class="card col-sm-3" >
+                <div class="card-body">
+                  <h3 class="card-title text-center">ADICIONAL 2</h3>
+                  <h4>2.5GB</h4>
+                  <h1>$50</h1>
+                  <ul>
+                    <li><i class="fa fa-check-circle"></i> <p>2.5 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Finaliza al consumir datos</p></li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+
+              <div class="card col-sm-3" >
+                <div class="card-body">
+                  <h3 class="card-title text-center">ADICIONAL 3</h3>
+                  <h4>5GB</h4>
+                  <h1>$100</h1>
+                  <ul>
+                    <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación en territorio nacional</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Finaliza al consumir datos</p></li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div><!-- end.row -->
@@ -119,23 +164,23 @@
               <h1>¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
             </div>
             <div class="row">
-              <?php if( have_rows('faqs_mifi') ):
+              <?php if( have_rows('faqs_mifi_pospago') ):
               $row = 0;
               ?>
                 <div class="col-sm-10">
                 <div class="accordion" id="accordionExample">
-                <?php while( have_rows('faqs_mifi') ): the_row();
+                <?php while( have_rows('faqs_mifi_pospago') ): the_row();
                     ?>
 
                     <div class="accordion-item col-sm-6">
                       <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
-                          <?php the_sub_field('pregunta_field'); ?>
+                          <?php the_sub_field('pregunta_pospago_field'); ?>
                         </button>
                       </h2>
                       <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <p><?php the_sub_field('respuesta_field'); ?></p>
+                          <p><?php the_sub_field('respuesta_pospago_field'); ?></p>
                         </div>
                       </div>
                     </div>
