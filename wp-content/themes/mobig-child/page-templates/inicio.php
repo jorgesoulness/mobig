@@ -76,7 +76,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
-            <div class="boxZonaDesc">
+            <div class="boxZonaDesc wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1s">
               <h1>¡Quédate con tu número de siempre! </h1>
               <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
               <div class="boxZonaDesc__btns">
@@ -86,7 +86,7 @@
             </div><!-- end.boxZonaDesc -->
           </div><!-- end.col-* -->
           <div class="col-12 col-md-4 col-lg">
-            <div class="boxZona">
+            <div class="boxZona wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
               <h5 class="boxZona__title">Prepago</h5>
               <div class="boxZona__desc">
                 <p>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</p>
@@ -97,7 +97,7 @@
             </div><!-- end.boxZona -->
           </div><!-- end.col-* -->
           <div class="col-12 col-md-4 col-lg">
-            <div class="boxZona">
+            <div class="boxZona wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
               <h5 class="boxZona__title">Pospago</h5>
               <div class="boxZona__desc">
                 <p>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</p>
@@ -108,7 +108,7 @@
             </div><!-- end.boxZona -->
           </div><!-- end.col-* -->
           <div class="col-12 col-md-4 col-lg">
-            <div class="boxZona">
+            <div class="boxZona wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
               <h5 class="boxZona__title">Contrata 7 y obtén 12</h5>
               <div class="boxZona__desc">
                 <p>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</p>
@@ -122,62 +122,66 @@
       </div><!-- end.container -->
     </section><!-- end.zonawifi-sec -->
 
-
-    <section class="beneficios-sec">
-      <div class="container">
-        <div class="row">
-          <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/4571203.png" alt="" class="w-50" />
-          <h1>Disfruta de tu propia zona wifi</h1>
-          <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
-          <a href="" class="">Conoce más</a>
-        </div><!-- end.row -->
-      </div><!-- end.container -->
+    <section class="beneficios-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/4571203.png);">
+      <div class="benefitsCt">
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-12 col-md-7 col-lg-6">
+              <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1s">
+                <h3>Disfruta de tu propia zona wifi</h3>
+                <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
+                <div class="benefitsCt__btn">
+                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
+                </div>
+              </div>
+            </div><!-- end.col-* -->
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div><!-- end.benefitsCt -->
+      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
     </section><!-- end.beneficios-sec -->
 
-    <section class="beneficios-sec">
+    <section class="beneficiosct">
       <div class="container">
-        <div class="row">
-          <h1>Los beneficios de estar con moBig</h1>
-          <figure class="figure beneficioPlanes">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="figure-img img-fluid rounded w-50" alt="Beneficios-planes" />
-            <figcaption class="figure-caption text-end">
-              <label>Te ofrecemos planes de prepago desde $30, planes de pospago desde $100 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</label>
-              <a href="">Conocer más</a>
-            </figcaption>
-          </figure>
-          <figure class="figure">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="figure-img" alt="beneficios-linea" />
-            <figcaption class="figure-caption text-end">
-              <label>Porta tu línea y quédate con tu número de toda la vida.</label>
-              <a href="">Conocer más</a>
-            </figcaption>
-          </figure>
-          <figure class="figure">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-06.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-velocidad" />
-            <figcaption class="figure-caption text-end">
-              <label>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G.</label>
-              <a href="">Conocer más</a>
-            </figcaption>
-          </figure>
-          <figure class="figure">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-07.svg" class="figure-img img-fluid rounded w-50" alt="beneficios-cobertura" />
-            <figcaption class="figure-caption text-end">
-              <label>Mantente conectado en cualquier parte del mundo, con nuestra cobertura nacional e internacional.</label>
-              <a href="">Conocer más</a>
-            </figcaption>
-          </figure>
-
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h2 class="beneficiosct__title wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="1s">Los beneficios de estar con moBig</h2>
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-5 col-lg-3">
+            <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.4s" data-wow-duration="1s">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="beneficiosct__img" alt="Beneficios-planes">
+              <figcaption class="beneficiosct__cap">
+                <p>Te ofrecemos planes de prepago desde $30, planes de pospago desde $100 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</p>
+              </figcaption><!-- end.beneficiosct__cap -->
+            </figure><!-- end.beneficiosct__fig -->
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-5 col-lg-3">
+            <figure class="beneficiosct__fig beneficiosct__fig--pink wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="beneficiosct__img" alt="beneficios-linea">
+              <figcaption class="beneficiosct__cap">
+                <p>Porta tu línea y quédate con tu número de toda la vida.</p>
+              </figcaption><!-- end.beneficiosct__cap -->
+            </figure><!-- end.beneficiosct__fig -->
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-5 col-lg-3">
+            <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-06.svg" class="beneficiosct__img" alt="beneficios-velocidad">
+              <figcaption class="beneficiosct__cap">
+                <p>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G.</p>
+              </figcaption><!-- end.beneficiosct__cap -->
+            </figure><!-- end.beneficiosct__fig -->
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-5 col-lg-3">
+            <figure class="beneficiosct__fig beneficiosct__fig--pink wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-07.svg" class="beneficiosct__img" alt="beneficios-cobertura">
+              <figcaption class="beneficiosct__cap">
+                <p>Mantente conectado en cualquier parte del mundo, con nuestra cobertura nacional e internacional.</p>
+              </figcaption><!-- end.beneficiosct__cap -->
+            </figure><!-- end.beneficiosct__fig -->
+          </div><!-- end.col-* -->
         </div><!-- end.row -->
       </div><!-- end.container -->
-    </section><!-- end.beneficios-sec -->
-
-        <section class="beneficios-sec">
-      <div class="container">
-        <div class="row">
-
-        </div><!-- end.row -->
-      </div><!-- end.container -->
-    </section><!-- end.beneficios-sec -->
+    </section><!-- end.beneficiosct -->
 
   </article><!-- end.article inicio -->
 

@@ -85,6 +85,7 @@ function headScrolDown() {
 $(function(){
   scrolMenu();
   headScrolDown();
+  WowData();
   
   // Menu Mobile
   $('#md').clone().prependTo('#contListMenu').removeAttr('id').show();

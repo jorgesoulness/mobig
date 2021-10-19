@@ -157,9 +157,6 @@ article.maps {
       bottom: 60px;
     }
   }
-  // @media all and (min-width: 992px) {
-  //   background-attachment: fixed;
-  // }
   @media all and (min-width: 992px) {
     height: 500px;
   }
@@ -171,7 +168,7 @@ article.maps {
   }
   body.is-preload & {
     > .slideCt {
-      @include transform(translate(-0.5em, -50%)); @include filter(blur(0.125em));
+      @include transform(translate(-0.5em, -50%)); @include filter(blur(0.125em)); opacity: 0;
 		}
     > .imgHeroAbs {
       opacity: 0;
@@ -187,4 +184,72 @@ article.maps {
 // Zona wifi
 .zonawifi-sec {
   width: 100%; height: auto; padding: 40px 0; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($white, $col5);
+}
+
+// Beneficios
+.beneficios-sec {
+  width: 100%; height: 300px; @include position(relative, null null null null); padding: 0; margin: 0; background-position: -450px; background-repeat: no-repeat; background-size: cover; overflow: hidden; background-color: $white;
+  & .benefitsCt {
+    z-index: 3; @include position(absolute, 50% null null 0); @include transform(translateY(-50%)); width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
+    &__box {
+      width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
+      & h3 {
+        color: $col1; margin: 0 0 20px; padding: 0; line-height: 1; text-align: left; font-family: $extrabold; @include fluid-type(18px, 30px, 320px, 1200px); text-transform: uppercase;
+      }
+      & p {
+        color: $col3; margin: 0 0 20px; padding: 0; line-height: 1.2; text-align: left; font-family: $semibold; @include fluid-type(13px, 18px, 320px, 1200px);
+      }
+    }
+    &__btn {
+      width: 100%; height: auto; padding:0 ; margin: 0; position: relative; @include box-sizing(border-box); text-align: left;
+    }
+  }
+  & .circleBen {
+    @include position(absolute, 50% -170px null null); @include transform(translateY(-50%)); display: block; width: 100%; max-width: 200px; height: auto; padding: 0; margin: 0; z-index: 2;
+  }
+  @media all and (min-width: 576px) {
+    height: 350px;
+  }
+  @media all and (min-width: 768px) {
+    background-position: -160px; height: 400px; background-size: contain;
+  }
+  @media all and (min-width: 992px) {
+    background-position: -70px; height: 460px;
+  }
+  @media all and (min-width: 1024px) {
+    background-position: -50px;
+  }
+  @media all and (min-width: 1200px) {
+    background-position: left;
+  }
+}
+.beneficiosct {
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 40px 0; margin: 0; overflow: hidden; background-color: $white;
+  &__title {
+    color: $col2; margin: 0 0 20px; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(18px, 30px, 320px, 1200px);
+  }
+  &__fig {
+    width: 100%; height: auto; padding: 0; margin: 0 0 20px; @include box-sizing(border-box); position: relative; border-radius: 10px; border: 2px solid $col4;
+    &--gray {
+      border: 2px solid $col4;
+    }
+    &--pink {
+      border: 2px solid $col1;
+    }
+    @media all and (min-width: 768px) {
+      height: 190px;
+    }
+    @media all and (min-width: 992px) {
+      margin: 0; height: 207px;
+    }
+  }
+  &__img {
+    display: block; margin: 0 auto; padding: 0; width: 100%; max-width: 90px; height: auto; border: none;
+  }
+  &__cap {
+    margin: 0; padding: 0 15px 15px; display: block; width: 100%; height: auto; @include box-sizing(border-box); text-align: center;
+    & p {
+      @include fluid-type(10px, 12px, 320px, 1200px); margin: 0; padding: 0;
+    }
+  }
 }
