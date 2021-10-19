@@ -54,10 +54,22 @@
         background-color: $col6; color: $white!important;
       }
     }
+    &--yellow-outline {
+      background-color: transparent; border: 2px solid $col2; color: $white;
+      &:hover {
+        background-color: $col2; border-color: $col2; color: $white;
+      }
+    }
     &--pink {
       background-color: $col1; color: $white; border: 2px solid $col1;
       &:hover, &:focus {
         background-color: $col6; color: $white!important;
+      }
+    }
+    &--gray {
+      background-color: $col4; color: $white; border: 2px solid $col4;
+      &:hover, &:focus {
+        background-color: $col3; color: $white!important;
       }
     }
     &.disabled, &[data-disabled] {

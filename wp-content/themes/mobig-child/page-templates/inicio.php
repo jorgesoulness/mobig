@@ -75,44 +75,49 @@
     <section class="zonawifi-sec">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <div class="boxZona">
+          <div class="col-12 col-lg-4">
+            <div class="boxZonaDesc">
               <h1>¡Quédate con tu número de siempre! </h1>
               <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
-              <div class="boxZona__btns">
-                <a href="" class="">Ver planes Prepago</a>
-                <a href="" class="">Ver planes pospago</a>
-              </div><!-- end.boxZona__btns -->
+              <div class="boxZonaDesc__btns">
+                <a href="#" class="btnGen btnGen__item btnGen__item--pink">Ver planes Prepago</a>
+                <a href="#" class="btnGen btnGen__item btnGen__item--gray">Ver planes pospago</a>
+              </div><!-- end.boxZonaDesc__btns -->
+            </div><!-- end.boxZonaDesc -->
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-4 col-lg">
+            <div class="boxZona">
+              <h5 class="boxZona__title">Prepago</h5>
+              <div class="boxZona__desc">
+                <p>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</p>
+                <div class="boxZona__btn">
+                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                </div>
+              </div>
             </div><!-- end.boxZona -->
           </div><!-- end.col-* -->
-          <div class="col-sm-8" style="background-color:orange;">
-             <div class="row">
-                <div class="col-sm-4">Prepago</div>
-                <div class="col-sm-4">Pospago</div>
-                <div class="col-sm-4">Contrata 7 y obtén 12</div>
+          <div class="col-12 col-md-4 col-lg">
+            <div class="boxZona">
+              <h5 class="boxZona__title">Pospago</h5>
+              <div class="boxZona__desc">
+                <p>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</p>
+                <div class="boxZona__btn">
+                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                </div>
               </div>
-              <figure class="figure">
-                <img src="" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-end">
-                  <label>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</label>
-                  <a href="">Conocer más</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-end">
-                  <label>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</label>
-                  <a href="">Conocer más</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-end">
-                  <label>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</label>
-                  <a href="">Conocer más</a>
-                </figcaption>
-              </figure>
-          </div>
+            </div><!-- end.boxZona -->
+          </div><!-- end.col-* -->
+          <div class="col-12 col-md-4 col-lg">
+            <div class="boxZona">
+              <h5 class="boxZona__title">Contrata 7 y obtén 12</h5>
+              <div class="boxZona__desc">
+                <p>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</p>
+                <div class="boxZona__btn">
+                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                </div>
+              </div>
+            </div><!-- end.boxZona -->
+          </div><!-- end.col-* -->
         </div><!-- end.row -->
       </div><!-- end.container -->
     </section><!-- end.zonawifi-sec -->
