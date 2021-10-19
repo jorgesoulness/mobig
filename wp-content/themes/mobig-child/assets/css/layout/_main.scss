@@ -175,6 +175,60 @@ article.maps {
     }
 	}
 }
+.bannerInt {
+  width: 100%; height: 220px; @include position(relative, null null null null); padding: 0 0; margin: 0 auto 0 auto; background-color: $col1; overflow: hidden;
+  & .iconBg {
+    display: none; width: 100%; max-width: 475px; height: auto; padding: 0; margin: 0; @include position(absolute, -150px -110px null null); z-index: 1;
+  }
+  & .imgAbsBan {
+    display: block; width: 100%; height: auto; padding: 0; margin: 0; @include position(absolute, 0 0 null null); z-index: 2;
+  }
+  & .titleInt {
+    width: 100%; height: auto; padding: 0 0; margin: 0 0; @include position(absolute, null null 25px 0); z-index: 3;
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 10px 0; padding: 0; text-align: center; color: $col2; text-transform: uppercase; letter-spacing: 1.5px; @include fluid-type(18px, 38px, 320px, 1200px); font-family: $extrabold; line-height: 1;
+    }
+    p {
+      margin: 0; padding: 0; color: $white; text-align: center; @include fluid-type(18px, 30px, 320px, 1200px); font-family: $semibold; line-height: 1;
+    }
+    .logoInt {
+      display: block; width: 100%; max-width: 250px; height: auto; margin: 0 auto 0 auto; padding: 0 0;
+    }
+  }
+  @media all and (min-width: 576px) {
+    height: 250px;
+    & .titleInt {
+      bottom: 40px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    height: 300px;
+    & .iconBg {
+      max-width: 315px; top: -50px; right: -150px; display: block;
+    }
+    & .titleInt {
+      bottom: 50px;
+      h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+  @media all and (min-width: 992px) {
+    height: 320px;
+    & .iconBg {
+      max-width: 420px; top: -120px; right: -170px;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    height: 360px;
+    & .iconBg {
+      max-width: 475px; top: -150px; right: -110px;
+    }
+  }
+}
 
 // Cobertura
 .cobertura-sec {
@@ -333,4 +387,18 @@ article.maps {
 
 .cardCustom{
   width: 20%;
+}
+
+// Section Contacto
+.contactoDatos-sec {
+  width: 100%; height: auto; padding: 40px 0; margin: 0; @include box-sizing(border-box); position: relative; background-color: $white;
+  & .icArrows {
+    @include position(absolute, 40px null null 40px); display: block; width: 10px; height: auto; padding: 0; margin: 0; z-index: 1;
+  }
+  & .icCircle {
+    @include position(absolute, null 0 0 nul); display: block; width: 100px; height: auto; padding: 0; margin: 0; z-index: 1;
+  }
+}
+.formcontacto-sec {
+  width: 100%; height: auto; padding: 30px 0 20px; margin: 0; @include box-sizing(border-box); position: relative; background-attachment: local; background-position: -150px; background-repeat: no-repeat; background-size: contain; background-color: $white; background-image: url('#{$imgR}contacto/bg_contacto.svg');
 }
