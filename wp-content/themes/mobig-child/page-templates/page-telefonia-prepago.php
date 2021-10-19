@@ -30,7 +30,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center ">
-              <h1 class="telPre-sec__title">PLANES PREPAGO</h1>
+              <h1 class="telPre-sec__title--yellow">PLANES PREPAGO</h1>
               <p class="telPre-sec__desc">Decide el monto de recarga y ten la seguridad de que siempre podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto con tus seres queridos.</p>
             </div>
             <div class="row justify-content-center">

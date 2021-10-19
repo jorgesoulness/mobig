@@ -311,9 +311,20 @@ article.maps {
 .telPre-sec{
   width: 100%; height: auto; @include position(relative, null null null null); padding: 0; margin: 0; background-position:center; background-repeat: no-repeat; background-size: contain; overflow: hidden; background-color: $white;
   padding-top: 2%;
+  &--planSieteDoce{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: $col13;
+  }
   &__title{
-    color: $col2;
     font-family: $extrabold;
+    font-weight: bold;
+    &--pink{
+      color: $col1;
+    }
+    &--yellow{
+      color: $col2;
+    }
   }
   &__desc{
     color: $col11;
@@ -405,6 +416,9 @@ article.maps {
 
 .cardCustom{
   width: 20%;
+  &--big{
+    width: 23%;
+  }
 }
 
 // Section Contacto
@@ -449,4 +463,9 @@ article.maps {
     width: 33%;
     bottom: -24%;
   }
+}
+
+.cobertura-sec{
+  background-repeat: no-repeat;
+  right: 0%;
 }
