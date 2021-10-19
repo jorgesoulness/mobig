@@ -76,7 +76,7 @@
             <div class="frmSecConact">
               <form method="POST" name="frmContacto" id="frmContacto">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <div class="form-group animatedField">
                       <input type="text" name="inpNombre" id="inpNombre" class="form-control" required>
                       <label for="inpNombre">Nombre Completo*</label>
@@ -90,7 +90,7 @@
                       <label for="inpTel">Teléfono*</label>
                     </div>  
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <div class="form-group animatedTextArea">
                       <textarea id="mensaje" name="mensaje" rows="6" class="form-control" required></textarea>
                       <label for="mensaje">Mensaje</label>
@@ -107,6 +107,7 @@
           </div><!-- end.col-* -->
         </div><!-- end.row -->
       </div><!-- end.container -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/flecha-02.svg" alt="Icono" class="arrowContact">
     </section><!-- end.formcontacto-sec -->
   </article><!-- end.article inicio -->
 
