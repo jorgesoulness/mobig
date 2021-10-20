@@ -25,15 +25,9 @@
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/icono-bg.svg" alt="Icono" class="iconBg">
     </section><!-- end.hero-sec -->
 
-<<<<<<< HEAD
-    <section class="telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
-    <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="maskFlechas" />
-      <div class="container posRel">
-=======
     <section class="bannerIntTel telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="mask--FlechasDos" />
       <div class="container">
->>>>>>> 31ae9b158ff2b0cc028cfd676395e954e08efdbf
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center ">
@@ -49,10 +43,10 @@
                   <h4 class="card__telPre__gigas">2GB</h4>
                   <h1 class="card__telPre__precio">$30</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>3 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>2 GB de navegación</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>3 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>2 GB de navegación</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -65,10 +59,10 @@
                   <h4 class="card__telPre__gigas">5GB</h4>
                   <h1 class="card__telPre__precio">$50</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>7 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>5 GB de navegación</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>7 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -81,10 +75,10 @@
                   <h4 class="card__telPre__gigas">10GB</h4>
                   <h1 class="card__telPre__precio">$100</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>15 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>10 GB de navegación</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>15 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>10 GB de navegación</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -106,10 +100,10 @@
                   <h4 class="card__telPre__gigas">5GB</h4>
                   <h1 class="card__telPre__precio">$115</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>5 GB de navegación (datos para compartir)</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación (datos para compartir)</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -122,10 +116,10 @@
                   <h4 class="card__telPre__gigas">20GB</h4>
                   <h1 class="card__telPre__precio">$220</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -139,10 +133,10 @@
                   <h4 class="card__telPre__gigas">20GB</h4>
                   <h1 class="card__telPre__precio">$330</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
@@ -156,10 +150,10 @@
                   <h4 class="card__telPre__gigas">Ilimitado</h4>
                   <h1 class="card__telPre__precio">$499</h1>
                   <ul class="card__telPre__detail">
-                    <li><i class="fal fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>50 GB de navegación (datos por compartir)</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
-                    <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación (datos por compartir)</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
+                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>

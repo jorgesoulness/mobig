@@ -338,9 +338,6 @@ article.maps {
     right: 4%;
     position: absolute;
   }
-  & .telPoints {
-    @include position(absolute, null null -50px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
-  }
 }
 .card{
   margin: 1%;
@@ -445,7 +442,12 @@ article.maps {
 
   }
 }
-
+.bannerIntTel  {
+  padding: 60px 0; position: relative;
+  .telPoints {
+      @include position(absolute, null null -30px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
+    }
+}
 .cardCustom{
   width: 20%;
   &--big{
