@@ -507,6 +507,32 @@ article.maps {
     bottom: -24%;
   }
 
+  &__BgsLeft{
+    left: -1%;
+    position: absolute;
+    width: 33%;
+    bottom: -24%;
+  }
+
+  &__titleSmall{
+    color: $white !important;
+    font-family: $regular !important;
+    font-size: 1.7em !important;
+    text-transform: inherit !important;
+  }
+
+  &__descAnc{
+    color: $col2;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.5em;
+    font-family: $semibold;
+    
+    &:hover{
+      color: $white;
+    }
+  }
+
   img.mask{
     &--Tache{
       max-width: 100px;
@@ -530,6 +556,15 @@ article.maps {
       right: 6%;
       position: absolute !important;
       width: 20px;
+    }
+
+    &--FlechasProc{
+      max-width: 100px;
+      top: -111%;
+      right: 0%;
+      position: absolute !important;
+      width: 80px;
+
     }
   }
 

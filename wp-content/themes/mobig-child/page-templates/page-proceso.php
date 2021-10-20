@@ -11,16 +11,24 @@
 <?php
 		while ( have_posts() ) : the_post(); ?>
   <article class="bg-gen">
-   
-   <section class="hero-sec">
-      <div class="container">
-        <div class="row">
-            <h3>Para empezar tu proceso de portabilidad verifica si tu equipo es compatible con nuestra red ingresando tu IMEI</h3>
-            <a href="http://www.mobig.mx/compatibilidad">http://www.mobig.mx/compatibilidad</a>
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/4571203.png" alt="header-section" class="w-50" />
-        </div><!-- end.row -->
-      </div><!-- end.container -->
-    </section><!-- end.hero-sec -->
+
+    <section class="bannerInt bannerIntTel">
+      <div class="titleInt">
+        <div class="container">
+          <div class="row justify-content-end d-flex">
+            <div class="col-sm-8">
+            <h3 class="bannerIntTel__titleSmall">Para empezar tu proceso de portabilidad verifica si tu <br /> equipo es compatible con nuestra red ingresando tu IMEI</h3>
+            <a href="http://www.mobig.mx/compatibilidad"  class="bannerIntTel__descAnc">http://www.mobig.mx/compatibilidad</a>
+            </div>
+            <!--<img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" class="bannerIntTel__imgFig" alt="logoMoBig" />-->
+            
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/4571203.png" alt="bannerIntTel__Bgs" class=" bannerIntTel__BgsLeft" />
+            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/flechas-02.svg" alt="header-section" class="mask--FlechasProc" />
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div>
+    </section><!-- end.hero-sec -->  
+
 
 
 
@@ -72,20 +80,6 @@
         </div>
       </div><!-- end.container -->
     </section><!-- end.cobertura-sec -->
-    <section class="zonawifi-sec">
-      <div class="container">
-        <div class="row">
-
-        </div><!-- end.row -->
-      </div><!-- end.container -->
-    </section><!-- end.zonawifi-sec -->
-    <section class="beneficios-sec">
-      <div class="container">
-        <div class="row">
-
-        </div><!-- end.row -->
-      </div><!-- end.container -->
-    </section><!-- end.beneficios-sec -->
   </article><!-- end.article inicio -->
 
   <?php endwhile; ?>

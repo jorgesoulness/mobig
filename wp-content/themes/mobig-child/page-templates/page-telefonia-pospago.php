@@ -105,7 +105,7 @@
       </div><!-- end.container -->
     </section><!-- end.zonawifi-sec -->
 
-     <section class="telPre-sec--planSieteDoce"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203.png);">
+     <section class="telPre-sec--planSieteDoce" id="Planes7x12"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203.png);">
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-sm-10">
