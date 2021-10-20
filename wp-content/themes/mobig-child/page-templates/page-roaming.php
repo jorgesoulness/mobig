@@ -56,6 +56,7 @@
                     <h3 class="card-title text-center card__header__title--pink2">NORTEAMÉRICA, LATAM,<br/> EUROPA Y ASIA</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
+                  <h4  class="card__telPre__gigas"></h4>
                     <h1 class="card__telPre__precio">$430</h1>
                     <ul class="card__telPre__detail">
                       <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
@@ -125,6 +126,7 @@
                     <h3 class="card-title text-center card__header__title--pink2">EUROPA</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
+                  <h4  class="card__telPre__gigas"></h4>
                     <h1 class="card__telPre__precio">$120</h1>
                     <ul class="card__telPre__detail">
                       <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
