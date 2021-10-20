@@ -21,9 +21,9 @@
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-                      <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
+                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas.</h2>
                       <div class="desc-hero">
-                        <p>TECNOLOGÍA 4.5G</p>
+                        <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
                       <div class="slideCt__btn">
                         <a href="<?php echo site_url(''); ?>" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
@@ -35,9 +35,9 @@
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-                      <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
+                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas.</h2>
                       <div class="desc-hero">
-                        <p>TECNOLOGÍA 4.5G</p>
+                        <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
                       <div class="slideCt__btn">
                         <a href="<?php echo site_url(''); ?>" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
@@ -77,7 +77,8 @@
         <div class="row">
           <div class="col-12 col-lg-4">
             <div class="boxZonaDesc wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1s">
-              <h1>¡Quédate con tu número de siempre! </h1>
+              <h3>TELEFONÍA CELULAR</h3>
+              <h2>¡Quédate con tu número de siempre!</h2>
               <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
               <div class="boxZonaDesc__btns">
                 <a href="#" class="btnGen btnGen__item btnGen__item--pink">Ver planes Prepago</a>
@@ -127,7 +128,7 @@
         <div class="container">
           <div class="row justify-content-md-end">
             <div class="col-12 col-md-7 col-lg-6">
-              <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1s">
+              <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
                 <h3>Disfruta de tu propia zona wifi</h3>
                 <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
                 <div class="benefitsCt__btn">

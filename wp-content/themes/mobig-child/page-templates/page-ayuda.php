@@ -68,6 +68,25 @@
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__left">
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__right">
     </section><!-- end.beneficios-sec -->
+
+    <section class="beneficios-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/4571203.png);">
+      <div class="benefitsCt">
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-12 col-md-7 col-lg-6">
+              <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                <h3>Disfruta de tu propia zona wifi</h3>
+                <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
+                <div class="benefitsCt__btn">
+                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
+                </div>
+              </div>
+            </div><!-- end.col-* -->
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div><!-- end.benefitsCt -->
+      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
+    </section><!-- end.beneficios-sec -->
     
     <section class="beneficiosct">
       <div class="container">
