@@ -26,24 +26,22 @@
           </div><!-- end.row -->
         </div><!-- end.container -->
       </div>
-    </section><!-- end.hero-sec -->  
+    </section><!-- end.hero-sec -->
 
-
-
-
-
-
-
-    <section class="cobertura-sec">
+    <section class="generic-sec">
       <div class="container">
         <div class="row d-flex justify-content-center">
           
-          <div class="col-sm-10 text-justify rte-desc">
-            <?php the_content(); ?>
-          </div>
+          <div class="col-12 col-md-10">
+            <div class="rte-desc">
+              <?php the_content(); ?>
+            </div><!-- end.rte-desc -->
+          </div><!-- end.col-* -->
 
-        </div>
+        </div><!-- end.row -->
       </div><!-- end.container -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="genCircle genCircle__left">
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="genCircle genCircle__right">
     </section><!-- end.cobertura-sec -->
   </article><!-- end.article inicio -->
 

@@ -46,7 +46,7 @@
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center">
               <h1 class="telPre-sec__title--yellow">APROVECHA NUESTROS<br/> PLANES PREPAGO</h1>
-              <p class="telPre-sec__desc">Sin importar donde vayas con moBig Mifi tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
+              <p class="telPre-sec__desc">Sin importar donde vayas con moBig Mifi tu internet <br/> con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte. <br/>Realiza recargas por medio de la página de internet, call center, app ó en <br />los más de 4,000 puntos que tenemos para atenderte. </p>
             </div>
             <div class="row d-flex justify-content-center">
 

@@ -110,7 +110,7 @@
                   <p>&copy; 2021 moBig. Todos los derechos reservados.</p>
                 </div><!-- end.copyrightFooter -->
               </div><!-- end.col-* -->
-              <div class="col-12 col-md-6">
+              <!--<div class="col-12 col-md-6">
                 <div class="creditsFooter">
                   <ul class="creditsFooter__list">
                     <li class="creditsFooter__item">
@@ -122,8 +122,8 @@
                     <li class="creditsFooter__item">
                       <span>Lorem ipsum</span>
                     </li>
-                  </ul><!-- end.creditsFooter__list -->
-                </div><!-- end.creditsFooter -->
+                  </ul>< !-- end.creditsFooter__list - ->
+                </div>--><!-- end.creditsFooter -->
               </div><!-- end.col-* -->
             </div><!-- end.row -->
           </div><!-- end.container -->
