@@ -151,7 +151,7 @@
             <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.4s" data-wow-duration="1s">
               <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="beneficiosct__img" alt="Beneficios-planes">
               <figcaption class="beneficiosct__cap">
-                <p>Te ofrecemos planes de prepago desde $30, planes de pospago desde $100 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</p>
+                <p>Te ofrecemos planes de prepago desde $30, planes de pospago desde $115 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</p>
               </figcaption><!-- end.beneficiosct__cap -->
             </figure><!-- end.beneficiosct__fig -->
           </div><!-- end.col-* -->

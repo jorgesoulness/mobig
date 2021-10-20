@@ -44,7 +44,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/lugar.svg" alt="iconPing">
               </div>
               <div class="datosContact__desc">
-                <p>Dirección:<br>Calle sin numero<br>Av. Import Col. Vivir</p>
+                <p>Dirección: <br/>Bosque de los Ciruelos<br /> Bosque de las Lomas<br /> Miguel Hidalgo 11700 <br />Ciudad de México, CDMX</p>
               </div>
             </div><!-- end.datosContact -->
           </div><!-- end.col-* -->
@@ -54,7 +54,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/correo-01.svg" alt="iconEmail">
               </div>
               <div class="datosContact__desc">
-                <p>Correo electrónico:<br>info@mobig.mx</p>
+                <p>Correo electrónico:<br>atencionalcliente@mobig.mx </p>
               </div>
             </div><!-- end.datosContact -->
           </div><!-- end.col-* -->
@@ -70,7 +70,7 @@
           <div class="col-12 col-md-10 col-lg-9">
             <div class="descConacto">
               <h2>NOS GUSTARÍA SABER DE TI</h2>
-              <p>¿Quiers recibir atención personalizada? Deja tus datos y nosotros nos pondremos en contacto contigo.</p>
+              <p>¿Quieres recibir atención personalizada? Deja tus datos y nosotros nos pondremos en contacto contigo.</p>
             </div><!-- dnd.descConacto -->
           </div><!-- end.col-* -->
           <div class="col-12">

@@ -43,7 +43,7 @@
                     <h1 class="card__telPre__precio">$115</h1>
                     <ul class="card__telPre__detail">
                       <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                      <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación (datos para compartir)</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación (Datos para compartir)</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
@@ -99,7 +99,7 @@
                     <h1 class="card__telPre__precio">$115</h1>
                     <ul class="card__telPre__detail">
                       <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                      <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación (datos para compartir)</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación (Datos para compartir)</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
@@ -117,7 +117,7 @@
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-sm-10">
-            <h1 class="telPre-sec__title--pink">PLANES ANUALIZADOS, <br/> PAGA 7 MESES Y LLÉVATE 12</h1>
+            <h1 class="telPre-sec__title--pink">PLANES ANUALIZADOS, <br/> PAGA 7 MESES Y OBTÉN 12</h1>
           </div>
         </div>
         <div class="row">         
@@ -131,7 +131,7 @@
               <ul class="card__telPre__detail">
                 <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Costo mensual $100 pesos paga 7 y obtén 12 meses</p></li>
-                <li><i class="fa fa-check-circle"></i> <p>5GB de navegación (Datos por compartir)</p></li>
+                <li><i class="fa fa-check-circle"></i> <p>5GB de navegación (Datos para compartir)</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
@@ -165,7 +165,7 @@
               <ul class="card__telPre__detail">
                 <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Costo mensual $300 pesos paga 7 y obtén 12 meses</p></li>
-                <li><i class="fa fa-check-circle"></i> <p>20GB de navegación +20 GB a velocidad  reducida (Datos por compartir)</p></li>
+                <li><i class="fa fa-check-circle"></i> <p>20GB de navegación +20 GB a velocidad  reducida (Datos para compartir)</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>

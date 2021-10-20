@@ -16,6 +16,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="profile" href="https://gmpg.org/xfn/11">
+      <title> Somos el proveedor de soluciones en comunicaciones que necesitas. Te ofrecemos alternativas para todos los sectores con tecnología 4.5 G</title>
       <meta name="robots" content="index, follow">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
       <meta name="theme-color" content="#D45A6A">
