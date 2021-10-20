@@ -25,13 +25,13 @@
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/icono-bg.svg" alt="Icono" class="iconBg">
     </section><!-- end.hero-sec -->
 
-    <section class="telPre-sec"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
+    <section class="telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="maskFlechas" />
       <div class="container posRel">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center ">
-              <h1 class="telPre-sec__title">PLANES PREPAGO</h1>
+              <h1 class="telPre-sec__title--yellow">PLANES PREPAGO</h1>
               <p class="telPre-sec__desc">Decide el monto de recarga y ten la seguridad de que siempre podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto con tus seres queridos.</p>
             </div>
             <div class="row justify-content-center">
