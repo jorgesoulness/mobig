@@ -21,12 +21,7 @@
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-<<<<<<< HEAD
                       <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas.</h2>
-=======
-                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas. 
-Te ofrecemos alternativas para todos los sectores con</h2>
->>>>>>> 03afd2fe597e450854bc940f724d4602795e4eb5
                       <div class="desc-hero">
                         <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
@@ -40,12 +35,7 @@ Te ofrecemos alternativas para todos los sectores con</h2>
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-<<<<<<< HEAD
                       <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas.</h2>
-=======
-                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas. 
-Te ofrecemos alternativas para todos los sectores con</h2>
->>>>>>> 03afd2fe597e450854bc940f724d4602795e4eb5
                       <div class="desc-hero">
                         <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
