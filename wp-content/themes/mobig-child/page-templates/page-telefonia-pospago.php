@@ -24,7 +24,7 @@
     </section><!-- end.hero-sec --> 
   
 
-    <section  class="telPre-sec"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
+    <section  class="telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
