@@ -27,13 +27,15 @@
     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="mask--FlechasDos" />
       <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-sm-10">
-            <div class="row d-flex justify-content-center text-center ">
-              <h1 class="telPre-sec__title--yellow">PLANES PREPAGO</h1>
-              <p class="telPre-sec__desc">Decide el monto de recarga y ten la seguridad de que siempre podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto con tus seres queridos.</p>
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 text-center ">
+                <h1 class="telPre-sec__title--yellow">PLANES PREPAGO</h1>
+                <p class="telPre-sec__desc">Decide el monto de recarga y ten la seguridad de que siempre podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto con tus seres queridos.</p>
+              </div>
             </div>
             <div class="row justify-content-center">
-              <div class="card col-sm-3" >
+              <div class="card col-12 col-md-4 col-lg-3" >
                 <div class="card-header card__header card__header--yellow">
                   <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
@@ -49,7 +51,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3" >
+              <div class="card col-12 col-md-4 col-lg-3 cardCustom" >
                 <div class="card-header card__header card__header--yellow">
                   <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
@@ -65,7 +67,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3" >
+              <div class="card col-12 col-md-4 col-lg-3" >
                 <div class="card-header card__header card__header--yellow">
                   <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
                 </div>
@@ -90,7 +92,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-sm-11">
           <div class="row d-flex justify-content-center">
-              <div class="card col-sm-3 cardCustom" >
+              <div class="card col-12 col-md-5 col-lg-3 cardCustom" >
                 <div class="card-header card__header card__header--yellow">
                   <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
                 </div>
