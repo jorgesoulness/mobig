@@ -312,6 +312,7 @@ article.maps {
 }
 
 .telPre-sec{
+  padding-top: 5%;
   &--center{
     width: 100%; height: auto; @include position(relative, null null null null); 
     padding: 0; margin: 0; background-position:center; background-repeat: no-repeat;
