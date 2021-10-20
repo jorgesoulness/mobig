@@ -21,7 +21,8 @@
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-                      <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
+                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas. 
+Te ofrecemos alternativas para todos los sectores con</h2>
                       <div class="desc-hero">
                         <p>TECNOLOGÍA 4.5G</p>
                       </div>
@@ -35,7 +36,8 @@
                   <figure class="slideCt__box">
                     <img class="imgFig" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="">
                     <figcaption class="slideCt__cap">
-                      <h2 class="title-hero">Somos el proveedor de soluciones que necesitas. Te ofrecemos alternativas para todos los sectores con </h2>
+                      <h2 class="title-hero">Somos el proveedor de soluciones en comunicaciones que necesitas. 
+Te ofrecemos alternativas para todos los sectores con</h2>
                       <div class="desc-hero">
                         <p>TECNOLOGÍA 4.5G</p>
                       </div>
@@ -89,7 +91,7 @@
             <div class="boxZona wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
               <h5 class="boxZona__title">Prepago</h5>
               <div class="boxZona__desc">
-                <p>Realiza recargas por medio de la página de internet, call center o en los más 4,000 puntos que tenemos para atenderte.</p>
+                <p>Realiza recargas por medio de la página de internet, call center, app ó en los más de 4,000 puntos que tenemos para atenderte. </p>
                 <div class="boxZona__btn">
                   <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
                 </div>
