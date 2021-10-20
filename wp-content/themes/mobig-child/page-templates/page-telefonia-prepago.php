@@ -10,23 +10,24 @@
 ?>
 
   <article class="bg-gen">
-   
-    <section class="bannerInt bannerIntTel">
+    <section class="bannerInt">
       <div class="titleInt">
         <div class="container">
           <div class="row">
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" class="bannerIntTel__imgFig" alt="logoMoBig" />
-            <h1 class="bannerIntTel__title">PREPAGO</h1>
-            <p class="bannerIntTel__desc">Una vez realizado el proceso de portabilidad elige uno de los planes que se adapten mejor a tus necesidades y recarga por medio de nuestra página de internet, app, call center o en más de nuestros 4000 puntos.</p>
-            <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/header.png" alt="bannerIntTel__Bgs" class=" bannerIntTel__Bgs" />
+            <div class="col-12 col-md-10 col-lg-10">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" alt="logoMoBig" class="logoBanner">
+              <h1>PREPAGO</h1>
+              <p>Una vez realizado el proceso de portabilidad elige uno de los planes que se adapten mejor a tus necesidades y recarga por medio de nuestra página de internet, app, call center o en más de nuestros 4000 puntos.</p>
+            </div><!-- end.col-* -->
           </div><!-- end.row -->
         </div><!-- end.container -->
-      </div>
+      </div><!-- end.titleInt -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/icono-bg.svg" alt="Icono" class="iconBg">
     </section><!-- end.hero-sec -->
 
     <section class="telPre-sec"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="maskFlechas" />
-      <div class="container">
+      <div class="container posRel">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center ">
@@ -87,7 +88,7 @@
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->
-      <div class="container-fluid">
+      <div class="container-fluid posRel">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-11">
           <div class="row d-flex justify-content-center">
@@ -161,46 +162,45 @@
           </div>
         </div>
       </div>
+      <img class="telPoints" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/points_bg.svg" alt="Points">
     </section><!-- end.zonawifi-sec -->
 
-    <section class="beneficios-sec">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-10">
-            <div class="row">
-              <h1>¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
+    <section class="dudas-sec">
+      <div class="container posRel">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7">
+            <div class="dudasCt">
+              <h1 class="dudasCt__title">¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
             </div>
-            <div class="row">
-              <?php if( have_rows('faqs_tel_pre') ):
-              $row = 0;
-              ?>
-                <div class="col-sm-10">
-                <div class="accordion" id="accordionExample">
-                <?php while( have_rows('faqs_tel_pre') ): the_row();
-                    ?>
-
-                    <div class="accordion-item col-sm-6">
-                      <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
-                          <?php the_sub_field('pregunta_telpre_field'); ?>
-                        </button>
-                      </h2>
-                      <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <p><?php the_sub_field('respuesta_telpre_field'); ?></p>
-                        </div>
-                      </div>
-                    </div>
-                <?php 
-                  $row++;
-              endwhile; ?>
+          </div>
+          <div class="col-12">
+        <?php if( have_rows('faqs_tel_pre') ):
+          $row = 0;
+        ?>
+            <div class="accDudas accordion" id="accordionExample">
+        <?php while( have_rows('faqs_tel_pre') ): the_row(); ?>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
+                    <?php the_sub_field('pregunta_telpre_field'); ?>
+                  </button>
+                </h2>
+                <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p><?php the_sub_field('respuesta_telpre_field'); ?></p>
                   </div>
-</div>
-            <?php endif; ?>
+                </div>
+              </div>
+        <?php 
+          $row++;
+        endwhile; ?>
             </div>
+        <?php endif; ?>
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__left">
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__right">
     </section><!-- end.beneficios-sec -->
   </article><!-- end.article inicio -->
 

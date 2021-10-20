@@ -127,3 +127,7 @@ h6 { @include fluid-type(13px, 20px, 320px, 1200px); }
     @include transform(translate(300%, 0px) skewX(-50deg)); width: 50%;
   }
 }
+
+.posRel {
+  position: relative; z-index: 3;
+}

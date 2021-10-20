@@ -189,11 +189,14 @@ article.maps {
       margin: 0 0 10px 0; padding: 0; text-align: center; color: $col2; text-transform: uppercase; letter-spacing: 1.5px; @include fluid-type(18px, 38px, 320px, 1200px); font-family: $extrabold; line-height: 1;
     }
     p {
-      margin: 0; padding: 0; color: $white; text-align: center; @include fluid-type(18px, 30px, 320px, 1200px); font-family: $semibold; line-height: 1;
+      margin: 0; padding: 0; color: $white; text-align: center; @include fluid-type(18px, 26px, 320px, 1200px); font-family: $semibold; line-height: 1;
     }
     .logoInt {
       display: block; width: 100%; max-width: 250px; height: auto; margin: 0 auto 0 auto; padding: 0 0;
     }
+  }
+  & .logoBanner {
+    width: 100%; height: auto; padding: 0; margin: 0 0 10px; display: block; max-width: 200px; border: 0;
   }
   @media all and (min-width: 576px) {
     height: 250px;
@@ -309,7 +312,7 @@ article.maps {
 }
 
 .telPre-sec{
-  width: 100%; height: auto; @include position(relative, null null null null); padding: 0; margin: 0; background-position:center; background-repeat: no-repeat; background-size: contain; overflow: hidden; background-color: $white;
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 0; margin: 0; background-position:center; background-repeat: no-repeat; background-size: contain; background-color: $white;
   padding-top: 2%;
   &__title{
     color: $col2;
@@ -325,6 +328,9 @@ article.maps {
     top: 240px;
     right: 4%;
     position: absolute;
+  }
+  & .telPoints {
+    @include position(absolute, null null -50px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
   }
 }
 .card{
@@ -434,7 +440,6 @@ article.maps {
   }
 }
 
-
 .bannerIntTel{
   &__imgFig{
     max-width: 20%;
@@ -448,5 +453,19 @@ article.maps {
     position: absolute;
     width: 33%;
     bottom: -24%;
+  }
+}
+
+// Duduas modulo
+.dudas-sec {
+  width: 100%; height: auto; padding: 60px 0 40px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
+  & .duCircle {
+    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
+    &__left {
+       width: 150px; top: 30px; left: -30px;
+    }
+    &__right {
+       width: 60px; bottom: 30px; right: 30px;
+    }
   }
 }
