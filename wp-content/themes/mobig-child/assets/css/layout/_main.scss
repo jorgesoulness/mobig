@@ -312,29 +312,8 @@ article.maps {
 }
 
 .telPre-sec{
-<<<<<<< HEAD
   width: 100%; height: auto; @include position(relative, null null null null); padding: 0; margin: 0; background-position:center; background-repeat: no-repeat; background-size: contain; background-color: $white;
   padding-top: 2%;
-=======
-  &--center{
-    width: 100%; height: auto; @include position(relative, null null null null); 
-    padding: 0; margin: 0; background-position:center; background-repeat: no-repeat;
-    background-size: contain; overflow: hidden; background-color: $white;
-    padding-top: 2%; padding-bottom: 2%;
-  }
-  &--full{
-    width: 100%; height: auto; @include position(relative, null null null null); 
-    padding: 0; margin: 0; background-position:center; background-repeat: no-repeat;
-    background-size: cover; overflow: hidden; background-color: $white;
-    padding-top: 2%; padding-bottom: 2%;
-  }
-  
-  &--planSieteDoce{
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: $col13;
-  }
->>>>>>> 28bdb5826d1a0aa8d453f4ae86dcafd93423086a
   &__title{
     font-family: $extrabold;
     font-weight: bold;
@@ -359,13 +338,9 @@ article.maps {
     right: 4%;
     position: absolute;
   }
-<<<<<<< HEAD
   & .telPoints {
     @include position(absolute, null null -50px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
   }
-=======
-  
->>>>>>> 28bdb5826d1a0aa8d453f4ae86dcafd93423086a
 }
 .card{
   margin: 1%;
@@ -519,22 +494,6 @@ article.maps {
     width: 33%;
     bottom: -24%;
   }
-<<<<<<< HEAD
-}
-
-// Duduas modulo
-.dudas-sec {
-  width: 100%; height: auto; padding: 60px 0 40px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
-  & .duCircle {
-    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
-    &__left {
-       width: 150px; top: 30px; left: -30px;
-    }
-    &__right {
-       width: 60px; bottom: 30px; right: 30px;
-    }
-  }
-=======
 
   img.mask{
     &--Tache{
@@ -588,5 +547,17 @@ article.maps {
     font-family: $thin;
     font-size: 1.4em;
   }
->>>>>>> 28bdb5826d1a0aa8d453f4ae86dcafd93423086a
+}
+
+.dudas-sec {
+  width: 100%; height: auto; padding: 60px 0 40px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
+  & .duCircle {
+    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
+    &__left {
+       width: 150px; top: 30px; left: -30px;
+    }
+    &__right {
+       width: 60px; bottom: 30px; right: 30px;
+    }
+  }
 }
