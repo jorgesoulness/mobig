@@ -414,16 +414,44 @@ article.maps {
       }
     }
     &__btn{
-      background-color: $col2;
-      border-radius: 50px;
-      color: $white;
-      border: none;
-      width: 150px;
-      text-align: center;
-      font-family: $regular;
-      &:hover{
+      &--pink{
         background-color: $col1;
+        border-radius: 50px;
+        color: $white;
+        border: none;
+        width: 150px;
+        text-align: center;
+        font-family: $regular;
+        &:hover{
+          background-color: $col2;
+        }
       }
+      &--yellow{
+        background-color: $col2;
+        border-radius: 50px;
+        color: $white;
+        border: none;
+        width: 150px;
+        text-align: center;
+        font-family: $regular;
+        &:hover{
+          background-color: $col1;
+        }
+      }
+      &--gray{
+        background-color: $col4;
+        border-radius: 50px;
+        color: $white;
+        border: none;
+        width: 150px;
+        text-align: center;
+        font-family: $regular;
+        &:hover{
+          background-color: $col2;
+        }
+      }
+      
+      
     }
 
   }
@@ -494,6 +522,14 @@ article.maps {
       right: 38%;
       position: absolute !important;
       width: 70px;
+    }
+
+    &--FlechasDos{
+      max-width: 100px;
+      top: 30%;
+      right: 6%;
+      position: absolute !important;
+      width: 20px;
     }
   }
 
