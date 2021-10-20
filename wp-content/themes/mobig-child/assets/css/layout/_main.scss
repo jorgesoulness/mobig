@@ -181,7 +181,7 @@ article.maps {
     display: none; width: 100%; max-width: 475px; height: auto; padding: 0; margin: 0; @include position(absolute, -150px -110px null null); z-index: 1;
   }
   & .imgAbsBan {
-    display: block; width: 100%; height: auto; padding: 0; margin: 0; @include position(absolute, 0 0 null null); z-index: 2;
+    display: none; width: 100%; max-width: 260px; height: auto; padding: 0; margin: 0; @include position(absolute, null 0 0 null); z-index: 2;
   }
   & .titleInt {
     width: 100%; height: auto; padding: 0 0; margin: 0 0; @include position(absolute, null null 25px 0); z-index: 3;
@@ -209,6 +209,9 @@ article.maps {
     & .iconBg {
       max-width: 315px; top: -50px; right: -150px; display: block;
     }
+    & .imgAbsBan {
+      display: block; max-width: 200px;
+    }
     & .titleInt {
       bottom: 50px;
       h1, h2, h3, h4, h5, h6 {
@@ -227,6 +230,9 @@ article.maps {
   }
   @media all and (min-width: 1200px) {
     height: 360px;
+    & .imgAbsBan {
+      max-width: 260px;
+    }
     & .iconBg {
       max-width: 475px; top: -150px; right: -110px;
     }
@@ -497,26 +503,44 @@ article.maps {
 .contactoDatos-sec {
   width: 100%; height: auto; padding: 40px 0; margin: 0; @include box-sizing(border-box); position: relative; background-color: $white;
   & .icArrows {
-    @include position(absolute, 40px null null 40px); display: block; width: 10px; height: auto; padding: 0; margin: 0; z-index: 1;
+    @include position(absolute, 15px null null 4px); display: block; width: 10px; height: auto; padding: 0; margin: 0; z-index: 1;
   }
   & .icCircle {
     @include position(absolute, null 0 0 nul); display: block; width: 100px; height: auto; padding: 0; margin: 0; z-index: 1;
   }
+  @media all and (min-width: 576px) {
+    & .icArrows {
+      @include position(absolute, 30px null null 20px);
+    }
+  }
+  @media all and (min-width: 640px) {
+    & .icArrows {
+      @include position(absolute, 35px null null 35px);
+    }
+  }
+  @media all and (min-width: 768px) {
+    & .icArrows {
+      @include position(absolute, 40px null null 40px);
+    }
+  }
 }
 .formcontacto-sec {
   width: 100%; height: auto; padding: 30px 0 20px; margin: 0; @include box-sizing(border-box); position: relative; background-attachment: local; background-position: -150px; background-repeat: no-repeat; background-size: contain; background-color: $white; background-image: url('#{$imgR}contacto/bg_contacto.svg');
-
   & .arrowContact {
-    @include position(absolute, 80px 40px null null); display: block; width: 20px; height: auto; padding: 0; margin: 0; z-index: 3;
+    @include position(absolute, 80px 5px null null); display: none; width: 20px; height: auto; padding: 0; margin: 0; z-index: 3;
+    @media all and (min-width: 640px) {
+      width: 15px; top: 70px; right: 15px; display: block;
+    }
     @media all and (min-width: 768px) {
+      width: 15px; top: 90px; right: 20px;
     }
     @media all and (min-width: 992px) {
     }
     @media all and (min-width: 1024px) {
     }
-    @media all and (min-width: 1200px) {
-      width: 15px; top: 90px; right: 20px;
-    }
+    // @media all and (min-width: 1200px) {
+    //   width: 15px; top: 90px; right: 20px;
+    // }
   }
 }
 
@@ -634,6 +658,61 @@ article.maps {
     }
     &__right {
        width: 60px; bottom: 30px; right: 30px;
+    }
+  }
+}
+
+.generic-sec {
+  width: 100%; height: auto; padding: 70px 0 60px; margin: 0; @include box-sizing(border-box); position: relative; background-color: $white; overflow: hidden;
+  & .rte-desc {
+    width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box); position: relative;
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 10px ; padding: 0; font-family: $extrabold; line-height: 1.1; color: $col3;
+    }
+    p {
+      margin: 0 0 10px; padding: 0; font-family: $regular; line-height: 1.2;
+    }
+    & ul, & ol {
+      list-style-type: none; padding: 0 0 0 24px; margin: 0 0 20px; @include box-sizing(border-box);
+      & li {
+        list-style-type: none; position: relative; margin: 0 0 3px; font-family: $regular;
+        &:before {
+          content: ''; @include position(absolute, 8px null null -15px); width: 6px; height: 6px; background-color: $col2; border-radius: 50%;
+        }
+      }
+    }
+    & a {
+      font-family: $medium;
+    }
+    & strong, & b {
+      font-family: $extrabold;
+    }
+    img.alignright {float:right; margin:0 0 1em 1em}
+    img.alignleft {float:left; margin:0 1em 1em 0}
+    img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+    a img.alignright {float:right; margin:0 0 1em 1em}
+    a img.alignleft {float:left; margin:0 1em 1em 0}
+    a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+  }
+  & .genCircle {
+    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
+    &__left {
+      width: 50px; top: 30px; left: -30px;
+      @media all and (min-width: 768px) {
+        width: 100px; top: 30px; left: -30px;
+      }
+      @media all and (min-width: 992px) {
+        width: 120px; top: 30px; left: -30px;
+      }
+      @media all and (min-width: 1024px) {
+        width: 150px; top: 30px; left: -30px;
+      }
+    }
+    &__right {
+      width: 40px; bottom: 10px; right: 10px;
+      @media all and (min-width: 1024px) {
+        width: 60px; bottom: 30px; right: 30px;  
+      }
     }
   }
 }
