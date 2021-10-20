@@ -25,9 +25,15 @@
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/icono-bg.svg" alt="Icono" class="iconBg">
     </section><!-- end.hero-sec -->
 
+<<<<<<< HEAD
     <section class="telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
     <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="maskFlechas" />
       <div class="container posRel">
+=======
+    <section class="bannerIntTel telPre-sec--center"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/back-02.svg);">
+    <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/arrowBgs.svg" alt="header-section" class="mask--FlechasDos" />
+      <div class="container">
+>>>>>>> 31ae9b158ff2b0cc028cfd676395e954e08efdbf
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center ">
@@ -48,7 +54,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3" >
@@ -64,7 +70,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3" >
@@ -80,7 +86,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
             </div>
@@ -105,7 +111,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom">
@@ -121,7 +127,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
 
@@ -138,7 +144,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
 
@@ -155,7 +161,7 @@
                     <li><i class="fal fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                     <li><i class="fal fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
             </div>

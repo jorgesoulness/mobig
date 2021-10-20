@@ -46,7 +46,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               
@@ -63,7 +63,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom--big" >
@@ -80,7 +80,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Datos para compartir</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom--big" >
@@ -96,7 +96,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
           <div class="card col-sm-3 cardCustom--big" >
@@ -144,7 +144,7 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
           <div class="card col-sm-3 cardCustom--big" >
@@ -161,7 +161,7 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
         </div><!-- end.row -->

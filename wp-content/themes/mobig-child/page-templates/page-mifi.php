@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-10">
-            <div class="row d-fles justify-content-center text-center">
+            <div class="row d-flex justify-content-center text-center">
               <h1 class="telPre-sec__title--yellow">APROVECHA NUESTROS<br/> PLANES PREPAGO</h1>
               <p class="telPre-sec__desc">Sin importar donde vayas con moBig Mifi tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
             </div>
@@ -61,7 +61,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación en territorio nacional</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--gray">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom--big" >
@@ -75,7 +75,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>10 GB de navegación en territorio nacional</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--gray">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom--big" >
@@ -89,7 +89,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación en territorio nacional</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--gray">Comprar</a>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación en territorio nacional</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--gray">Comprar</a>
                 </div>
               </div>
               <div class="card col-sm-3 cardCustom--big" >
@@ -120,7 +120,7 @@
                     <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>100 GB de navegación en territorio nacional</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn">Comprar</a>
+                  <a href="#" class="btn btn-primary card__telPre__btn--gray">Comprar</a>
                 </div>
               </div>
             </div>
