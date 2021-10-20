@@ -105,5 +105,26 @@ $(function(){
     nextArrow: $('#nextslideHomeMain'),
   });
 
+  $(".filter-button").click(function (e) {
+    e.preventDefault();
+    var value = $(this).attr('data-filtro');
+
+    if (value == "all") {
+      //$('.filter').removeClass('hidden');
+      $('.filter').show('1000');
+    }
+    else {
+      //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+      //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+      $(".filter").not('.' + value).hide('3000');
+      $('.filter').filter('.' + value).show('3000');
+
+    }
+    if ($(".filter-button").removeClass("activeFilter")) {
+      $(this).removeClass("activeFilter");
+    }
+    $(this).addClass("activeFilter");
+  });
+
   
 });

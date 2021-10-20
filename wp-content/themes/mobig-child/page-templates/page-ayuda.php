@@ -8,6 +8,7 @@
 
  get_header();
 ?>
+<?php while(have_posts()) : the_post(); ?>
 
   <article class="bg-gen">
     <section class="bannerInt">
@@ -22,8 +23,51 @@
         </div><!-- end.container -->
       </div><!-- end.titleInt -->
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/icono-bg.svg" alt="Icono" class="iconBg">
-      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/header-imagen-2.png" alt="Icono" class="imgAbsBan">
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/header-imagen-1.png" alt="Icono" class="imgAbsBan">
     </section><!-- end.hero-sec -->
+
+    <section class="dudas-sec">
+      <div class="container posRel">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="listFilterGalerry">
+              <ul>
+                <li><a class="filter-button" data-filtro="all" href="#">Todo</a></li>
+                <li><a class="filter-button" data-filtro="movil" href="#">Telefonía Móvil</a></li>
+                <li><a class="filter-button" data-filtro="portabilidad" href="#">Portabilidad</a></li>
+                <li><a class="filter-button" data-filtro="cobertura" href="#">Cobertura</a></li>
+                <li><a class="filter-button" data-filtro="mifi" href="#">Mifi Internet Móvil</a></li>
+              </ul>
+            </div><!-- end.galleryFilter -->
+        <?php if( have_rows('faqs_tel_pre') ):
+          $row = 0;
+        ?>
+            <div class="accDudas accordion" id="accordionExample">
+        <?php while( have_rows('faqs_tel_pre') ): the_row();
+        $field = get_sub_field( 'categoria' ); ?>
+              <div class="accordion-item filter <?php echo esc_html($field['value']); ?>">
+                <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
+                    <?php the_sub_field('pregunta_telpre_field'); ?>
+                  </button>
+                </h2>
+                <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p><?php the_sub_field('respuesta_telpre_field'); ?></p>
+                  </div>
+                </div>
+              </div>
+        <?php 
+          $row++;
+        endwhile; ?>
+            </div>
+        <?php endif; ?>
+          </div>
+        </div><!-- end.row -->
+      </div><!-- end.container -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__left">
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__right">
+    </section><!-- end.beneficios-sec -->
     
     <section class="beneficiosct">
       <div class="container">
@@ -68,5 +112,6 @@
     </section><!-- end.beneficiosct -->
   </article><!-- end.article inicio -->
 
+<?php endwhile; ?>
 <?php
 get_footer();

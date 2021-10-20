@@ -111,7 +111,7 @@
                 </div><!-- end.copyrightFooter -->
               </div><!-- end.col-* -->
               <div class="col-12 col-md-6">
-                <div class="creditsFooter">
+                <div class="creditsFooter" style="display: none;">
                   <ul class="creditsFooter__list">
                     <li class="creditsFooter__item">
                       <span>Lorem ipsum</span>
