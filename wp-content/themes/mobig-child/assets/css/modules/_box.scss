@@ -111,3 +111,27 @@
     color: $col3; margin: 0; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(13px, 26px, 320px, 1200px);
   }
 }
+
+.dudasCt {
+  margin: 0 0 30px; padding: 0; display: block; width: 100%; height: auto; @include box-sizing(border-box); position: relative;
+  &__title {
+    color: $col2; margin: 0; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(18px, 30px, 320px, 1200px);;
+  }
+}
+.accDudas {
+  & .accordion-item {
+    border: none!important; background-color: transparent!important; margin-bottom: 15px;
+  }
+  & .accordion-header {
+    font-family: $semibold;
+  }
+  & button {
+    border-radius: 4px; border: 0; background-color: $col1!important; color: $white!important; box-shadow: none!important; @include fluid-type(12px, 13px, 320px, 1200px);
+    &:after {
+      content: '\f077'!important; font-family: 'fontAwesome'; color: $col2; text-align: center; background-image: none!important;
+    }
+  }
+  @media all and (min-width: 768px) {
+    columns: 2; -webkit-columns: 2; -moz-columns: 2;
+  }
+}

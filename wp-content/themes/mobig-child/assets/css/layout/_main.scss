@@ -195,6 +195,9 @@ article.maps {
       display: block; width: 100%; max-width: 250px; height: auto; margin: 0 auto 0 auto; padding: 0 0;
     }
   }
+  & .logoBanner {
+    width: 100%; height: auto; padding: 0; margin: 0 0 10px; display: block; max-width: 200px; border: 0;
+  }
   @media all and (min-width: 576px) {
     height: 250px;
     & .titleInt {
@@ -357,6 +360,14 @@ article.maps {
   margin: 1%;
   padding: 0% !important;
   border-radius: 15px;
+  height: 100%;
+  min-height: 485px;
+  &--gray{
+    min-height: 325px !important;
+  }
+  &--pink{
+    min-height: 350px !important;
+  }
   &__header{    
     &--yellow{
       background-color: $col2;
@@ -404,7 +415,7 @@ article.maps {
         & i{
           float: left;
           position: inline;
-          margin-right: 1%;
+          margin-right: 6px;
           color: $col1;
         }
         & p{
@@ -422,6 +433,10 @@ article.maps {
         width: 150px;
         text-align: center;
         font-family: $regular;
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+        bottom: 20px;
         &:hover{
           background-color: $col2;
         }
@@ -434,6 +449,10 @@ article.maps {
         width: 150px;
         text-align: center;
         font-family: $regular;
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+        bottom: 20px;
         &:hover{
           background-color: $col1;
         }
@@ -446,6 +465,10 @@ article.maps {
         width: 150px;
         text-align: center;
         font-family: $regular;
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+        bottom: 20px;
         &:hover{
           background-color: $col2;
         }
@@ -456,7 +479,12 @@ article.maps {
 
   }
 }
-
+.bannerIntTel  {
+  padding: 60px 0; position: relative;
+  .telPoints {
+      @include position(absolute, null null -30px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
+    }
+}
 .cardCustom{
   width: 20%;
   &--big{
@@ -593,5 +621,18 @@ article.maps {
     color: $white;
     font-family: $thin;
     font-size: 1.4em;
+  }
+}
+
+.dudas-sec {
+  width: 100%; height: auto; padding: 60px 0 40px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
+  & .duCircle {
+    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
+    &__left {
+       width: 150px; top: 30px; left: -30px;
+    }
+    &__right {
+       width: 60px; bottom: 30px; right: 30px;
+    }
   }
 }

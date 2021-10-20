@@ -53,7 +53,7 @@
             </div>
             <div class="row d-flex justify-content-center">
 
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
                 <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">PLAN MIFI 1</h3>
                 </div>
@@ -68,7 +68,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">PLAN MIFI 2</h3>
                 </div>
@@ -83,7 +83,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">PLAN MIFI 3</h3>
                 </div>
@@ -98,7 +98,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">PLAN MIFI 4</h3>
                 </div>
@@ -114,7 +114,7 @@
                 </div>
               </div>
 
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">PLAN MIFI 5</h3>
                 </div>
@@ -129,7 +129,7 @@
                   <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">ADICIONAL 1</h3>
                 </div>
@@ -144,7 +144,7 @@
                 </div>
               </div>
               
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">ADICIONAL 2</h3>
                 </div>
@@ -159,7 +159,7 @@
                 </div>
               </div>
 
-              <div class="card col-sm-3 cardCustom--big" >
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">ADICIONAL 3</h3>
                 </div>
@@ -180,45 +180,45 @@
       </div><!-- end.container -->
     </section><!-- end.zonawifi-sec -->
 
-    <section class="beneficios-sec">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-10">
-            <div class="row">
-              <h1 class="card__telPre__precio">¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
+    
+    <section class="dudas-sec">
+      <div class="container posRel">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7">
+            <div class="dudasCt">
+              <h1 class="dudasCt__title">¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
             </div>
-            <div class="row">
-              <?php if( have_rows('faqs_mifi_pospago') ):
-              $row = 0;
-              ?>
-                <div class="col-sm-10">
-                <div class="accordion" id="accordionExample">
-                <?php while( have_rows('faqs_mifi_pospago') ): the_row();
-                    ?>
-
-                    <div class="accordion-item col-sm-6">
-                      <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
-                          <?php the_sub_field('pregunta_pospago_field'); ?>
-                        </button>
-                      </h2>
-                      <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <p><?php the_sub_field('respuesta_pospago_field'); ?></p>
-                        </div>
-                      </div>
-                    </div>
-                <?php 
-                  $row++;
-              endwhile; ?>
+          </div>
+          <div class="col-12">
+        <?php if( have_rows('faqs_mifi_pospago') ):
+          $row = 0;
+        ?>
+            <div class="accDudas accordion" id="accordionExample">
+        <?php while( have_rows('faqs_mifi_pospago') ): the_row(); ?>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ-<?php echo $row; ?>" aria-expanded="false" aria-controls="collapseOne">
+                    <?php the_sub_field('pregunta_pospago_field'); ?>
+                  </button>
+                </h2>
+                <div id="collapseFAQ-<?php echo $row; ?>" class="accordion-collapse collapse" aria-labelledby="FAQ-<?php echo $row; ?>" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p><?php the_sub_field('respuesta_pospago_field'); ?></p>
                   </div>
-</div>
-            <?php endif; ?>
+                </div>
+              </div>
+        <?php 
+          $row++;
+        endwhile; ?>
             </div>
+        <?php endif; ?>
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__left">
+      <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__right">
     </section><!-- end.beneficios-sec -->
+
   </article><!-- end.article inicio -->
 
 <?php
