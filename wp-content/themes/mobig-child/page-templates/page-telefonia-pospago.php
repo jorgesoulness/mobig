@@ -33,70 +33,78 @@
               <p class="telPre-sec__desc">Sin importar la forma de apgo que eligas, ten la seguridad de que siempre podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto con tus seres queridos.</p>
             </div>
             <div class="row">
-              <div class="card col-sm-3 cardCustom--big" >
-                <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
-                </div>
-                <div class="card-body card__telPre text-center">
-                  <h4  class="card__telPre__gigas">5GB</h4>
-                  <h1 class="card__telPre__precio">$115</h1>
-                  <ul class="card__telPre__detail">
-                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación (datos para compartir)</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
-                  </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardCustom--big">
+                  <div class="card-header card__header card__header--pink">
+                    <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                  </div>
+                  <div class="card-body card__telPre text-center">
+                    <h4  class="card__telPre__gigas">5GB</h4>
+                    <h1 class="card__telPre__precio">$115</h1>
+                    <ul class="card__telPre__detail">
+                      <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación (datos para compartir)</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                  </div>
                 </div>
               </div>
               
-              <div class="card col-sm-3 cardCustom--big" >
-                <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
-                </div>
-                <div class="card-body card__telPre text-center">
-                  <h4  class="card__telPre__gigas">20GB</h4>
-                  <h1 class="card__telPre__precio">$220</h1>
-                  <ul class="card__telPre__detail">
-                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
-                  </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
-                </div>
-              </div>
-              <div class="card col-sm-3 cardCustom--big" >
-              <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
-                </div>
-                <div class="card-body card__telPre text-center">
-                  <h4  class="card__telPre__gigas">20GB</h4>
-                  <h1 class="card__telPre__precio">$330</h1>
-                  <ul class="card__telPre__detail">
-                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Datos para compartir</p></li>
-                  </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              <div class="col-12 col-md-6 col-lg-3" >
+                <div class="card cardCustom--big">
+                  <div class="card-header card__header card__header--pink">
+                    <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
+                  </div>
+                  <div class="card-body card__telPre text-center">
+                    <h4  class="card__telPre__gigas">20GB</h4>
+                    <h1 class="card__telPre__precio">$220</h1>
+                    <ul class="card__telPre__detail">
+                      <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                  </div>
                 </div>
               </div>
-              <div class="card col-sm-3 cardCustom--big" >
-                <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardCustom--big">
+                  <div class="card-header card__header card__header--pink">
+                    <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                  </div>
+                  <div class="card-body card__telPre text-center">
+                    <h4  class="card__telPre__gigas">20GB</h4>
+                    <h1 class="card__telPre__precio">$330</h1>
+                    <ul class="card__telPre__detail">
+                      <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Datos para compartir</p></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                  </div>
                 </div>
-                <div class="card-body card__telPre text-center">
-                  <h4  class="card__telPre__gigas">Ilimitado</h4>
-                  <h1 class="card__telPre__precio">$115</h1>
-                  <ul class="card__telPre__detail">
-                    <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación (datos para compartir)</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
-                    <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
-                  </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card cardCustom--big">
+                  <div class="card-header card__header card__header--pink">
+                    <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                  </div>
+                  <div class="card-body card__telPre text-center">
+                    <h4  class="card__telPre__gigas">Ilimitado</h4>
+                    <h1 class="card__telPre__precio">$115</h1>
+                    <ul class="card__telPre__detail">
+                      <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación (datos para compartir)</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                  </div>
                 </div>
               </div>
             </div>
