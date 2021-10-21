@@ -189,7 +189,7 @@ article.maps {
       margin: 0 0 10px 0; padding: 0; text-align: center; color: $col2; text-transform: uppercase; letter-spacing: 1.5px; @include fluid-type(18px, 38px, 320px, 1200px); font-family: $extrabold; line-height: 1;
     }
     p {
-      margin: 0; padding: 0; color: $white; text-align: center; @include fluid-type(18px, 30px, 320px, 1200px); font-family: $semibold; line-height: 1;
+      margin: 0; padding: 0; color: $white; text-align: center; @include fluid-type(16px, 20px, 320px, 1200px); font-family: $semibold; line-height: 1;
     }
     .logoInt {
       display: block; width: 100%; max-width: 250px; height: auto; margin: 0 auto 0 auto; padding: 0 0;
@@ -314,6 +314,32 @@ article.maps {
     & p {
       @include fluid-type(10px, 12px, 320px, 1200px); margin: 0; padding: 0;
     }
+  }
+}
+
+// Ayuda
+.ayudaVid-sec {
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 50px 0; margin: 0; background-position: -450px; background-repeat: no-repeat; background-size: cover; overflow: hidden; background-color: $col5; background-image: url('#{$imgR}ayuda/logo back rojo-05.svg');
+  & .titleAyuda {
+    color: $col1; margin: 0 0 20px; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(18px, 30px, 320px, 1200px);
+  }
+  & .arrowAy {
+    @include position(absolute, 40px null null 30px); display: block; width: 15px; height: auto; padding: 0; margin: 0; z-index: 2;
+  }
+  @media all and (min-width: 576px) {
+    // height: 350px;
+  }
+  @media all and (min-width: 768px) {
+    background-position: -160px; background-size: contain;
+  }
+  @media all and (min-width: 992px) {
+    background-position: -70px;
+  }
+  @media all and (min-width: 1024px) {
+    background-position: 50px;
+  }
+  @media all and (min-width: 1200px) {
+    background-position: right;
   }
 }
 
@@ -487,7 +513,7 @@ article.maps {
   }
 }
 .bannerIntTel  {
-  padding: 60px 0; position: relative;
+  padding: 60px 0; position: relative; @include box-sizing(border-box);
   .telPoints {
       @include position(absolute, null null -30px 30px); display: block; height: auto; padding: 0; margin: 0; z-index: 1; width: 200px;
     }
@@ -547,10 +573,10 @@ article.maps {
 
 .bannerIntTel{
   &__imgFig{
-    max-width: 20%;
+    max-width: 20%; margin-bottom: 15px;
   }
   &__desc{
-    font-size: 25px !important;
+    // font-size: 25px !important;
     width: 70%;
   }
   &__Bgs{
@@ -652,6 +678,19 @@ article.maps {
 .dudas-sec {
   width: 100%; height: auto; padding: 60px 0 40px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
   & .duCircle {
+    @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
+    &__left {
+       width: 150px; top: 30px; left: -30px;
+    }
+    &__right {
+       width: 60px; bottom: 30px; right: 30px;
+    }
+  }
+}
+
+.iframeCrm {
+  width: 100%; height: auto; padding: 60px 0 60px; margin: 0; @include box-sizing(border-box); position: relative; @include linear-gradient($col5, $white); overflow: hidden;
+  & .circleCrm {
     @include position(absolute, null null null null); display: block; height: auto; padding: 0; margin: 0; z-index: 1;
     &__left {
        width: 150px; top: 30px; left: -30px;

@@ -164,3 +164,15 @@
     }
   }
 }
+.dudasct {
+  width: 100%; height: auto; padding: 0; margin: 0; position: relative; @include box-sizing(border-box);
+  &__img {
+    width: 100%; max-width: 361px; height: auto; padding: 0; margin: 0 auto 15px; display: block;
+  }
+  &__desc {
+    width: 100%; height: auto; padding: 0; margin: 0; position: relative;
+    & p {
+      text-align: center; margin: 0; padding: 0;
+    }
+  }
+}

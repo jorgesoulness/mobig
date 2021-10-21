@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 300"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre_13);}</style><linearGradient id="Degradado_sin_nombre_13" x1="50" y1="34.07" x2="50" y2="249.25" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a3a2a2"/><stop offset="1" stop-color="#fe5b6b"/></linearGradient></defs><title>flechas</title><g id="Capa_4" data-name="Capa 4"><path class="cls-1" d="M41.8,64.32H58.2L50,78.53ZM50,117l8.2-14.2H41.8Zm0-68.7,8.2-14.2H41.8Zm0,177.11,8.2-14.2H41.8Zm0,23.87,8.2-14.2H41.8Z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16.4 215.2" style="enable-background:new 0 0 16.4 215.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<title>flechas</title>
+<g id="Capa_4">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.2" y1="233.8" x2="8.2" y2="18.62" gradientTransform="matrix(1 0 0 -1 0 233.8)">
+		<stop  offset="0" style="stop-color:#A3A2A2"/>
+		<stop  offset="1" style="stop-color:#FE5B6B"/>
+	</linearGradient>
+	<path class="st0" d="M0,30.2h16.4L8.2,44.4L0,30.2z M8.2,82.9l8.2-14.2H0L8.2,82.9z M8.2,14.2L16.4,0H0L8.2,14.2z M8.2,191.3
+		l8.2-14.2H0L8.2,191.3z M8.2,215.2l8.2-14.2H0L8.2,215.2z"/>
+</g>
+</svg>

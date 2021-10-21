@@ -69,34 +69,52 @@
       <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-prepago/circle_pink.svg" alt="Icono" class="duCircle duCircle__right">
     </section><!-- end.beneficios-sec -->
 
-    <section class="beneficios-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/4571203.png);">
+    <section class="ayudaVid-sec">
       <div class="benefitsCt">
         <div class="container">
           <div class="row justify-content-md-end">
-            <div class="col-12 col-md-7 col-lg-6">
-              <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                <h3>Disfruta de tu propia zona wifi</h3>
-                <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
-                <div class="benefitsCt__btn">
-                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
-                </div>
-              </div>
+            <div class="col-12">
+              <h2 class="titleAyuda">Lorem ipsum dolor sit amet</h2>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="dudasct">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/image_1.jpg" alt="" class="dudasct__img">
+                <div class="dudasct__desc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div><!-- end.dudasct__desc -->
+              </div><!-- end.dudasct -->
+            </div><!-- end.col-* -->
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="dudasct">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/imagen_2.jpg" alt="" class="dudasct__img">
+                <div class="dudasct__desc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div><!-- end.dudasct__desc -->
+              </div><!-- end.dudasct -->
+            </div><!-- end.col-* -->
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="dudasct">
+                <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/imagen_3.jpg" alt="" class="dudasct__img">
+                <div class="dudasct__desc">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div><!-- end.dudasct__desc -->
+              </div><!-- end.dudasct -->
             </div><!-- end.col-* -->
           </div><!-- end.row -->
         </div><!-- end.container -->
       </div><!-- end.benefitsCt -->
-      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
+      <img class="arrowAy" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/flechas-04.svg" alt="Arrows">
     </section><!-- end.beneficios-sec -->
     
     <section class="beneficiosct">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <h2 class="beneficiosct__title wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="1s">Los beneficios de estar con moBig</h2>
+            <h2 class="beneficiosct__title wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="1s">LOREM IPSUM DOLOR</h2>
           </div><!-- end.col-* -->
           <div class="col-12 col-md-5 col-lg-3">
             <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.4s" data-wow-duration="1s">
-              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="beneficiosct__img" alt="Beneficios-planes">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/iconos-12.svg" class="beneficiosct__img" alt="Beneficios-planes">
               <figcaption class="beneficiosct__cap">
                 <p>Te ofrecemos planes de prepago desde $30, planes de pospago desde $100 y la posibilidad de tener un plan actualizado pagando 7 meses y recibiendo 12.</p>
               </figcaption><!-- end.beneficiosct__cap -->
@@ -104,7 +122,7 @@
           </div><!-- end.col-* -->
           <div class="col-12 col-md-5 col-lg-3">
             <figure class="beneficiosct__fig beneficiosct__fig--pink wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
-              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-04.svg" class="beneficiosct__img" alt="beneficios-linea">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/iconos-13.svg" class="beneficiosct__img" alt="beneficios-linea">
               <figcaption class="beneficiosct__cap">
                 <p>Porta tu línea y quédate con tu número de toda la vida.</p>
               </figcaption><!-- end.beneficiosct__cap -->
@@ -112,7 +130,7 @@
           </div><!-- end.col-* -->
           <div class="col-12 col-md-5 col-lg-3">
             <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
-              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-06.svg" class="beneficiosct__img" alt="beneficios-velocidad">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/iconos-14.svg" class="beneficiosct__img" alt="beneficios-velocidad">
               <figcaption class="beneficiosct__cap">
                 <p>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G.</p>
               </figcaption><!-- end.beneficiosct__cap -->
@@ -120,7 +138,7 @@
           </div><!-- end.col-* -->
           <div class="col-12 col-md-5 col-lg-3">
             <figure class="beneficiosct__fig beneficiosct__fig--pink wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-07.svg" class="beneficiosct__img" alt="beneficios-cobertura">
+              <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/ayuda/iconos-15.svg" class="beneficiosct__img" alt="beneficios-cobertura">
               <figcaption class="beneficiosct__cap">
                 <p>Mantente conectado en cualquier parte del mundo, con nuestra cobertura nacional e internacional.</p>
               </figcaption><!-- end.beneficiosct__cap -->
