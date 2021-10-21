@@ -381,11 +381,28 @@ article.maps {
       color: $col2;
       font-family: $extrabold;
     }
+    &--black{
+      color: $col11;
+      font-family: $extrabold;
+      font-size: 2em;      
+    }
   }
   &__desc{
     color: $col11;
     font-family: $regular;
     font-size: 1.2em;
+    &--pink{
+      color: $col1;
+      font-family: $regular;
+      font-size: 1.8em !important;      
+      &--italic{
+        font-style: italic;
+        color: $col1;
+        font-family: $regular;
+        font-size: 1.2em;  
+      }
+    }
+    
   }
   padding-bottom: 2%;
   img.maskFlechas{
@@ -772,5 +789,19 @@ article.maps {
         width: 60px; bottom: 30px; right: 30px;  
       }
     }
+  }
+}
+
+.btnyellow{
+  background-color: $col2;
+  border-radius: 50px;
+  color: $white;
+  border: none;
+  width: 150px;
+  height: 37px;
+  text-align: center;
+  font-family: $regular;
+  &:hover{
+    background-color: $col1;
   }
 }

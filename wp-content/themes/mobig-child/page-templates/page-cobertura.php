@@ -44,13 +44,13 @@
       <div class="container pb-5">
         <div class="row text-left justify-content-end">
           <div class="row d-flex justify-content-end text-left mt-5 mb-5">
-            <div class="col-md-9">
-              <h3 class="telPre-sec__title--pink">Conoce nuestros planes de telefonía que responden a tus necesidades.</h3>
-              <p class="telPre-sec__desc">Elije el que mejor se adapte a ti y recibe tu SIM en tu domicilio.<br/> podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto <br/> con tus seres queridos, sin importat a qué parte viajes.</p>
+            <div class="col-md-7">
+              <h3 class="telPre-sec__title--black">Conoce nuestros planes de telefonía que responden a tus necesidades.</h3>
+              <p class="telPre-sec__desc--pink">Elije el que mejor se adapte a ti y recibe tu<br /> <italic class="telPre-sec__desc--pink--italic">SIM</italic> en tu domicilio.</p>
             </div>  
-            <div class="col-md-3 d-flex text-center">
+            <div class="col-md-2 d-flex text-center justify-content-center">
               <div class="row">
-                <a href="#" class="btn btn-primary card__telPre__btn--yellow">Planes</a>
+                <a href="#" class="btn btn-primary btnyellow">Planes</a>
               </div>
             </div>  
           </div> 
