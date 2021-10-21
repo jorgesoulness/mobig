@@ -129,7 +129,7 @@
           <div class="row justify-content-md-end">
             <div class="col-12 col-md-7 col-lg-6">
               <div class="benefitsCt__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                <h3>Disfruta de tu propia zona wifi</h3>
+                <h3>WIFI MÓVIL</h3>
                 <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
                 <div class="benefitsCt__btn">
                   <a href="<?php echo site_url(''); ?>/mifi-prepago" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
@@ -168,7 +168,7 @@
             <figure class="beneficiosct__fig beneficiosct__fig--gray wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
               <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/iconos-06.svg" class="beneficiosct__img" alt="beneficios-velocidad">
               <figcaption class="beneficiosct__cap">
-                <p>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G.</p>
+                <p>Disfruta la mayo velocidad para navegar con la nueva red 4.5G y 5G</p>
               </figcaption><!-- end.beneficiosct__cap -->
             </figure><!-- end.beneficiosct__fig -->
           </div><!-- end.col-* -->
