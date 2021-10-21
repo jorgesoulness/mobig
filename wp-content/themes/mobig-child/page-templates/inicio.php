@@ -26,7 +26,7 @@
                         <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
                       <div class="slideCt__btn">
-                        <a href="<?php echo site_url(''); ?>" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
+                        <a href="<?php echo site_url(''); ?>/portabilidad" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
                       </div><!-- end.slideCt__btn -->
                     </figcaption><!-- end.slideCt__cap -->
                   </figure><!--  end.slideCt__box -->
@@ -40,7 +40,7 @@
                         <p>Te ofrecemos alternativas para todos los sectores con tecnología 4.5G</p>
                       </div>
                       <div class="slideCt__btn">
-                        <a href="<?php echo site_url(''); ?>" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
+                        <a href="<?php echo site_url(''); ?>/portabilidad" class="btnGen btnGen__item btnGen__item--yellow">Portabilidad</a>
                       </div><!-- end.slideCt__btn -->
                     </figcaption><!-- end.slideCt__cap -->
                   </figure><!--  end.slideCt__box -->
@@ -81,8 +81,8 @@
               <h2>¡Quédate con tu número de siempre!</h2>
               <p>Haz tu portabilidad de manera rápida y fácil. Recuerda, es el derecho que tienes como usuario de telefonía fija o móvil a conservar tu número telefónico cuando decides cambiar de operador.</p>
               <div class="boxZonaDesc__btns">
-                <a href="#" class="btnGen btnGen__item btnGen__item--pink">Ver planes Prepago</a>
-                <a href="#" class="btnGen btnGen__item btnGen__item--gray">Ver planes pospago</a>
+                <a href="<?php echo site_url(''); ?>/telefonia-prepago" class="btnGen btnGen__item btnGen__item--pink">Ver planes Prepago</a>
+                <a href="<?php echo site_url(''); ?>/telefonia-pospago" class="btnGen btnGen__item btnGen__item--gray">Ver planes pospago</a>
               </div><!-- end.boxZonaDesc__btns -->
             </div><!-- end.boxZonaDesc -->
           </div><!-- end.col-* -->
@@ -92,7 +92,7 @@
               <div class="boxZona__desc">
                 <p>Realiza recargas por medio de la página de internet, call center, app ó en los más de 4,000 puntos que tenemos para atenderte. </p>
                 <div class="boxZona__btn">
-                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                  <a href="<?php echo site_url(''); ?>/telefonia-prepago" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
                 </div>
               </div>
             </div><!-- end.boxZona -->
@@ -103,7 +103,7 @@
               <div class="boxZona__desc">
                 <p>Los planes de pospago son con un cargo mensual a tu tarjeta de crédito o débito.</p>
                 <div class="boxZona__btn">
-                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                  <a href="<?php echo site_url(''); ?>/telefonia-pospago" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
                 </div>
               </div>
             </div><!-- end.boxZona -->
@@ -114,7 +114,7 @@
               <div class="boxZona__desc">
                 <p>Con nuestro plan anualizado pagas 7 y obtienes 12 meses de servicio.</p>
                 <div class="boxZona__btn">
-                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
+                  <a href="<?php echo site_url(''); ?>/telefonia-pospago#Planes7x12" class="btnGen btnGen__item btnGen__item--yellow-outline">Conocer más</a>
                 </div>
               </div>
             </div><!-- end.boxZona -->
@@ -132,7 +132,7 @@
                 <h3>Disfruta de tu propia zona wifi</h3>
                 <p>Sin importar donde vayas con moBig Mifi comparte tu internet con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte.</p>
                 <div class="benefitsCt__btn">
-                  <a href="#" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
+                  <a href="<?php echo site_url(''); ?>/mifi-prepago" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
                 </div>
               </div>
             </div><!-- end.col-* -->

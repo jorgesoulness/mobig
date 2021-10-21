@@ -363,6 +363,12 @@ article.maps {
     background-repeat: no-repeat;
     background-color: $col13;
   }
+
+  &--planSieteDoceLeft{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: $white;
+  }
   &__title{
     font-family: $extrabold;
     font-weight: bold;
@@ -401,12 +407,20 @@ article.maps {
   &--pink{
     min-height: 350px !important;
   }
+  &--roaming{
+    min-height: 390px !important;
+  }
   &__header{    
     &--yellow{
       background-color: $col2;
     }
     &--pink{
       background-color: $col1;
+    }
+    &--pink2{
+      background-color: $col1;
+      min-height: 85px;
+      vertical-align: middle;
     }
     --bs-gutter-x: 0rem;
     width: 100% important;
@@ -416,6 +430,10 @@ article.maps {
     &__title{
       font-size: 1.5em;
       color: $white;
+      &--pink2{
+        font-size: 1.3em;
+        color: $white;
+      }
     }
   }
   box-shadow: 0 4px 10px rgba($black, 0.25);
