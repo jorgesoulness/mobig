@@ -15,8 +15,8 @@
         <div class="container">
           <div class="row">
             <!--<img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/logos/logo_mobig-white.svg" class="bannerIntTel__imgFig" alt="logoMoBig" />-->
-            <h1 class="bannerIntTel__title">TEN LA SEGURIDAD QUE <br/> SIEMPRE ESTARAS CONECTADO</h1>
-            <p class="bannerIntTel__desc">moBig Mifi es tu propia zona Wifi, sin importar <br/> donde vayas el internet te acompaña.</p>
+            <h1 class="bannerIntTel__title">TEN LA SEGURIDAD QUE <br/> SIEMPRE ESTARÁS CONECTADO</h1>
+            <p class="bannerIntTel__desc">moBig Mifi es tu propia zona Wifi, sin importar <br/> dónde vayas el internet te acompaña.</p>
             <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/4571203.png" alt="bannerIntTel__Bgs" class=" bannerIntTel__Bgs" />
             <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/tache-02.svg" alt="header-section" class="mask--Tache" />
             <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/mifi/flechas blancas-02.svg" alt="header-section" class="mask--Flechas" />
@@ -46,7 +46,7 @@
           <div class="col-sm-10">
             <div class="row d-flex justify-content-center text-center">
               <h1 class="telPre-sec__title--yellow">APROVECHA NUESTROS<br/> PLANES PREPAGO</h1>
-              <p class="telPre-sec__desc">Sin importar donde vayas con moBig Mifi tu internet <br/> con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte. <br/>Realiza recargas por medio de la página de internet, call center, app ó en <br />los más de 4,000 puntos que tenemos para atenderte. </p>
+              <p class="telPre-sec__desc">Sin importar donde vayas con moBig Mifi tu internet <br/> con tus amigos y clientes en tu casa, establecimiento, oficina o en cualquier parte. <br/>Recarga por medio de nuestra página de internet, App ó en <br />los más de 4,000 puntos que tenemos para atenderte. </p>
             </div>
             <div class="row d-flex justify-content-center">
 

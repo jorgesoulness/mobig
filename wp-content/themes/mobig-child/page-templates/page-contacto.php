@@ -34,7 +34,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/telefono.svg" alt="iconTelefono">
               </div>
               <div class="datosContact__desc">
-                <p>Llámanos:<br>26 moBig</p>
+                <p>Llámanos:<br>800 26 moBig</p>
               </div>
             </div><!-- end.datosContact -->
           </div><!-- end.col-* -->
@@ -44,7 +44,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/contacto/lugar.svg" alt="iconPing">
               </div>
               <div class="datosContact__desc">
-                <p>Dirección: <br/>Bosque de los Ciruelos<br /> Bosque de las Lomas<br /> Miguel Hidalgo 11700 <br />Ciudad de México, CDMX</p>
+                <p>Dirección: <br/>Bosque de los Ciruelos<br /> Bosque de las Lomas<br /> Miguel Hidalgo, 11700 <br />CDMX</p>
               </div>
             </div><!-- end.datosContact -->
           </div><!-- end.col-* -->
