@@ -14,7 +14,7 @@
       <div class="slideCt">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-8">
+            <div class="col-12">
               <div class="slideCt__slide">
 
                 <div>
