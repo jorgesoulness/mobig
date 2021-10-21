@@ -25,9 +25,6 @@
       </div>
     </section><!-- end.hero-sec --> 
 
-
-
-
     <section class="cobertura-sec">
       <div class="container">
         <div class="row d-flex justify-content-center">
@@ -40,23 +37,24 @@
       </div><!-- end.container -->
     </section><!-- end.cobertura-sec -->
 
-    <section class="telPre-sec--planSieteDoceLeft"   style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/cobertura/back.png);">
-      <div class="container pb-5">
-        <div class="row text-left justify-content-end">
-          <div class="row d-flex justify-content-end text-left mt-5 mb-5">
-            <div class="col-md-7">
-              <h3 class="telPre-sec__title--black">Conoce nuestros planes de telefonía que responden a tus necesidades.</h3>
-              <p class="telPre-sec__desc--pink">Elije el que mejor se adapte a ti y recibe tu<br /> <italic class="telPre-sec__desc--pink--italic">SIM</italic> en tu domicilio.</p>
-            </div>  
-            <div class="col-md-2 d-flex text-center justify-content-center">
-              <div class="row">
-                <a href="#" class="btn btn-primary btnyellow">Planes</a>
+    <section class="cober-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/cobertura/back.png);">
+      <div class="coberCt">
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-12 col-md-7 col-lg-6">
+              <div class="coberCt__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                <h3>Conoce nuestros planes de telefonía que responden a tus necesidades.</h3>
+                <p>Elije el que mejor se adapte a ti y recibe tu SIM en tu domicilio.<br/> podrás seguir navegando y disfrutar de tus redes sociales favoritas, mientras te mantienes en contacto <br/> con tus seres queridos, sin importat a qué parte viajes.</p>
+                <div class="coberCt__btn">
+                  <a href="<?php echo site_url(''); ?>" class="btnGen btnGen__item btnGen__item--yellow">Conoce más</a>
+                </div>
               </div>
-            </div>  
-          </div> 
-        </div>    
-      </div><!-- end.container -->
-    </section><!-- end.cobertura-sec -->
+            </div><!-- end.col-* -->
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div><!-- end.benefitsCt -->
+      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
+    </section><!-- end.beneficios-sec -->
 
   </article><!-- end.article inicio -->
 

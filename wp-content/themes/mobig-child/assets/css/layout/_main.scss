@@ -318,6 +318,44 @@ article.maps {
   }
 }
 
+// Cobertura
+.cober-sec {
+  width: 100%; height: auto; @include position(relative, null null null null); padding: 60px 0; margin: 0; background-position: -450px; background-repeat: no-repeat; background-size: cover; overflow: hidden; background-color: $white;
+  & .coberCt {
+    z-index: 3; position: relative; width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
+    &__box {
+      width: 100%; height: auto; padding: 0; margin: 0; @include box-sizing(border-box);
+      & h3 {
+        color: $col1; margin: 0 0 20px; padding: 0; line-height: 1; text-align: left; font-family: $extrabold; @include fluid-type(18px, 30px, 320px, 1200px); text-transform: uppercase;
+      }
+      & p {
+        color: $col3; margin: 0 0 20px; padding: 0; line-height: 1.2; text-align: left; font-family: $semibold; @include fluid-type(13px, 18px, 320px, 1200px);
+      }
+    }
+    &__btn {
+      width: 100%; height: auto; padding:0 ; margin: 0; position: relative; @include box-sizing(border-box); text-align: left;
+    }
+  }
+  & .circleBen {
+    @include position(absolute, 50% -170px null null); @include transform(translateY(-50%)); display: block; width: 100%; max-width: 200px; height: auto; padding: 0; margin: 0; z-index: 2;
+  }
+  @media all and (min-width: 576px) {
+    // height: 350px;
+  }
+  @media all and (min-width: 768px) {
+    background-position: -160px; background-size: contain;
+  }
+  @media all and (min-width: 992px) {
+    background-position: -70px;
+  }
+  @media all and (min-width: 1024px) {
+    background-position: -50px;
+  }
+  @media all and (min-width: 1200px) {
+    background-position: left;
+  }
+}
+
 // Ayuda
 .ayudaVid-sec {
   width: 100%; height: auto; @include position(relative, null null null null); padding: 50px 0; margin: 0; background-position: -450px; background-repeat: no-repeat; background-size: cover; overflow: hidden; background-color: $col5; background-image: url('#{$imgR}ayuda/logo back rojo-05.svg');
