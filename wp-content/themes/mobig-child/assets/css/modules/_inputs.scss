@@ -2,7 +2,36 @@
    Modules/Inputs
    ======================= */
 
-  form {
+  form.formProcess {
+    padding: 0; margin: 0 0 30px; width: 100%; height: auto;
+    & .inputRel {
+      position: relative;
+    }
+    & input[type="text"],
+    & input[type="email"],
+    & input[type="password"] {
+      width: 100%; border: 0; outline: 0; padding: 11px 17px 11px; border: 0.5px solid $col4; box-shadow: none; background-color: rgba($col3, 0.10)!important; border-radius: 4px!important; @include fluid-type(13px, 16px, 320px, 1200px);
+      &:invalid {
+          outline: 0;
+      }
+      &:focus {
+        border-color: $col1; background-color: $col4;
+      }
+      &.error-line {
+        border-color: red; background-color: $col4;
+      }
+      &.error-line ~ label {
+          color: red;
+      }
+    }
+    & select {
+      width: 100%; border: 0; outline: 0; padding: 11px 17px 11px; border: 0.5px solid $col4; box-shadow: none; background-color: rgba($col3, 0.10)!important; border-radius: 4px!important;
+    }
+  }
+  .marginRow {
+    margin-bottom: 20px;
+  }
+   form {
     @include margin(0 null 20px null);
     label {
       font-size: rem(14px); color: $white;
@@ -59,7 +88,7 @@
           border-color: $col1; background-color: $col4; box-shadow: none;
         }
         &:focus ~ label,
-        &:valid ~ label {
+        &[aria-required="true"] ~ label {
           font-size: rem(11px); top: 2px; color: $col1; padding: 0 0 0 8px;
         }
         &.error-line {
@@ -94,7 +123,9 @@
     //     color: $c7; font-size: rem(24px); font-weight: 900;
     //   }
     // }
-    button[type="submit"], input[type="submit"] {
+    button[type="submit"], input[type="submit"],
+    button[type="button"], input[type="button"],
+    button {
       width: auto; height: 40px; padding: 0 35px; margin: 20px 0 0; text-transform: uppercase; text-align: center; color: $white; display: inline-block; border: 1px solid $col1; @include box-sizing(border-box); line-height: 38px; font-size: rem(16px); cursor: pointer; position: relative; overflow: hidden; border-radius: 20px; background-color: $col1; @include transition(all 0.23s); box-shadow: 0 0 5px rgba($black, 0.25); font-family: $medium;
       &:hover {
         background-color: $col6; color: $white; border: 1px solid $col1;

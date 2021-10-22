@@ -75,8 +75,8 @@
           </div><!-- end.col-* -->
           <div class="col-12">
             <div class="frmSecConact">
-              <!-- <form method="POST" name="frmContacto" id="frmContacto"> -->
-                <!-- <div class="row">
+              <form method="POST" name="frmContacto" id="frmContacto" action="">
+                <div class="row">
                   <div class="col-12 col-md-6">
                     <div class="form-group animatedField">
                       <input type="text" name="inpNombre" id="inpNombre" class="form-control" required>
@@ -100,11 +100,12 @@
                 </div>
                 <div class="row d-flex justify-content-center text-center">
                   <div class="form-group">
+                    <input type="hidden" name="asunto" id="asunto" value="Formulario de Contacto">
                     <input type="submit" name="inpSumbit" value="ENVIAR" id="inpSumbit" />
                   </div>
-                </div> -->
-                <?php echo do_shortcode('[contact-form-7 id="113" title="FRM Contacto"]'); ?>
-              <!-- </form> -->
+                </div>
+                <!-- <?php // echo do_shortcode('[contact-form-7 id="113" title="FRM Contacto"]'); ?> -->
+              </form>
             </div><!-- end.frmSecConact -->
           </div><!-- end.col-* -->
         </div><!-- end.row -->

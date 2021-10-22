@@ -86,7 +86,10 @@ $table_prefix = 'dbm0b1g_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
-
+/* Desactiva validación Conact form 7 */
+define( 'WPCF7_VALIDATE_CONFIGURATION', false );
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'PAss$$' );
 
 
 /* That's all, stop editing! Happy publishing. */
