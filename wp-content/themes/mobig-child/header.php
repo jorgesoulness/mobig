@@ -41,8 +41,8 @@
           <p>Continúa con el proceso para recibir tu SIM</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <button type="button" class="btn btn-secondary forStep2">Continuar</button>
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
+            <button type="button" class="btnGen btnGen__item btnGen__item--yellow-outline forStep2">Continuar</button>
           </div>
         </div>
       </div>
@@ -55,8 +55,8 @@
           <p>En breve serás redireccionado al sistema para continuar tu proceso.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
+            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
           </div>
         </div>
       </div>
@@ -72,8 +72,8 @@
           <p>Tu equipo no es compatible con la red, comunicate con nuestro centro de atención para opciones de contratación"</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
+            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
           </div>
         </div>
       </div>
@@ -89,8 +89,8 @@
           <p>El IMEI de tu equipo se encuentra bloqueado</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
+            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
           </div>
         </div>
       </div>
