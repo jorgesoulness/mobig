@@ -843,3 +843,8 @@ article.maps {
     background-color: $col1;
   }
 }
+
+// Proceso Section
+.process-sec {
+  width: 100%; height: auto; padding: 60px 0; margin: 0; @include box-sizing(border-box); background-color: $col5;
+}
