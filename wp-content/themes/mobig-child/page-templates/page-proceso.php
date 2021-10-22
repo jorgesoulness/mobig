@@ -59,7 +59,7 @@
 
         <div class="row d-flex justify-content-center">
           <!-- Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result0">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result3">
             DA CLICK PARA PROBAR LOS MODALES, CAMBIA EL data-bs-target DLE BOTON DEL result0 al result4
           </button>
           <!-- eND Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
@@ -79,8 +79,8 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-6 contentGralStep step2" style="display:block;">
-            <div class="row msj-result2">
+          <div class="col-6 contentGralStep step2" style="display:none;">
+            <div class="row msj-result2" style="display:none;">
             <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/vozapp.png" alt="VozApp" class="" />
               <h3>Tú equipo es compatible pero necesitaras la aplicación <strong>vozApp</strong> para realizar llamadas telefónicas</h3>
               <a href="https://www.vozapp.com.mx/" target="_blank">Más información</a>
