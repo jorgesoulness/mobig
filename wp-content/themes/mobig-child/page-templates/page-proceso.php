@@ -58,17 +58,21 @@
         </div><!-- end.row -->
 
         <div class="row d-flex justify-content-center">
-          <div class="col-6 contentGralStep step1" style="display:none;">
-            <h3>Ingresa tu IMEI</h3>
-            <hr/>
-            <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
-            <br/>
-            <small>¿Necesitas ayuda? <i class="fa fa-question-circle"></i> </small>
-            <input type="text" minlength="15" maxlength="16" name="inpIMEI" id="inpIMEI" class="form-control required" placeholder="Ingresa los 15 o 16 dígitos de tu IMEI*" />
-            <button id="bntIMEI" class="btn btn-sumbit" for="step2">Siguiente</button>
+          <div class="col-6 contentGralStep step1" >
+            <form id="frmStep1" name="frmStep1" method="POST">
+              <h3>Ingresa tu IMEI</h3>
+              <hr/>
+              <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
+              <br/>
+              <small>¿Necesitas ayuda? <i class="fa fa-question-circle"></i> </small>
+              <input type="text" minlength="15" maxlength="16" name="inpIMEI" id="inpIMEI" class="form-control required" placeholder="Ingresa los 15 o 16 dígitos de tu IMEI*" />
+              <label class="msg-inpIMEI"></label>
+              <input type="button" id="frmStep1" class="btn btn-sumbit" for="step2" value="Siguiente" />
+              
+            </form>
           </div>
 
-          <div class="col-6 contentGralStep step2">
+          <div class="col-6 contentGralStep step2" style="display:none;">
             <h3>Ingresa tu IMEI</h3>
             <hr/>
             <p>Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>

@@ -1,59 +1,68 @@
-var watchId;
-var mapa = null;
-var mapaMarcador = null;	
+$(document).ready(function(){
 
-if (navigator.geolocation) {
-	watchId = navigator.geolocation.watchPosition(mostrarPosicion, mostrarErrores, opciones);	
-} else {
-	alert("Tu navegador no soporta la geolocalización, actualiza tu navegador.");
-}
+	$(".btn-sumbit").click(function(){
+		var item = $(this);
+		if(item.attr("id") == "frmStep1"){
+			if($("#inpIMEI").length  == 0){
+				$("#inpIMEI").addClass("error").focus();
+				$(".msg-inpIMEI").empty().html("Debes ingresar un dato válido");
+			}
+			else{
+				
 
-function mostrarPosicion(posicion) {
-	var latitud = posicion.coords.latitude;
-	var longitud = posicion.coords.longitude;
-	var precision = posicion.coords.accuracy;
+				
+				$("#inpIMEI").removeClass("error");
+				$(".msg-inpIMEI").empty();
+				
+				$.ajax({
+					url: siteURL+'/12850fe89f11e6d2a338f0e48a49aeb6.php',
+					type: 'POST',
+					async: true,
+					data: {
+						'data' : $("#inpIMEI").val()
+					},
+					dataType: 'json'
+				})
+				.done(function( data, textStatus, jqXHR ) {
+					if ( console && console.log ) {
+						var response = JSON.parse(data);
 
-	var miPosicion = new google.maps.LatLng(latitud, longitud);
+						if(response.imei.blocked == "NO"){
+							if(response.deviceFeatures.band28 == "" && response.deviceFeatures.volteCapable == ""){
+								alert("Tu equipo no es compatible con la red, comunicacte con nuestro centro de atención para opciones de contratación");
+							}
+							else{
+								if(response.deviceFeatures.band28 == "SI"){
+									if(response.deviceFeatures.volteCapable == "SI"){
+										//alert("Tu equipo es compatible");
+										$("#result1").modal("show");
+									}
+									else{
+										alert("Continuar a contratación pero poner liga a vozapp");
+									}
+								}
+								else{
+									alert("Continuar a contratación pero poner liga a vozapp");
+								}
+							}
+						}
+						else{
+							alert("El IMEI de tu equipo se encuentra bloqueado");
+						}
+					}
+				})
+				.fail(function( jqXHR, textStatus, errorThrown ) {
+					if ( console && console.log ) {
+						console.log( "La solicitud a fallado: " +  textStatus);
+					}
+				});
+			}
+			
+		}
+	});
 
-	// Se comprueba si el mapa se ha cargado ya 
-	if (mapa == null) {
-		// Crea el mapa y lo pone en el elemento del DOM con ID mapa
-		var configuracion = {center: miPosicion, zoom: 16, mapTypeId: google.maps.MapTypeId.HYBRID};
-		mapa = new google.maps.Map(document.getElementById("mapa"), configuracion);
 
-		// Crea el marcador en la posicion actual
-		mapaMarcador = new google.maps.Marker({position: miPosicion, title:"Esta es tu posición"});
-		mapaMarcador.setMap(mapa);
-	} else {
-		// Centra el mapa en la posicion actual
-		mapa.panTo(miPosicion);
-		// Pone el marcador para indicar la posicion
-		mapaMarcador.setPosition(miPosicion);
-	}
-}
 
-function mostrarErrores(error) {
-	switch (error.code) {
- 		case error.PERMISSION_DENIED:
-  			alert('Permiso denegado por el usuario'); 
-  			break;
-   		case error.POSITION_UNAVAILABLE:
-    		alert('Posición no disponible');
-     		break; 
-     	case error.TIMEOUT:
-      		alert('Tiempo de espera agotado');
-       		break;
-        default:
-         	alert('Error de Geolocalización desconocido :' + error.code);
-	}
-}
 
-var opciones = {
-	enableHighAccuracy: true,
-	timeout: 10000,
-	maximumAge: 1000
-};
-
-function detener() {
-	navigator.geolocation.clearWatch(watchId);
-}
+	
+});

@@ -25,6 +25,26 @@
 
       <script>var siteURL = '<?php echo get_site_url(); ?>';</script>
     </head>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="result1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="titleModal">¡FELICIDADES!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+          <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/chip.jpg" alt="chip" class="w-50">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <body <?php body_class('is-preload'); ?> style="display: none;">
 
       <div class="overProgress fadeX"></div>
