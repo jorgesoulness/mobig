@@ -68,7 +68,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body text-center">
-          <i class="fal fa-sad-tear"></i>
+          <i class=" fa fa-sad-tear"></i>
           <p>Tu equipo no es compatible con la red, comunicate con nuestro centro de atención para opciones de contratación"</p>
           </div>
           <div class="modal-footer">

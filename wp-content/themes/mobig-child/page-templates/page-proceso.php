@@ -55,8 +55,8 @@
 
         <div class="row d-flex justify-content-center">
           <!-- Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result0">
-            DA CLICK PARA PROBAR LOS MODALES, CAMBIA EL data-bs-target DLE BOTON DEL result0 al result4
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result3">
+            DA CLICK PARA PROBAR LOS MODALES, CAMBIA EL data-bs-target DLE BOTON DEL result0 al result3
           </button>
           <!-- eND Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
           <div class="col-12 col-md-8 col-lg-6">
@@ -71,7 +71,7 @@
                 </div>
                 <label class="msg-inpIMEI"></label>
                 <div class="contentGralStep__btn">
-                  <input type="button" id="frmStep1" for="step2" value="Siguiente">
+                  <input type="button" id="frmStep1" class="btn-sumbit" for="step2" value="Siguiente">
                 </div><!-- end.contentGralStep__btn -->
               </form>
             </div><!-- end.contentGralStep -->
@@ -80,7 +80,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-6 col-md-8 col-lg-6">
             <div class="contentGralStep step2">
-              <div class="row msj-result2">
+              <div class="row msj-result2" style="display:none;">
                 <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/vozapp.png" alt="VozApp" class="" />
                 <h4>Tú equipo es compatible pero necesitaras la aplicación <strong>vozApp</strong> para realizar llamadas telefónicas</h4>
                 <div class="msj-result2__btn">
