@@ -210,10 +210,10 @@ $(function(){
                 $("#frmContacto").each (function(){
                   this.reset();
                 });
-                $('#modalCongrats').removeClass('hideMo').addClass('showMo');
-                setTimeout(function(){
-                  $('#modalCongrats').removeClass('showMo').addClass('hideMo');
-                }, 5000);
+                //$('#modalCongrats').removeClass('hideMo').addClass('showMo');
+                //setTimeout(function(){
+                  //$('#modalCongrats').removeClass('showMo').addClass('hideMo');
+                //}, 5000);
               },
               error: function(e) {
                 console.log(e);
@@ -224,6 +224,7 @@ $(function(){
             $("#inpEmail").addClass("error error-line");
             var html ='<div id="inpEmail-error" class="error-line"><i class="fa fa-exclamation-triangle"><i></i></i></div>';
             $("#inpEmail").after(html);
+
           }
         
       }
