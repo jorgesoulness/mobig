@@ -129,7 +129,9 @@
                   <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901036" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <!--<div class="card card--pink col-sm-3 cardCustom--big" >
+</div>
+<div class="row d-flex justify-content-center">
+              <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">ADICIONAL 1</h3>
                 </div>
@@ -174,7 +176,7 @@
                 </div>
               </div>
 
-            </div>-->
+            </div>
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->

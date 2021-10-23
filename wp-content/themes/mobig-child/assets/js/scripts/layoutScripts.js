@@ -187,32 +187,59 @@ $(function(){
       },
       submitHandler: function(form) {
         // console.log("enviar form");
-        var dataForm = $('#frmContacto').serialize();
-        $.ajax({
-          url: '/contactoScript.php',
-          type: 'POST',
-          data: dataForm,
-          beforeSend: function(xhr) {
-            // $('.btnSend').addClass('loadBtn');
-          },
-          complete: function(xhr, textstatus) {
-            // $('.btnSend').removeClass('loadBtn');
-          },
-          success: function(data) {
-            console.log(data);
-            $("#frmContacto").each (function(){
-              this.reset();
+
+        
+        var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+        if (regex.test($('#inpEmail').val().trim())) {
+            $("#inpEmail-error").remove();
+            
+            var dataForm = $('#frmContacto').serialize();
+            $.ajax({
+              url: '/contactoScript.php',
+              type: 'POST',
+              data: dataForm,
+              beforeSend: function(xhr) {
+                // $('.btnSend').addClass('loadBtn');
+              },
+              complete: function(xhr, textstatus) {
+                // $('.btnSend').removeClass('loadBtn');
+              },
+              success: function(data) {
+                console.log(data);
+                $("#frmContacto").each (function(){
+                  this.reset();
+                });
+                $('#modalCongrats').removeClass('hideMo').addClass('showMo');
+                setTimeout(function(){
+                  $('#modalCongrats').removeClass('showMo').addClass('hideMo');
+                }, 5000);
+              },
+              error: function(e) {
+                console.log(e);
+              }
             });
-            $('#modalCongrats').removeClass('hideMo').addClass('showMo');
-            setTimeout(function(){
-              $('#modalCongrats').removeClass('showMo').addClass('hideMo');
-            }, 5000);
-          },
-          error: function(e) {
-            console.log(e);
+          } else {
+            
+            $("#inpEmail").addClass("error error-line");
+            var html ='<div id="inpEmail-error" class="error-line"><i class="fa fa-exclamation-triangle"><i></i></i></div>';
+            $("#inpEmail").after(html);
           }
-        });
+        
       }
+    });
+
+    $("#inpEmail").keyup(function(){
+      var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+
+        if (regex.test($('#inpEmail').val().trim())) {
+            $("#inpEmail-error").remove();
+        }
+        else{
+          $("#inpEmail").addClass("error error-line");
+          var html ='<div id="inpEmail-error" class="error-line"><i class="fa fa-exclamation-triangle"><i></i></i></div>';
+          $("#inpEmail").after(html);
+        }
     });
 
   
