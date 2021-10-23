@@ -93,7 +93,7 @@ $(function(){
   $('#md').clone().prependTo('#contListMenu').removeAttr('id').show();
   TweenMax.to($('#mm'), 0, { scale: 1.2, opacity: 0, zIndex: -1, force3D: true });
 
-  $('#contListMenu ul li.menu-item-has-children a').click(function(e){
+  $('#contListMenu ul li.menu-item-has-children > a').click(function(e){
     e.preventDefault();
     $('#contListMenu ul li.menu-item-has-children a').removeClass('active');
     $('#contListMenu .sub-menu').removeClass('current');

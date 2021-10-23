@@ -201,11 +201,15 @@
               <h1 class="dudasCt__title">¿Dudas? Por acá hay algunas preguntas frecuentes</h1>
             </div>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-6">
         <?php if( have_rows('faqs_tel_pre') ):
           $row = 0;
+          $in = 0;
+          $count = count(get_field('faqs_tel_pre'));
         ?>
             <div class="accDudas accordion" id="accordionExample">
+              <div class="row">
+              <div class="col-12 col-md-6">
         <?php while( have_rows('faqs_tel_pre') ): the_row(); ?>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="FAQ-<?php echo $row; ?>">
@@ -219,10 +223,17 @@
                   </div>
                 </div>
               </div>
+        <?php if($in === 3):?>
+        </div>
+        <div class="col-12 col-md-6">
+        <?php endif; ?>
         <?php 
           $row++;
+          $in ++;
         endwhile; ?>
-            </div>
+              </div>
+              </div>
+            </div><!-- end.accDudas -->
         <?php endif; ?>
           </div>
         </div><!-- end.row -->
