@@ -87,7 +87,7 @@
                       <label for="inpEmail">Correo Electrónico*</label>
                     </div> 
                     <div class="form-group animatedField">
-                      <input type="text" name="inptTel" id="inpTel" class="form-control" required>
+                      <input type="text" name="inptTel" id="inpTel" class="form-control input-number" required>
                       <label for="inpTel">Teléfono*</label>
                     </div>  
                   </div>

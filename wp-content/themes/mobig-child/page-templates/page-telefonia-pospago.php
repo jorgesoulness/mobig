@@ -47,7 +47,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1609901034" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@
               <div class="col-12 col-md-6 col-lg-3" >
                 <div class="card cardCustom--big">
                   <div class="card-header card__header card__header--pink">
-                    <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
+                    <h3 class="card-title text-center card__header__title">moBig 220</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas">20GB</h4>
@@ -66,14 +66,14 @@
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1679901017" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big">
                   <div class="card-header card__header card__header--pink">
-                    <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                    <h3 class="card-title text-center card__header__title">moBig 330</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas">20GB</h4>
@@ -84,14 +84,14 @@
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1609901035" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big">
                   <div class="card-header card__header card__header--pink">
-                    <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                    <h3 class="card-title text-center card__header__title">moBig 499</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas">Ilimitado</h4>
@@ -102,7 +102,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1609901036" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
@@ -134,12 +134,12 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1709901088" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
           <div class="card col-sm-3 cardCustom--big" >
           <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN INDIVIDUAL</h3>
+                  <h3 class="card-title text-center card__header__title">moBig 1,400</h3>
                 </div>
             <div class="card-body card__telPre text-center">
               <h4  class="card__telPre__gigas">20GB</h4>
@@ -151,12 +151,12 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1679901012" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
           <div class="card col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN COMPARTE</h3>
+                  <h3 class="card-title text-center card__header__title">moBig 2,100</h3>
                 </div>
             <div class="card-body card__telPre text-center">
               <h4  class="card__telPre__gigas">20GB</h4>
@@ -168,32 +168,13 @@
                 <li><i class="fa fa-check-circle"></i> <p>Llamadas Y SMS ilimitads a México, EU y Canadá</p></li>
                 <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
               </ul>
-              <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+              <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1609901023" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
             </div>
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->
     </section><!-- end.cobertura-sec -->
 
-    <section class="pospagoTar-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203-1.png);">
-      <div class="pospagoCT">
-        <div class="container">
-          <div class="row justify-content-md-end">
-            <div class="col-12 col-md-8 col-lg-7">
-              <div class="pospagoCT__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                <h3>ROAMING + LARGA DISTANCIA</h3>
-                <p>Si piensas viajar al extranjero, contamos con los planes especializados para que te mantengas comunicado.<br><strong>¡Consulta los planes que tenemos para ti!</strong></p>
-                <div class="pospagoCT__btn">
-                  <a href="<?php echo site_url(''); ?>/" class="btnGen btnGen__item btnGen__item--pink">Larga distancia</a>
-                  <a href="<?php echo site_url(''); ?>/" class="btnGen btnGen__item btnGen__item--gray">Roaming internacional</a>
-                </div>
-              </div>
-            </div><!-- end.col-* -->
-          </div><!-- end.row -->
-        </div><!-- end.container -->
-      </div><!-- end.benefitsCt -->
-      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
-    </section><!-- end.beneficios-sec -->
 
     <section class="dudas-sec">
       <div class="container posRel">

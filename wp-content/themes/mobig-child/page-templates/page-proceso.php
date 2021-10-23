@@ -29,11 +29,11 @@
       </div>
     </section><!-- end.hero-sec -->
 
-    <section class="process-sec">
+    <section class="process-sec" >
       <div class="container">
-        <div class="row d-flex justify-content-center">
+        <!--<div class="row d-flex justify-content-center" style="display:none;">
           <div class="col-12">
-            <!-- <?php //the_field('embed'); ?> -->
+            <!- - <?php //the_field('embed'); ?> - ->
             <div class="contentControlsStep">
               <ul class="contentControlsStep__list">
                 <li class="contentControlsStep__item stepIcon Controls-step1">
@@ -48,10 +48,10 @@
                   <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/001-credit-card-payment.png" alt="">
                   <p>Completa tu registro</p>
                 </li>
-              </ul><!-- end.contentControlsStep__list -->
-            </div><!-- end.contentControlsStep -->
-          </div><!-- end.col-* -->
-        </div><!-- end.row -->
+              </ul><!- - end.contentControlsStep__list - ->
+            </div><! -- end.contentControlsStep - ->
+          </div><!- - end.col-* - ->
+        </div><! -- end.row -->
 
         <div class="row d-flex justify-content-center">
           <!-- Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->

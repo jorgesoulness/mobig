@@ -35,7 +35,7 @@
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">LATAM, USA <br/>Y CANADÁ</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig 380</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas">500MB</h4>
@@ -45,7 +45,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>500 MB de navegación (Datos para compartir)</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Latam, USA y Canadá (excepto Caribe)</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901221" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
@@ -53,7 +53,7 @@
               <div class="col-12 col-md-6 col-lg-3" >
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">NORTEAMÉRICA, LATAM,<br/> EUROPA Y ASIA</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig 430</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas"></h4>
@@ -64,14 +64,14 @@
                       <li><i class="fa fa-check-circle"></i> <p>100 SMS</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Norteamérica, Latam, Europa y Asia (excepto Caribe)</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901223" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">EUROPA, ASIA, ÁFRICA <br/> Y OCEANÍA</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig 760</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas">500MB</h4>
@@ -81,7 +81,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>500 MG de navegación</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Europa, Asia, África y Oceanía</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901222" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">LATINOAMÉRICA</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig LATAM 120 </h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas"></h4>
@@ -115,7 +115,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>10 SMS</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Toda Latinoamérica, excepto Caribe</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901224" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@
               <div class="col-12 col-md-6 col-lg-3" >
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">EUROPA</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig EUROPA 120 </h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas"></h4>
@@ -134,14 +134,14 @@
                       <li><i class="fa fa-check-circle"></i> <p>10 SMS</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Europa</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901225" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card cardCustom--big card--roaming">
                   <div class="card-header card__header card__header--pink2">
-                    <h3 class="card-title text-center card__header__title--pink2">RESTO DEL <br/> MUNDO</h3>
+                    <h3 class="card-title text-center card__header__title--pink2">moBig MUNDIAL 230</h3>
                   </div>
                   <div class="card-body card__telPre text-center">
                     <h4  class="card__telPre__gigas"></h4>
@@ -152,7 +152,7 @@
                       <li><i class="fa fa-check-circle"></i> <p>10 SMS</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Resto del mundo</p></li>
                     </ul>
-                    <a href="#" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
+                    <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1809901226" class="btn btn-primary card__telPre__btn--yellow">Comprar</a>
                   </div>
                 </div>
               </div>

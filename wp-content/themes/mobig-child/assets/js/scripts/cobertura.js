@@ -89,6 +89,11 @@ $(document).ready(function(){
 			.done(function( data, textStatus, jqXHR ) {
 				if ( console && console.log ) {
 					var response = JSON.parse(data);
+					if(response.imei.homologated == "NO PROBADO"){
+						$(".responseModal").empty().html("IMEI incorrecto o no encontrado. Intenta nuevamente");
+						$("#result00").modal("show");
+
+					}
 
 					if(response.imei.blocked == "NO"){
 						if(response.deviceFeatures.band28 == "" && response.deviceFeatures.volteCapable == ""){
@@ -103,12 +108,16 @@ $(document).ready(function(){
 								}
 								else{
 									//alert("Continuar a contratación pero poner liga a vozapp"); RESULT2
-									$(".msj-result2").show();
+									//$(".msj-result2").show();
+									$(".responseModal").empty().html("Tu equipo es compatible pero necesitaras la apllcación vozApp para realizar llamadas telefonicas");
+									$("#result00").modal("show");
 								}
 							}
 							else{
 								//alert("Continuar a contratación pero poner liga a vozapp"); RESULT2
-								$(".msj-result2").show();
+								//$(".msj-result2").show();
+								$(".responseModal").empty().html("Tu equipo es compatible pero necesitaras la apllcación vozApp para realizar llamadas telefonicas");
+								$("#result00").modal("show");
 							}
 						}
 					}
@@ -122,6 +131,10 @@ $(document).ready(function(){
 				if ( console && console.log ) {
 					console.log( "La solicitud a fallado: " +  textStatus);
 				}
+				$(".responseModal").empty().html("IMEI incorrecto o no encontrado. Intenta nuevamente");
+				$("#result00").modal("show");
+					
+				
 			});
 
 		}

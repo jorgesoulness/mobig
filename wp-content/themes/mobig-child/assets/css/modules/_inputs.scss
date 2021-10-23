@@ -51,7 +51,7 @@
     & .animatedField {
       position: relative; width: 100%; height: 48px; line-height: 48px;
       & label {
-        @include position(absolute, 0 null null 0); width: 100%; color: $col1; cursor: text; @include transition(0.2s all); margin: 0; padding: 0 0 0 17px; @include box-sizing(border-box); font-family: $medium;
+        @include position(absolute, 0 null null 0); top: -10px; width: 100%; color: $col1; cursor: text; @include transition(0.2s all); margin: 0; padding: 0 0 0 17px; @include box-sizing(border-box); font-family: $medium;
       }
       & input[type="text"],
       & input[type="email"],

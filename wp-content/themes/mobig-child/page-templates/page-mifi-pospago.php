@@ -55,7 +55,7 @@
 
               <div class="card card--pink col-sm-3 cardCustom--big" >
                 <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN MIFI 1</h3>
+                  <h3 class="card-title text-center card__header__title">PLAN MIFI 100</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas">5GB</h4>
@@ -65,12 +65,12 @@
                     <li><i class="fa fa-check-circle"></i> <p>5 GB de navegación en territorio nacional</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
+                  <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901031" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
               <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN MIFI 2</h3>
+                  <h3 class="card-title text-center card__header__title">PLAN MIFI 175</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas">10GB</h4>
@@ -80,12 +80,12 @@
                     <li><i class="fa fa-check-circle"></i> <p>10 GB de navegación en territorio nacional</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
+                  <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901032" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
               <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN MIFI 3</h3>
+                  <h3 class="card-title text-center card__header__title">PLAN MIFI 300</h3>
                 </div>
                 <div class="card-body text-center">
                   <h4  class="card__telPre__gigas">20GB</h4>
@@ -95,12 +95,12 @@
                     <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación en territorio nacional</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
+                  <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901033" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
               <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN MIFI 4</h3>
+                  <h3 class="card-title text-center card__header__title">PLAN MIFI 500</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas">50GB</h4>
@@ -110,13 +110,13 @@
                     <li><i class="fa fa-check-circle"></i> <p>50 GB de navegación en territorio nacional</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
+                  <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901035" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
 
               <div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
-                  <h3 class="card-title text-center card__header__title">PLAN MIFI 5</h3>
+                  <h3 class="card-title text-center card__header__title">PLAN MIFI 1000</h3>
                 </div>
                 <div class="card-body card__telPre text-center">
                   <h4  class="card__telPre__gigas">100GB</h4>
@@ -126,10 +126,10 @@
                     <li><i class="fa fa-check-circle"></i> <p>100 GB de navegación en territorio nacional</p></li>
                     <li><i class="fa fa-check-circle"></i> <p>Renovación automática</p></li>
                   </ul>
-                  <a href="#" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
+                  <a href="http://stage-landing-koonol-femaseisa.s3-website-us-west-2.amazonaws.com/?sku=1309901036" class="btn btn-primary card__telPre__btn--pink">Comprar</a>
                 </div>
               </div>
-              <div class="card card--pink col-sm-3 cardCustom--big" >
+              <!--<div class="card card--pink col-sm-3 cardCustom--big" >
               <div class="card-header card__header card__header--pink">
                   <h3 class="card-title text-center card__header__title">ADICIONAL 1</h3>
                 </div>
@@ -174,7 +174,7 @@
                 </div>
               </div>
 
-            </div>
+            </div>-->
           </div>
         </div><!-- end.row -->
       </div><!-- end.container -->

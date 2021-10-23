@@ -42,7 +42,8 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <button type="button" class="btnGen btnGen__item btnGen__item--pink-outline forStep2">Continuar</button>
+            <!--<button type="button" class="btnGen btnGen__item btnGen__item--pink-outline">Continuar</button>-->
+            <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>/telefonia-prepago" >Continuar</a>
           </div>
         </div>
       </div>
@@ -72,6 +73,24 @@
           <p>Tu equipo no es compatible con la red, comunicate con nuestro centro de atención para opciones de contratación"</p>
           </div>
           <div class="modal-footer">
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
+            <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="result00" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="ctModal modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+          <i class=" fa fa-sad-tear"></i>
+          <p class="responseModal"></p>
+          </div>
+          <div class="modal-footer" style="display:none;">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
             <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
           </div>

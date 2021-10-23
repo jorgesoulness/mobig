@@ -134,6 +134,10 @@ $(function(){
     // window.console.log(re.test( value ));
     return this.optional(element) || re.test(value);
   }
+
+  $('.input-number').on('input', function () { 
+    this.value = this.value.replace(/[^0-9]/g,'');
+});
   $("#frmContacto").validate({
       errorElement: "div",
       errorClass: "error-line",
