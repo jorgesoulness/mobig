@@ -205,7 +205,6 @@
         <?php if( have_rows('faqs_tel_pre') ):
           $row = 0;
           $in = 0;
-          $count = count(get_field('faqs_tel_pre'));
         ?>
             <div class="accDudas accordion" id="accordionExample">
               <div class="row justify-content-center">
