@@ -29,26 +29,26 @@
 
     <!-- Modal -->
     <div class="modal fade" id="result1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="ctModal modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="titleModal">¡FELICIDADES!</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body text-center">
-          <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/chip_icon.svg" alt="chip" class="w-50">
+          <img src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/proceso/chip_icon.svg" alt="chip" class="imgMod">
           <p>Tu teléfono es <strong>increíble</strong> y compatible con la red 4.5G <strong>más rápida de México</strong></p>
           <p>Continúa con el proceso para recibir tu SIM</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <button type="button" class="btnGen btnGen__item btnGen__item--yellow-outline forStep2">Continuar</button>
+            <button type="button" class="btnGen btnGen__item btnGen__item--pink-outline forStep2">Continuar</button>
           </div>
         </div>
       </div>
     </div>
     <div class="modal fade" id="result2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="ctModal modal-dialog">
         <div class="modal-content">
           <div class="modal-body text-center">
           <p>Estamos guardando la información para tu envío</p>
@@ -56,13 +56,13 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
+            <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
           </div>
         </div>
       </div>
     </div>
     <div class="modal fade" id="result0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="ctModal modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -73,13 +73,13 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
+            <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>/contacto" >¡Necesito Ayuda!</a>
           </div>
         </div>
       </div>
     </div>
     <div class="modal fade" id="result3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="ctModal modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -90,7 +90,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btnGen btnGen__item btnGen__item--pink validarOtro" data-bs-dismiss="modal">Validar Otro Dispositivo</button>
-            <a class="btnGen btnGen__item btnGen__item--yellow-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
+            <a class="btnGen btnGen__item btnGen__item--pink-outline" href="<?php echo get_site_url(''); ?>" >Regresar al Inicio</a>
           </div>
         </div>
       </div>

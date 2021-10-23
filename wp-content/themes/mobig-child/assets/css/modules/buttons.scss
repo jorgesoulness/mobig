@@ -61,9 +61,9 @@
       }
     }
     &--pink-outline {
-      background-color: transparent; border: 2px solid $col1; color: $white;
+      background-color: transparent; border: 2px solid $col1; color: $col1;
       &:hover {
-        background-color: $col1; border-color: $col1; color: $white;
+        background-color: $white; border-color: $col1; color: $col1;
       }
     }
     &--pink {

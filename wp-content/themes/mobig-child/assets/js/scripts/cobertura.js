@@ -1,5 +1,82 @@
 $(document).ready(function(){
 
+	$("#frmStep1").validate({
+		errorElement: "div",
+		errorClass: "error-line",
+		rules: {
+			inpNombre: 'required',
+			Apellidos: 'required',
+			inpEmail: {
+				required: true,
+				email: true
+			},
+			inpTel: {
+				required: true,
+				number: true
+			},
+			inpCalle: 'required',
+			inpNoext: 'required',
+			inpNoint: 'required',
+			inpCP: 'required',
+			inpCiudad: 'required',
+			inpColonia: 'required',
+			inpReferencia: 'required',
+		},
+		messages: {
+			inpNombre: "<i class='fa fa-exclamation-triangle'><i>",
+			Apellidos: "<i class='fa fa-exclamation-triangle'><i>",
+			inpEmail: {
+				required: "<i class='fa fa-exclamation-triangle'><i>",
+				email: "<i class='fa fa-exclamation-triangle'><i>"
+			},
+			inpTel: {
+				required: "<i class='fa fa-exclamation-triangle'><i>",
+				number: "<i class='fa fa-exclamation-triangle'><i>"
+			},
+			inpCalle: "<i class='fa fa-exclamation-triangle'><i>",
+			inpNoext: "<i class='fa fa-exclamation-triangle'><i>",
+			inpNoint: "<i class='fa fa-exclamation-triangle'><i>",
+			inpCP: "<i class='fa fa-exclamation-triangle'><i>",
+			inpCiudad: "<i class='fa fa-exclamation-triangle'><i>",
+			inpColonia: "<i class='fa fa-exclamation-triangle'><i>",
+			inpReferencia: "<i class='fa fa-exclamation-triangle'><i>",
+		}
+	});
+
+	$("#frmStep2").validate({
+		errorElement: "div",
+		errorClass: "error-line",
+		rules: {
+			inpNombre: "required",
+			inpEmail: {
+				required: true,
+				email: true
+			},
+			inpIMEI: {
+				required: true,
+				matches: "^(\\d|\\s)+$",
+				minlength: 15,
+				maxlength: 16
+			},
+			mensaje: "required",
+		},
+		messages: {
+			inpNombre: "<i class='fa fa-exclamation-triangle'><i>",
+			inpEmail: "<i class='fa fa-exclamation-triangle'><i>",
+			inpEmail: {
+				required: "<i class='fa fa-exclamation-triangle'><i>",
+				email: "<i class='fa fa-exclamation-triangle'><i>"
+			},
+			inpIMEI: {
+				required: "<i class='fa fa-exclamation-triangle'><i>",
+				matches: "<i class='fa fa-exclamation-triangle'><i>",
+				minlength: "<i class='fa fa-exclamation-triangle'><i>",
+				maxlength: "<i class='fa fa-exclamation-triangle'><i>"
+			},
+			mensaje: "<i class='fa fa-exclamation-triangle'><i>",
+		}
+	});
+
 	$(".btn-sumbit").click(function(){
 		var item = $(this);
 		if(item.attr("id") == "frmStep1"){
@@ -92,6 +169,5 @@ $(document).ready(function(){
 				return false;
 			}, 4000);	
 		});
-
 	
 });

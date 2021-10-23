@@ -27,6 +27,9 @@
     & select {
       width: 100%; border: 0; outline: 0; padding: 11px 17px 11px; border: 0.5px solid $col4; box-shadow: none; background-color: rgba($col3, 0.10)!important; border-radius: 4px!important;
     }
+    & div.error-line {
+      width: 20px; height: 20px; line-height: 20px; background-color: red; color: $white; font-size: rem(8px); padding: 0; margin: 0; @include position(absolute, -6px 0 null null); z-index: 3; border-radius: 50%; text-align: center;
+    }
   }
   .marginRow {
     margin-bottom: 20px;

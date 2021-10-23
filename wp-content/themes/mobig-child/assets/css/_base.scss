@@ -54,6 +54,27 @@ h6 { @include fluid-type(13px, 20px, 320px, 1200px); }
   visibility: hidden; @include transform-origin(0 50%);
 }
 
+.ctModal {
+  & .modal-header {
+    & .modal-title {
+      color: $col1; margin: 0 0 10px; padding: 0; line-height: 1; text-align: center; font-family: $extrabold; @include fluid-type(14px, 20px, 320px, 1200px);
+    }
+  }
+  & .modal-body {
+    & .imgMod {
+      display: block; width: 100%; max-width: 100px; padding: 0; margin: 0 auto 20px;
+    }
+  }
+  & .modal-footer {
+    & .btnGen  {
+      margin-right: 10px; font-size: 13px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 .overlayGenerico {
   @extend .overlayClass; background-color: rgba($col3,0.75); z-index: 100; @include displayFlex(flex, column, center, center, wrap); opacity: 0; visibility: hidden; overflow-x: hidden;
 }

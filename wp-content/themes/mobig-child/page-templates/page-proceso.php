@@ -55,13 +55,13 @@
 
         <div class="row d-flex justify-content-center">
           <!-- Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result3">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#result1">
             DA CLICK PARA PROBAR LOS MODALES, CAMBIA EL data-bs-target DLE BOTON DEL result0 al result3
           </button>
           <!-- eND Button trigger modal BORRAR CUANDO ESTEN LOS ESTILOS -->
           <div class="col-12 col-md-8 col-lg-6">
             <div class="contentGralStep step1 active">
-              <form id="frmStep1" class="formProcess" name="frmStep1" method="POST">
+              <form id="frmStep1" class="formProcess" id="frmStep1" name="frmStep1" method="POST">
                 <h3>Ingresa tu IMEI</h3>
                 <hr/>
                 <p class="descStep">Marca *#06# en tu teléfono para consultar el IMEI de tu dispositivo.</p>
@@ -90,23 +90,23 @@
               <h3><i class="fas fa fa-user-circle"></i> Cuenta</h3>
               <hr>
               <p class="descStep">Datos del titular de la cuenta</p>
-              <form class="formProcess" id="frmStep2" name="frmStep2" method="POST">
+              <form class="formProcess" id="frmStep2" id="frmStep2" name="frmStep2" method="POST">
                 <div class="row">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Nombre*</label>
                     <input type="text" class="form-control required" placeholder="Nombre*" id="inpNombre" name="inpNombre" />
                   </div>
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Apellidos*</label>
                     <input type="text" class="form-control required" placeholder="Apellidos*" id="inpApellidos" name="inpApellidos" />
                   </div>
                 </div>
                 <div class="row marginRow">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Correo Electrónico*</label>
                     <input type="email" class="form-control required" placeholder="Correo electrónico*" id="inpEmail" name="inpEmail"/>
                   </div>
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Teléfono*</label>
                     <input type="text" class="form-control required" placeholder="Teléfono*" id="inpTel" name="inpTel"/>
                   </div>
@@ -115,21 +115,21 @@
                 <hr/>
                 <p class="descStep">Enviaremos tu <strong>SIM</strong> a esta dirección.</p>
                 <div class="row">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Calle*</label>
                     <input type="text" class="form-control required" placeholder="Calle*" id="inpCalle" name="inpCalle" />
                   </div>
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Número Exterior*</label>
                     <input type="text" class="form-control required" placeholder="Número ext*" id="inpNoext" name="inpNoext" />
                   </div>
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Número Interior</label>
                     <input type="text" class="form-control" placeholder="Número int" id="inpNoint" name="inpNoint" />
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Código Postal*</label>
                     <input type="text" class="form-control required" placeholder="Código Postal*" id="inpCP" name="inpCP" />
                   </div>
@@ -173,17 +173,17 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Ciudad*</label>
                     <input type="text" class="form-control required" placeholder="Ciudad*" id="inpCiudad" name="inpCiudad" />
                   </div>
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Colonia*</label>
                     <input type="text" class="form-control required" id="inpColonia" name="inpColonia" placeholder="Colonia*" />
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col posRel">
                     <label class="">Referencias*</label>
                     <input type="text" class="form-control required" id="inpReferencia" name="inpReferencia" placeholder="Referencias*" />
                   </div>
