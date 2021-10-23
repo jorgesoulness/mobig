@@ -139,7 +139,7 @@
                     <h1 class="card__telPre__precio">$330</h1>
                     <ul class="card__telPre__detail">
                       <li><i class="fa fa-check-circle"></i> <p>30 días de vigencia</p></li>
-                      <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida</p></li>
+                      <li><i class="fa fa-check-circle"></i> <p>20 GB de navegación +20 GB a velocidad reducida (Datos por compartir)</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Llamadas y SMS ilimitados a México, EU y Canadá</p></li>
                       <li><i class="fa fa-check-circle"></i> <p>Redes sociales ilimitadas</p></li>
                     </ul>
