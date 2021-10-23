@@ -189,7 +189,7 @@ $(function(){
         // console.log("enviar form");
         var dataForm = $('#frmContacto').serialize();
         $.ajax({
-          url: '/contactoScript.php',
+          url: '/contactoscript.php',
           type: 'POST',
           data: dataForm,
           beforeSend: function(xhr) {
@@ -203,10 +203,10 @@ $(function(){
             $("#frmContacto").each (function(){
               this.reset();
             });
-            $('#modalCongrats').removeClass('hideMo').addClass('showMo');
-            setTimeout(function(){
-              $('#modalCongrats').removeClass('showMo').addClass('hideMo');
-            }, 5000);
+            // $('#modalCongrats').removeClass('hideMo').addClass('showMo');
+            // setTimeout(function(){
+            //   $('#modalCongrats').removeClass('showMo').addClass('hideMo');
+            // }, 5000);
           },
           error: function(e) {
             console.log(e);
