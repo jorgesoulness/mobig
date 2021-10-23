@@ -175,6 +175,25 @@
       </div><!-- end.container -->
     </section><!-- end.cobertura-sec -->
 
+    <section class="pospagoTar-sec" style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203-1.png);">
+      <div class="pospagoCT">
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-12 col-md-8 col-lg-7">
+              <div class="pospagoCT__box wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                <h3>ROAMING + LARGA DISTANCIA</h3>
+                <p>Si piensas viajar al extranjero, contamos con los planes especializados para que te mantengas comunicado.<br><strong>¡Consulta los planes que tenemos para ti!</strong></p>
+                <div class="pospagoCT__btn">
+                  <a href="<?php echo site_url(''); ?>/roaming-y-larga-distancia#distancia" class="btnGen btnGen__item btnGen__item--pink">Larga distancia</a>
+                  <a href="<?php echo site_url(''); ?>/roaming-y-larga-distancia#roaming" class="btnGen btnGen__item btnGen__item--gray">Roaming internacional</a>
+                </div>
+              </div>
+            </div><!-- end.col-* -->
+          </div><!-- end.row -->
+        </div><!-- end.container -->
+      </div><!-- end.benefitsCt -->
+      <img class="circleBen" src="<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/home/circulo-03.svg" alt="Circulo">
+    </section><!-- end.beneficios-sec -->
 
     <section class="dudas-sec">
       <div class="container posRel">

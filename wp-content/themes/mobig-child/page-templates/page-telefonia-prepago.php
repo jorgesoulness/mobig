@@ -182,8 +182,8 @@
                 <h3>ROAMING + LARGA DISTANCIA</h3>
                 <p>Si piensas viajar al extranjero, contamos con los planes especializados para que te mantengas comunicado.<br><strong>¡Consulta los planes que tenemos para ti!</strong></p>
                 <div class="prepagoCT__btn">
-                  <a href="<?php echo site_url(''); ?>/" class="btnGen btnGen__item btnGen__item--pink">Larga distancia</a>
-                  <a href="<?php echo site_url(''); ?>/" class="btnGen btnGen__item btnGen__item--gray">Roaming internacional</a>
+                  <a href="<?php echo site_url(''); ?>/roaming-y-larga-distancia#distancia" class="btnGen btnGen__item btnGen__item--pink">Larga distancia</a>
+                  <a href="<?php echo site_url(''); ?>/roaming-y-larga-distancia#roaming" class="btnGen btnGen__item btnGen__item--gray">Roaming internacional</a>
                 </div>
               </div>
             </div><!-- end.col-* -->

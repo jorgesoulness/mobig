@@ -23,7 +23,7 @@
       </div>
     </section><!-- end.hero-sec --> 
   
-    <section class="telPre-sec--planSieteDoceLeft"   style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/roaming/header1.png);">
+    <section id="roaming" class="telPre-sec--planSieteDoceLeft"   style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/roaming/header1.png);">
       <div class="container pb-5">
         <div class="row text-center justify-content-center">
         <div class="row d-flex justify-content-center text-center mt-5 mb-5">
@@ -92,7 +92,7 @@
 
 
 
-     <section class="telPre-sec--planSieteDoce"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203.png);">
+     <section id="distancia" class="telPre-sec--planSieteDoce"  style="background-image: url(<?php echo get_stylesheet_directory_uri(''); ?>/assets/img/telefonia-pospago/4571203.png);">
       <div class="container">
         <div class="row text-center justify-content-center">
         <div class="row d-flex justify-content-center text-center pt-5">
